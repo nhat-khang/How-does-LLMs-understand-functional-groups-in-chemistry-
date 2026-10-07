@@ -1,0 +1,98 @@
+# Indirect recall for the functional-group project.
+# Relative paths below are resolved from this YAML file's location, so the
+# script can be submitted from a different working directory safely.
+
+paths:
+  dataset_file: "functional_group_dataset_2.csv"
+  extraction_config: "config_extract_activation_fg_8B.yaml"
+  activation_base_dir: "activation_datasets_functional_groups_2/meta-llama-Llama-3.1-8B"
+  # "meta-llama-Llama-3.1-8B"
+  # "meta-llama-Meta-Llama-3.1-70B"
+  output_dir: "Results/indirect_recall_fg_8B"
+
+model:
+  name: "Llama-3.1-8B"
+  # Other models: 
+  # "Llama-3.1-8B"
+  # "Meta-Llama-3.1-70B"
+  num_layers: 32
+  # 80 for 70B
+  # 32 for 8B
+
+analysis:
+  # GroupKFold keeps every prompt template for a molecule entirely in one fold.
+  cv_splits: 5
+
+  # A source and target with the same name is direct recall, so reject it by
+  # default. Leave this false for indirect-recall experiments.
+  allow_direct_pairs: false
+
+classification_probe:
+  kernel: "linear"
+  c: 2.0
+  class_weight: "balanced"
+
+regression_probe:
+  kernel: "linear"
+  c: 2.0
+
+# Each experiment means:
+#   activations from SOURCE prompts -> probe predicts TARGET CSV column
+#
+# target_type must be:
+#   classification  for functional_group, functional_group_structure,
+#                   or water_solubility
+#   regression      for mw, pka, pkah, tpsa,
+#                   avg_carbon_oxidation_state, hbd, hba,
+#                   boiling_point_c, or carbon_count
+#
+# prompt_name and templates_per_molecule are read automatically from the
+# extraction YAML. To activate another experiment, set enabled: true.
+experiments:
+  - name: "mw_to_functional_group"
+    source_entity: "mw"
+    target_column: "functional_group"
+    target_type: "classification"
+    enabled: true
+
+  - name: "pka_to_functional_group"
+    source_entity: "pka"
+    target_column: "functional_group"
+    target_type: "classification"
+    enabled: true
+
+  - name: "tpsa_to_functional_group"
+    source_entity: "tpsa"
+    target_column: "functional_group"
+    target_type: "classification"
+    enabled: true
+
+  - name: "functional_group_to_mw"
+    source_entity: "functional_group"
+    target_column: "mw"
+    target_type: "regression"
+    enabled: true
+
+  - name: "functional_group_to_boiling_point"
+    source_entity: "functional_group"
+    target_column: "boiling_point_c"
+    target_type: "regression"
+    enabled: true
+
+  - name: "functional_group_to_pka"
+    source_entity: "functional_group"
+    target_column: "pka"
+    target_type: "regression"
+    enabled: true
+
+  - name: "functional_group_to_functional_group_structure"
+    source_entity: "functional_group"
+    target_column: "functional_group_structure"
+    target_type: "classification"
+    enabled: true
+
+  - name: "functional_group_to_pkah"
+    source_entity: "functional_group"
+    target_column: "pkah"
+    target_type: "regression"
+    enabled: true

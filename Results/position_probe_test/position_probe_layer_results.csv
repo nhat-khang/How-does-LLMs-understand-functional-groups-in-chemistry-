@@ -1,0 +1,129 @@
+condition,entity_type,layer,group_by,n_molecules,template_accuracy,template_balanced_accuracy,template_roc_auc,template_fold_balanced_accuracy_mean,template_fold_balanced_accuracy_sd,molecule_accuracy,molecule_balanced_accuracy,molecule_roc_auc,molecule_fold_balanced_accuracy_mean,molecule_fold_balanced_accuracy_sd
+IUPAC only,fg_iupac_only,0,pair,24,0.9666666666666667,0.9666666666666666,0.9977777777777778,0.9666666666666667,0.030429030972509243,1.0,1.0,1.0,1.0,0.0
+IUPAC only,fg_iupac_only,1,pair,24,0.6291666666666667,0.6291666666666667,0.7626388888888889,0.6291666666666667,0.14035338996288646,0.625,0.625,0.7777777777777778,0.625,0.25
+IUPAC only,fg_iupac_only,2,pair,24,0.65,0.65,0.6620138888888889,0.6499999999999999,0.10274023338281628,0.5833333333333334,0.5833333333333334,0.7083333333333334,0.5833333333333333,0.0962250448649376
+IUPAC only,fg_iupac_only,3,pair,24,0.5916666666666667,0.5916666666666667,0.6238888888888889,0.5916666666666667,0.04999999999999999,0.7083333333333334,0.7083333333333333,0.7569444444444444,0.7083333333333333,0.08333333333333331
+IUPAC only,fg_iupac_only,4,pair,24,0.5833333333333334,0.5833333333333333,0.6655555555555556,0.5833333333333334,0.04906533814626583,0.5,0.5,0.7222222222222223,0.5,0.0
+IUPAC only,fg_iupac_only,5,pair,24,0.6,0.6000000000000001,0.6634027777777778,0.6000000000000001,0.06526300069150406,0.625,0.625,0.75,0.6249999999999999,0.08333333333333333
+IUPAC only,fg_iupac_only,6,pair,24,0.575,0.575,0.6395833333333333,0.575,0.02151657414559677,0.625,0.625,0.6944444444444444,0.625,0.15957118462605632
+IUPAC only,fg_iupac_only,7,pair,24,0.5416666666666666,0.5416666666666666,0.6119444444444444,0.5416666666666667,0.021516574145596785,0.7083333333333334,0.7083333333333333,0.6944444444444445,0.7083333333333333,0.08333333333333331
+IUPAC only,fg_iupac_only,8,pair,24,0.5541666666666667,0.5541666666666667,0.6110416666666666,0.5541666666666667,0.015957118462605627,0.5416666666666666,0.5416666666666666,0.7708333333333334,0.5416666666666666,0.08333333333333331
+IUPAC only,fg_iupac_only,9,pair,24,0.5708333333333333,0.5708333333333333,0.6154861111111111,0.5708333333333333,0.028463752127665536,0.625,0.625,0.701388888888889,0.625,0.15957118462605632
+IUPAC only,fg_iupac_only,10,pair,24,0.5625,0.5625,0.6036111111111111,0.5625,0.03435921354681389,0.625,0.625,0.6875,0.625,0.15957118462605632
+IUPAC only,fg_iupac_only,11,pair,24,0.6541666666666667,0.6541666666666667,0.712986111111111,0.6541666666666667,0.02846375212766556,0.7916666666666666,0.7916666666666666,0.8680555555555556,0.7916666666666666,0.08333333333333331
+IUPAC only,fg_iupac_only,12,pair,24,0.6958333333333333,0.6958333333333333,0.7538194444444445,0.6958333333333333,0.08858454843945543,0.8333333333333334,0.8333333333333333,0.9305555555555556,0.8333333333333333,0.23570226039551584
+IUPAC only,fg_iupac_only,13,pair,24,0.7791666666666667,0.7791666666666667,0.8686805555555556,0.7791666666666666,0.06718548123582124,0.9166666666666666,0.9166666666666666,0.9583333333333333,0.9166666666666666,0.09622504486493767
+IUPAC only,fg_iupac_only,14,pair,24,0.9541666666666667,0.9541666666666666,0.9892361111111111,0.9541666666666668,0.02846375212766554,1.0,1.0,1.0,1.0,0.0
+IUPAC only,fg_iupac_only,15,pair,24,0.9291666666666667,0.9291666666666667,0.9817361111111111,0.9291666666666667,0.0416666666666667,1.0,1.0,1.0,1.0,0.0
+IUPAC only,fg_iupac_only,16,pair,24,0.925,0.925,0.9868055555555555,0.925,0.021516574145596726,1.0,1.0,1.0,1.0,0.0
+IUPAC only,fg_iupac_only,17,pair,24,0.9916666666666667,0.9916666666666667,0.9995833333333333,0.9916666666666667,0.00962250448649373,1.0,1.0,1.0,1.0,0.0
+IUPAC only,fg_iupac_only,18,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+IUPAC only,fg_iupac_only,19,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+IUPAC only,fg_iupac_only,20,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+IUPAC only,fg_iupac_only,21,pair,24,0.9916666666666667,0.9916666666666667,0.9999305555555555,0.9916666666666667,0.00962250448649373,1.0,1.0,1.0,1.0,0.0
+IUPAC only,fg_iupac_only,22,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+IUPAC only,fg_iupac_only,23,pair,24,0.9958333333333333,0.9958333333333333,1.0,0.9958333333333333,0.008333333333333304,1.0,1.0,1.0,1.0,0.0
+IUPAC only,fg_iupac_only,24,pair,24,0.9958333333333333,0.9958333333333333,1.0,0.9958333333333333,0.008333333333333304,1.0,1.0,1.0,1.0,0.0
+IUPAC only,fg_iupac_only,25,pair,24,0.9958333333333333,0.9958333333333333,0.9999305555555555,0.9958333333333333,0.008333333333333304,1.0,1.0,1.0,1.0,0.0
+IUPAC only,fg_iupac_only,26,pair,24,0.9958333333333333,0.9958333333333333,0.9997916666666666,0.9958333333333333,0.008333333333333304,1.0,1.0,1.0,1.0,0.0
+IUPAC only,fg_iupac_only,27,pair,24,0.9958333333333333,0.9958333333333333,0.9997916666666666,0.9958333333333333,0.008333333333333304,1.0,1.0,1.0,1.0,0.0
+IUPAC only,fg_iupac_only,28,pair,24,0.9916666666666667,0.9916666666666667,0.9994444444444445,0.9916666666666667,0.016666666666666663,1.0,1.0,1.0,1.0,0.0
+IUPAC only,fg_iupac_only,29,pair,24,0.9875,0.9875,0.9986111111111111,0.9875,0.015957118462605627,1.0,1.0,1.0,1.0,0.0
+IUPAC only,fg_iupac_only,30,pair,24,0.9958333333333333,0.9958333333333333,1.0,0.9958333333333333,0.008333333333333304,1.0,1.0,1.0,1.0,0.0
+IUPAC only,fg_iupac_only,31,pair,24,0.9958333333333333,0.9958333333333333,1.0,0.9958333333333333,0.008333333333333304,1.0,1.0,1.0,1.0,0.0
+Molecular formula only,fg_formula_only,0,pair,24,0.5,0.5,0.5,0.5,0.0,0.5,0.5,0.49999999999999994,0.5,0.0
+Molecular formula only,fg_formula_only,1,pair,24,0.5,0.5,0.5,0.5,0.0,0.5,0.5,0.49999999999999994,0.5,0.0
+Molecular formula only,fg_formula_only,2,pair,24,0.5,0.5,0.5,0.5,0.0,0.5,0.5,0.49999999999999994,0.5,0.0
+Molecular formula only,fg_formula_only,3,pair,24,0.5,0.5,0.5,0.5,0.0,0.5,0.5,0.49999999999999994,0.5,0.0
+Molecular formula only,fg_formula_only,4,pair,24,0.5,0.5,0.5,0.5,0.0,0.5,0.5,0.49999999999999994,0.5,0.0
+Molecular formula only,fg_formula_only,5,pair,24,0.5,0.5,0.5,0.5,0.0,0.5,0.5,0.49999999999999994,0.5,0.0
+Molecular formula only,fg_formula_only,6,pair,24,0.5,0.5,0.5,0.5,0.0,0.5,0.5,0.49999999999999994,0.5,0.0
+Molecular formula only,fg_formula_only,7,pair,24,0.5,0.5,0.5,0.5,0.0,0.5,0.5,0.49999999999999994,0.5,0.0
+Molecular formula only,fg_formula_only,8,pair,24,0.5,0.5,0.5,0.5,0.0,0.5,0.5,0.49999999999999994,0.5,0.0
+Molecular formula only,fg_formula_only,9,pair,24,0.5,0.5,0.5,0.5,0.0,0.5,0.5,0.49999999999999994,0.5,0.0
+Molecular formula only,fg_formula_only,10,pair,24,0.5,0.5,0.5,0.5,0.0,0.5,0.5,0.49999999999999994,0.5,0.0
+Molecular formula only,fg_formula_only,11,pair,24,0.5,0.5,0.5,0.5,0.0,0.5,0.5,0.49999999999999994,0.5,0.0
+Molecular formula only,fg_formula_only,12,pair,24,0.5,0.5,0.5,0.5,0.0,0.5,0.5,0.49999999999999994,0.5,0.0
+Molecular formula only,fg_formula_only,13,pair,24,0.5,0.5,0.5,0.5,0.0,0.5,0.5,0.49999999999999994,0.5,0.0
+Molecular formula only,fg_formula_only,14,pair,24,0.5,0.5,0.5,0.5,0.0,0.5,0.5,0.49999999999999994,0.5,0.0
+Molecular formula only,fg_formula_only,15,pair,24,0.5,0.5,0.5,0.5,0.0,0.5,0.5,0.49999999999999994,0.5,0.0
+Molecular formula only,fg_formula_only,16,pair,24,0.5,0.5,0.5,0.5,0.0,0.5,0.5,0.49999999999999994,0.5,0.0
+Molecular formula only,fg_formula_only,17,pair,24,0.5,0.5,0.5,0.5,0.0,0.5,0.5,0.49999999999999994,0.5,0.0
+Molecular formula only,fg_formula_only,18,pair,24,0.5,0.5,0.5,0.5,0.0,0.5,0.5,0.49999999999999994,0.5,0.0
+Molecular formula only,fg_formula_only,19,pair,24,0.5,0.5,0.5,0.5,0.0,0.5,0.5,0.49999999999999994,0.5,0.0
+Molecular formula only,fg_formula_only,20,pair,24,0.5,0.5,0.5,0.5,0.0,0.5,0.5,0.49999999999999994,0.5,0.0
+Molecular formula only,fg_formula_only,21,pair,24,0.5,0.5,0.5,0.5,0.0,0.5,0.5,0.49999999999999994,0.5,0.0
+Molecular formula only,fg_formula_only,22,pair,24,0.5,0.5,0.5,0.5,0.0,0.5,0.5,0.49999999999999994,0.5,0.0
+Molecular formula only,fg_formula_only,23,pair,24,0.5,0.5,0.5,0.5,0.0,0.5,0.5,0.49999999999999994,0.5,0.0
+Molecular formula only,fg_formula_only,24,pair,24,0.5,0.5,0.5,0.5,0.0,0.5,0.5,0.49999999999999994,0.5,0.0
+Molecular formula only,fg_formula_only,25,pair,24,0.5,0.5,0.5,0.5,0.0,0.5,0.5,0.49999999999999994,0.5,0.0
+Molecular formula only,fg_formula_only,26,pair,24,0.5,0.5,0.5,0.5,0.0,0.5,0.5,0.49999999999999994,0.5,0.0
+Molecular formula only,fg_formula_only,27,pair,24,0.5,0.5,0.5,0.5,0.0,0.5,0.5,0.49999999999999994,0.5,0.0
+Molecular formula only,fg_formula_only,28,pair,24,0.5,0.5,0.5,0.5,0.0,0.5,0.5,0.49999999999999994,0.5,0.0
+Molecular formula only,fg_formula_only,29,pair,24,0.5,0.5,0.5,0.5,0.0,0.5,0.5,0.49999999999999994,0.5,0.0
+Molecular formula only,fg_formula_only,30,pair,24,0.5,0.5,0.5,0.5,0.0,0.5,0.5,0.49999999999999994,0.5,0.0
+Molecular formula only,fg_formula_only,31,pair,24,0.5,0.5,0.5,0.5,0.0,0.5,0.5,0.49999999999999994,0.5,0.0
+Original (IUPAC + original notation),fg_original,0,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Original (IUPAC + original notation),fg_original,1,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Original (IUPAC + original notation),fg_original,2,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Original (IUPAC + original notation),fg_original,3,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Original (IUPAC + original notation),fg_original,4,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Original (IUPAC + original notation),fg_original,5,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Original (IUPAC + original notation),fg_original,6,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Original (IUPAC + original notation),fg_original,7,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Original (IUPAC + original notation),fg_original,8,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Original (IUPAC + original notation),fg_original,9,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Original (IUPAC + original notation),fg_original,10,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Original (IUPAC + original notation),fg_original,11,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Original (IUPAC + original notation),fg_original,12,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Original (IUPAC + original notation),fg_original,13,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Original (IUPAC + original notation),fg_original,14,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Original (IUPAC + original notation),fg_original,15,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Original (IUPAC + original notation),fg_original,16,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Original (IUPAC + original notation),fg_original,17,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Original (IUPAC + original notation),fg_original,18,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Original (IUPAC + original notation),fg_original,19,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Original (IUPAC + original notation),fg_original,20,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Original (IUPAC + original notation),fg_original,21,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Original (IUPAC + original notation),fg_original,22,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Original (IUPAC + original notation),fg_original,23,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Original (IUPAC + original notation),fg_original,24,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Original (IUPAC + original notation),fg_original,25,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Original (IUPAC + original notation),fg_original,26,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Original (IUPAC + original notation),fg_original,27,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Original (IUPAC + original notation),fg_original,28,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Original (IUPAC + original notation),fg_original,29,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Original (IUPAC + original notation),fg_original,30,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Original (IUPAC + original notation),fg_original,31,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Standardized SMILES only,fg_smiles_only,0,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Standardized SMILES only,fg_smiles_only,1,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Standardized SMILES only,fg_smiles_only,2,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Standardized SMILES only,fg_smiles_only,3,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Standardized SMILES only,fg_smiles_only,4,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Standardized SMILES only,fg_smiles_only,5,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Standardized SMILES only,fg_smiles_only,6,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Standardized SMILES only,fg_smiles_only,7,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Standardized SMILES only,fg_smiles_only,8,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Standardized SMILES only,fg_smiles_only,9,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Standardized SMILES only,fg_smiles_only,10,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Standardized SMILES only,fg_smiles_only,11,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Standardized SMILES only,fg_smiles_only,12,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Standardized SMILES only,fg_smiles_only,13,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Standardized SMILES only,fg_smiles_only,14,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Standardized SMILES only,fg_smiles_only,15,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Standardized SMILES only,fg_smiles_only,16,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Standardized SMILES only,fg_smiles_only,17,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Standardized SMILES only,fg_smiles_only,18,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Standardized SMILES only,fg_smiles_only,19,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Standardized SMILES only,fg_smiles_only,20,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Standardized SMILES only,fg_smiles_only,21,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Standardized SMILES only,fg_smiles_only,22,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Standardized SMILES only,fg_smiles_only,23,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Standardized SMILES only,fg_smiles_only,24,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Standardized SMILES only,fg_smiles_only,25,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Standardized SMILES only,fg_smiles_only,26,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Standardized SMILES only,fg_smiles_only,27,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Standardized SMILES only,fg_smiles_only,28,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Standardized SMILES only,fg_smiles_only,29,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Standardized SMILES only,fg_smiles_only,30,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Standardized SMILES only,fg_smiles_only,31,pair,24,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0

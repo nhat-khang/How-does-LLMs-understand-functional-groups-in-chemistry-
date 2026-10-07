@@ -1,0 +1,78 @@
+# Optional: uncomment and insert a Hugging Face token
+# HF_TOKEN: "hf_xxxxxxxxxxxxxxxxxxxx"
+
+extraction:
+  model_name: "meta-llama/Meta-Llama-3.1-8B"
+  batch_size: 16
+  aggregation: "last"
+  save_dir: "activation_datasets_fg_position_ablation"
+
+  quantization:
+    # The 8B experiment uses fp16 without quantization.
+    load_in_4bit: false
+    bnb_4bit_use_double_quant: false
+    bnb_4bit_quant_type: "nf4"
+    bnb_4bit_compute_dtype: "float16"
+
+  # Every condition uses the same 10 sentence frames. Only the molecule
+  # representation changes, which makes the four conditions comparable.
+  entities:
+    - entity_type: "fg_original"
+      data_file: "functional_group_position_ablation_24mol.csv"
+      prompt_name: "10_templates"
+      templates:
+        - "{original_subject} contains the functional group "
+        - "The primary functional group in {original_subject} is "
+        - "For {original_subject}, the functional-group class is "
+        - "{original_subject} is classified as a molecule containing a "
+        - "The characteristic functional group of {original_subject} is "
+        - "The main functional group present in {original_subject} is "
+        - "When classified by functional group, {original_subject} is a "
+        - "{original_subject} can be categorized by the functional group "
+        - "The functional-group identity of {original_subject} is "
+        - "For {original_subject}, the defining functional group is "
+
+    - entity_type: "fg_iupac_only"
+      data_file: "functional_group_position_ablation_24mol.csv"
+      prompt_name: "10_templates"
+      templates:
+        - "{iupac_subject} contains the functional group "
+        - "The primary functional group in {iupac_subject} is "
+        - "For {iupac_subject}, the functional-group class is "
+        - "{iupac_subject} is classified as a molecule containing a "
+        - "The characteristic functional group of {iupac_subject} is "
+        - "The main functional group present in {iupac_subject} is "
+        - "When classified by functional group, {iupac_subject} is a "
+        - "{iupac_subject} can be categorized by the functional group "
+        - "The functional-group identity of {iupac_subject} is "
+        - "For {iupac_subject}, the defining functional group is "
+
+    - entity_type: "fg_smiles_only"
+      data_file: "functional_group_position_ablation_24mol.csv"
+      prompt_name: "10_templates"
+      templates:
+        - "{smiles_subject} contains the functional group "
+        - "The primary functional group in {smiles_subject} is "
+        - "For {smiles_subject}, the functional-group class is "
+        - "{smiles_subject} is classified as a molecule containing a "
+        - "The characteristic functional group of {smiles_subject} is "
+        - "The main functional group present in {smiles_subject} is "
+        - "When classified by functional group, {smiles_subject} is a "
+        - "{smiles_subject} can be categorized by the functional group "
+        - "The functional-group identity of {smiles_subject} is "
+        - "For {smiles_subject}, the defining functional group is "
+
+    - entity_type: "fg_formula_only"
+      data_file: "functional_group_position_ablation_24mol.csv"
+      prompt_name: "10_templates"
+      templates:
+        - "{formula_subject} contains the functional group "
+        - "The primary functional group in {formula_subject} is "
+        - "For {formula_subject}, the functional-group class is "
+        - "{formula_subject} is classified as a molecule containing a "
+        - "The characteristic functional group of {formula_subject} is "
+        - "The main functional group present in {formula_subject} is "
+        - "When classified by functional group, {formula_subject} is a "
+        - "{formula_subject} can be categorized by the functional group "
+        - "The functional-group identity of {formula_subject} is "
+        - "For {formula_subject}, the defining functional group is "

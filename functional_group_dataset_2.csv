@@ -1,0 +1,93 @@
+iupac_name,common_name,formula,carbon_count,functional_group,functional_group_structure,mw,pka,pkah,tpsa,avg_carbon_oxidation_state,hbd,hba,boiling_point_c,water_solubility
+Propane,propane,CH3CH2CH3,3,none (alkane),C-H / C-C,44.097,50.0,N/A (no stable aqueous conjugate acid),0.0,-2.6666666666666665,0,0,-42.1,very low
+Butane,n-butane,CH3CH2CH2CH3,4,none (alkane),C-H / C-C,58.124,50.0,N/A (no stable aqueous conjugate acid),0.0,-2.5,0,0,-0.5,very low
+Pentane,n-pentane,CH3(CH2)3CH3,5,none (alkane),C-H / C-C,72.151,50.0,N/A (no stable aqueous conjugate acid),0.0,-2.4,0,0,36.1,very low
+Hexane,n-hexane,CH3(CH2)4CH3,6,none (alkane),C-H / C-C,86.178,50.0,N/A (no stable aqueous conjugate acid),0.0,-2.3333333333333335,0,0,68.7,very low
+Propan-1-ol,n-propyl alcohol,CH3CH2CH2OH,3,alcohol,-OH,60.096,16.1,-2.35,20.23,-2.0,1,1,97.2,miscible
+Butan-1-ol,n-butyl alcohol,CH3(CH2)3OH,4,alcohol,-OH,74.123,16.1,-2.35,20.23,-2.0,1,1,117.7,high
+Pentan-1-ol,n-amyl alcohol,CH3(CH2)4OH,5,alcohol,-OH,88.15,16.1,-2.35,20.23,-2.0,1,1,137.9,moderate
+Hexan-1-ol,n-hexyl alcohol,CH3(CH2)5OH,6,alcohol,-OH,102.177,16.1,-2.35,20.23,-2.0,1,1,157.0,low
+Propane-1-thiol,n-propyl mercaptan,CH3CH2CH2SH,3,thiol,-SH,76.164,10.65,-6.8,1.0,-2.0,1,1,67.8,low
+Butane-1-thiol,n-butyl mercaptan,CH3(CH2)3SH,4,thiol,-SH,90.191,10.66,-6.8,1.0,-2.0,1,1,98.4,low
+Pentane-1-thiol,n-amyl mercaptan,CH3(CH2)4SH,5,thiol,-SH,104.218,10.6,-6.8,1.0,-2.0,1,1,126.5,very low
+Hexane-1-thiol,n-hexyl mercaptan,CH3(CH2)5SH,6,thiol,-SH,118.245,10.3,-6.8,1.0,-2.0,1,1,151.0,very low
+Propanal,propionaldehyde,CH3CH2CHO,3,aldehyde,-CHO,58.08,17.0,-7.2,17.07,-1.3333333333333333,0,1,48.8,high
+Butanal,butyraldehyde,CH3CH2CH2CHO,4,aldehyde,-CHO,72.107,17.0,-7.2,17.07,-1.5,0,1,74.8,moderate
+Pentanal,valeraldehyde,CH3(CH2)3CHO,5,aldehyde,-CHO,86.134,17.0,-7.2,17.07,-1.6,0,1,102.9,low
+Hexanal,caproaldehyde,CH3(CH2)4CHO,6,aldehyde,-CHO,100.161,17.0,-7.2,17.07,-1.6666666666666667,0,1,128.7,low
+Propanoic acid,propionic acid,CH3CH2COOH,3,carboxylic acid,-COOH,74.079,4.875,-6.8,37.3,-0.6666666666666666,1,1,141.1,miscible
+Butanoic acid,butyric acid,CH3CH2CH2COOH,4,carboxylic acid,-COOH,88.106,4.82,-6.8,37.3,-1.0,1,1,163.5,high
+Pentanoic acid,valeric acid,CH3(CH2)3COOH,5,carboxylic acid,-COOH,102.133,4.8,-6.8,37.3,-1.2,1,1,186.2,moderate
+Hexanoic acid,caproic acid,CH3(CH2)4COOH,6,carboxylic acid,-COOH,116.16,4.8,-6.8,37.3,-1.3333333333333333,1,1,205.8,low
+Propan-1-amine,n-propylamine,CH3CH2CH2NH2,3,amine,-NH2,59.112,35.0,10.69,26.02,-2.0,1,1,48.6,miscible
+Butan-1-amine,n-butylamine,CH3(CH2)3NH2,4,amine,-NH2,73.139,35.0,10.653,26.02,-2.0,1,1,77.7,miscible
+Pentan-1-amine,n-amylamine,CH3(CH2)4NH2,5,amine,-NH2,87.166,35.0,10.63,26.02,-2.0,1,1,104.3,high
+Hexan-1-amine,n-hexylamine,CH3(CH2)5NH2,6,amine,-NH2,101.193,35.0,10.64,26.02,-2.0,1,1,132.7,moderate
+Propanenitrile,propionitrile,CH3CH2CN,3,nitrile,-C≡N,55.08,25.0,-4.3,23.79,-0.6666666666666666,0,1,97.2,high
+Butanenitrile,butyronitrile,CH3CH2CH2CN,4,nitrile,-C≡N,69.107,25.0,-4.3,23.79,-1.0,0,1,117.7,moderate
+Pentanenitrile,valeronitrile,CH3(CH2)3CN,5,nitrile,-C≡N,83.134,25.0,-4.3,23.79,-1.2,0,1,140.4,low
+Hexanenitrile,capronitrile,CH3(CH2)4CN,6,nitrile,-C≡N,97.161,25.0,-4.3,23.79,-1.3333333333333333,0,1,163.0,low
+Methyl ethanoate,methyl acetate,CH3COOCH3,3,ester,-COO-,74.079,25.0,-7.25,26.3,-0.6666666666666666,0,2,56.9,moderate
+Methyl propanoate,methyl propionate,CH3CH2COOCH3,4,ester,-COO-,88.106,25.0,-7.25,26.3,-1.0,0,2,79.8,moderate
+Methyl butanoate,methyl butyrate,CH3CH2CH2COOCH3,5,ester,-COO-,102.133,25.0,-7.25,26.3,-1.2,0,2,102.3,low
+Methyl pentanoate,methyl valerate,CH3(CH2)3COOCH3,6,ester,-COO-,116.16,25.0,-7.25,26.3,-1.3333333333333333,0,2,127.2,low
+Propan-2-one,acetone,CH3COCH3,3,ketone,>C=O,58.08,20.0,-7.2,17.07,-1.3333333333333333,0,1,56.1,miscible
+Butan-2-one,methyl ethyl ketone (MEK),CH3CH2COCH3,4,ketone,>C=O,72.107,20.0,-7.2,17.07,-1.5,0,1,79.6,high
+Pentan-2-one,methyl propyl ketone,CH3CH2CH2COCH3,5,ketone,>C=O,86.134,20.0,-7.2,17.07,-1.6,0,1,102.3,moderate
+Hexan-2-one,methyl butyl ketone,CH3(CH2)3COCH3,6,ketone,>C=O,100.161,20.0,-7.2,17.07,-1.6666666666666667,0,1,127.6,low
+Propanamide,propionamide,CH3CH2CONH2,3,amide,-CONH2,73.095,17.0,-0.49,43.09,-0.6666666666666666,1,1,213.0,high
+Butanamide,butyramide,CH3CH2CH2CONH2,4,amide,-CONH2,87.122,17.0,-0.43,43.09,-1.0,1,1,216.0,high
+Pentanamide,valeramide,CH3(CH2)3CONH2,5,amide,-CONH2,101.149,17.0,-0.43,43.09,-1.2,1,1,222.0,moderate
+Hexanamide,caproamide,CH3(CH2)4CONH2,6,amide,-CONH2,115.176,17.0,-0.43,43.09,-1.3333333333333333,1,1,225.0,moderate
+1-Chloropropane,n-propyl chloride,CH3CH2CH2Cl,3,alkyl chloride,-Cl,78.542,48.0,N/A (no conventional aqueous pKaH),0.0,-2.0,0,0,46.6,low
+1-Chlorobutane,n-butyl chloride,CH3(CH2)3Cl,4,alkyl chloride,-Cl,92.569,48.0,N/A (no conventional aqueous pKaH),0.0,-2.0,0,0,78.4,very low
+1-Chloropentane,n-amyl chloride,CH3(CH2)4Cl,5,alkyl chloride,-Cl,106.596,48.0,N/A (no conventional aqueous pKaH),0.0,-2.0,0,0,107.8,very low
+1-Chlorohexane,n-hexyl chloride,CH3(CH2)5Cl,6,alkyl chloride,-Cl,120.623,48.0,N/A (no conventional aqueous pKaH),0.0,-2.0,0,0,133.5,very low
+1-Fluoropropane,n-propyl fluoride,CCCF,3,alkyl fluoride,-F,62.087,48.0,N/A (no conventional aqueous pKaH),0.0,-2.0,0,0,,
+1-Fluorobutane,n-butyl fluoride,CCCCF,4,alkyl fluoride,-F,76.114,48.0,N/A (no conventional aqueous pKaH),0.0,-2.0,0,0,,
+1-Fluoropentane,n-amyl fluoride,CCCCCF,5,alkyl fluoride,-F,90.141,48.0,N/A (no conventional aqueous pKaH),0.0,-2.0,0,0,,
+1-Fluorohexane,n-hexyl fluoride,CCCCCCF,6,alkyl fluoride,-F,104.168,48.0,N/A (no conventional aqueous pKaH),0.0,-2.0,0,0,,
+1-Bromopropane,n-propyl bromide,CCCBr,3,alkyl bromide,-Br,122.993,48.0,N/A (no conventional aqueous pKaH),0.0,-2.0,0,0,71.1,low
+1-Bromobutane,n-butyl bromide,CCCCBr,4,alkyl bromide,-Br,137.02,48.0,N/A (no conventional aqueous pKaH),0.0,-2.0,0,0,101.1,miscible
+1-Bromopentane,n-amyl bromide,CCCCCBr,5,alkyl bromide,-Br,151.047,48.0,N/A (no conventional aqueous pKaH),0.0,-2.0,0,0,,
+1-Bromohexane,n-hexyl bromide,CCCCCCBr,6,alkyl bromide,-Br,165.074,48.0,N/A (no conventional aqueous pKaH),0.0,-2.0,0,0,155.3,
+1-Iodopropane,n-propyl iodide,CCCI,3,alkyl iodide,-I,169.993,48.0,N/A (no conventional aqueous pKaH),0.0,-2.0,0,0,,
+1-Iodobutane,n-butyl iodide,CCCCI,4,alkyl iodide,-I,184.02,48.0,N/A (no conventional aqueous pKaH),0.0,-2.0,0,0,,
+1-Iodopentane,n-amyl iodide,CCCCCI,5,alkyl iodide,-I,198.047,48.0,N/A (no conventional aqueous pKaH),0.0,-2.0,0,0,157.0,
+1-Iodohexane,n-hexyl iodide,CCCCCCI,6,alkyl iodide,-I,212.074,48.0,N/A (no conventional aqueous pKaH),0.0,-2.0,0,0,,
+Methoxyethane,ethyl methyl ether,CCOC,3,ether,-O-,60.096,,-3.5,9.23,-2.0,0,1,7.4,miscible
+1-Methoxypropane,methyl propyl ether,CCCOC,4,ether,-O-,74.123,,-3.5,9.23,-2.0,0,1,,
+1-Methoxybutane,methyl butyl ether,CCCCOC,5,ether,-O-,88.15,,-3.5,9.23,-2.0,0,1,,
+1-Methoxypentane,methyl pentyl ether,CCCCCOC,6,ether,-O-,102.177,,-3.5,9.23,-2.0,0,1,,
+(Methylsulfanyl)ethane,ethyl methyl sulfide,CCSC,3,thioether,-S-,76.164,,-6.8,0.0,-2.0,0,1,67.0,very low
+1-(Methylsulfanyl)propane,methyl propyl sulfide,CCCSC,4,thioether,-S-,90.191,,-6.8,0.0,-2.0,0,1,,
+1-(Methylsulfanyl)butane,methyl butyl sulfide,CCCCSC,5,thioether,-S-,104.218,,-6.8,0.0,-2.0,0,1,,
+1-(Methylsulfanyl)pentane,methyl pentyl sulfide,CCCCCSC,6,thioether,-S-,118.245,,-6.8,0.0,-2.0,0,1,,
+Methyl ethyl sulfoxide,methyl ethyl sulfoxide,CS(=O)CC,3,sulfoxide,>S=O,92.163,,-1.8,17.07,-2.0,0,1,,
+Methyl propyl sulfoxide,methyl propyl sulfoxide,CS(=O)CCC,4,sulfoxide,>S=O,106.19,,-1.8,17.07,-2.0,0,1,,
+Methyl butyl sulfoxide,methyl butyl sulfoxide,CS(=O)CCCC,5,sulfoxide,>S=O,120.217,,-1.8,17.07,-2.0,0,1,,
+Methyl pentyl sulfoxide,methyl pentyl sulfoxide,CS(=O)CCCCC,6,sulfoxide,>S=O,134.244,,-1.8,17.07,-2.0,0,1,,
+Methyl ethyl sulfone,methyl ethyl sulfone,CS(=O)(=O)CC,3,sulfone,>SO2,108.162,,,34.14,-2.0,0,2,,
+Methyl propyl sulfone,methyl propyl sulfone,CS(=O)(=O)CCC,4,sulfone,>SO2,122.189,,,34.14,-2.0,0,2,,
+Methyl butyl sulfone,methyl butyl sulfone,CS(=O)(=O)CCCC,5,sulfone,>SO2,136.216,,,34.14,-2.0,0,2,,
+Methyl pentyl sulfone,methyl pentyl sulfone,CS(=O)(=O)CCCCC,6,sulfone,>SO2,150.243,,,34.14,-2.0,0,2,,
+Propan-1-imine,propionaldehyde imine,CCC=N,3,imine,-CH=NH,57.096,,7.2,23.85,-1.3333333333333333,1,1,,
+Butan-1-imine,butyraldehyde imine,CCCC=N,4,imine,-CH=NH,71.123,,7.2,23.85,-1.5,1,1,,
+Pentan-1-imine,valeraldehyde imine,CCCCC=N,5,imine,-CH=NH,85.15,,7.2,23.85,-1.6,1,1,,
+Hexan-1-imine,caproaldehyde imine,CCCCCC=N,6,imine,-CH=NH,99.177,,7.2,23.85,-1.6666666666666667,1,1,,
+1-Nitropropane,1-nitropropane,CCC[N+](=O)[O-],3,nitro,-NO2,89.094,8.9,N/A (negligible basicity),43.14,-2.0,0,2,132.2,low
+1-Nitrobutane,1-nitrobutane,CCCC[N+](=O)[O-],4,nitro,-NO2,103.121,8.9,N/A (negligible basicity),43.14,-2.0,0,2,152.8,low
+1-Nitropentane,1-nitropentane,CCCCC[N+](=O)[O-],5,nitro,-NO2,117.148,8.9,N/A (negligible basicity),43.14,-2.0,0,2,,
+1-Nitrohexane,1-nitrohexane,CCCCCC[N+](=O)[O-],6,nitro,-NO2,131.175,8.9,N/A (negligible basicity),43.14,-2.0,0,2,181.1,very low
+Propan-2-ol,isopropanol,CC(O)C,3,alcohol,-OH,60.096,17.1,-2.35,20.23,-2.0,1,1,82.3,miscible
+Butan-2-ol,sec-butanol,CC(O)CC,4,alcohol,-OH,74.123,17.1,-2.35,20.23,-2.0,1,1,99.5,miscible
+Pentan-2-ol,sec-amyl alcohol,CC(O)CCC,5,alcohol,-OH,88.15,17.1,-2.35,20.23,-2.0,1,1,112.2,high
+Hexan-2-ol,sec-hexyl alcohol,CC(O)CCCC,6,alcohol,-OH,102.177,17.1,-2.35,20.23,-2.0,1,1,136.0,
+Propan-2-amine,isopropylamine,CC(N)C,3,amine,-NH2,59.112,35.0,10.63,26.02,-2.0,1,1,32.4,high
+Butan-2-amine,sec-butylamine,CC(N)CC,4,amine,-NH2,73.139,35.0,10.63,26.02,-2.0,1,1,63.5,moderate
+Pentan-2-amine,sec-amylamine,CC(N)CCC,5,amine,-NH2,87.166,35.0,10.63,26.02,-2.0,1,1,,
+Hexan-2-amine,sec-hexylamine,CC(N)CCCC,6,amine,-NH2,101.193,35.0,10.63,26.02,-2.0,1,1,,
+Propane-2-thiol,isopropyl mercaptan,CC(S)C,3,thiol,-SH,76.164,10.9,-6.8,0.0,-2.0,1,1,52.6,miscible
+Butane-2-thiol,sec-butyl mercaptan,CC(S)CC,4,thiol,-SH,90.191,10.9,-6.8,0.0,-2.0,1,1,84.5,
+Pentane-2-thiol,sec-amyl mercaptan,CC(S)CCC,5,thiol,-SH,104.218,10.9,-6.8,0.0,-2.0,1,1,113.0,low
+Hexane-2-thiol,sec-hexyl mercaptan,CC(S)CCCC,6,thiol,-SH,118.245,10.9,-6.8,0.0,-2.0,1,1,,

@@ -1,0 +1,9 @@
+experiment,model,source_entity,target_column,target_type,prompt_name,templates_per_molecule,layer,n_molecules,n_prompt_activations,primary_metric,score,score_std,r2,mae,accuracy,balanced_accuracy,macro_f1
+mw_to_functional_group,Llama-3.1-8B,mw,functional_group,classification,11_templates,11,8,92,1012,accuracy,1.0,0.0,nan,nan,1.0,1.0,1.0
+pka_to_functional_group,Llama-3.1-8B,pka,functional_group,classification,11_templates,11,8,92,1012,accuracy,1.0,0.0,nan,nan,1.0,1.0,1.0
+tpsa_to_functional_group,Llama-3.1-8B,tpsa,functional_group,classification,11_templates,11,16,92,1012,accuracy,0.998989898989899,0.0020202020202020328,nan,nan,0.998989898989899,0.9988636363636363,0.9876750700280112
+functional_group_to_mw,Llama-3.1-8B,functional_group,mw,regression,10_templates,10,30,92,920,r2,0.9758411911516017,0.006508916604364406,0.9758411911516017,3.5035323351989947,nan,nan,nan
+functional_group_to_boiling_point,Llama-3.1-8B,functional_group,boiling_point_c,regression,10_templates,10,22,62,620,r2,0.919857905137427,0.0344270056675805,0.919857905137427,11.118825111533498,nan,nan,nan
+functional_group_to_pka,Llama-3.1-8B,functional_group,pka,regression,10_templates,10,1,72,720,r2,0.9875112911331403,0.0056646666090102715,0.9875112911331403,1.1563880884975049,nan,nan,nan
+functional_group_to_functional_group_structure,Llama-3.1-8B,functional_group,functional_group_structure,classification,10_templates,10,24,92,920,accuracy,0.9988888888888889,0.0022222222222222144,nan,nan,0.9988888888888889,0.99875,0.9987468671679199
+functional_group_to_pkah,Llama-3.1-8B,functional_group,pkah,regression,10_templates,10,0,64,640,r2,0.9897077180642742,0.004945998522067414,0.9897077180642742,0.3985018692727561,nan,nan,nan

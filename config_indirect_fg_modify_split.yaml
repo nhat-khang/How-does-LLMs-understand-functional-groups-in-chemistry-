@@ -1,0 +1,103 @@
+# Indirect recall for the functional-group project.
+#
+# Put this file and indirect_recall_fg.py in the Indirect_recall folder.
+# Relative paths below are resolved from this YAML file's location, so the
+# script can be submitted from a different working directory safely.
+
+paths:
+  dataset_file: "../functional_group_dataset_2.csv"
+  extraction_config: "../config_extract_activation_fg_8B.yaml"
+  activation_base_dir: "../activation_datasets_functional_groups_2/meta-llama-Llama-3.1-8B"
+  # "meta-llama-Meta-Llama-3.1-70B"
+  # "meta-llama-Llama-3.1-8B"
+  output_dir: "../Results/indirect_recall_fg_8B_functional_group_split"
+
+model:
+  name: "Llama-3.1-8B"
+  # Other models:
+  # "Meta-Llama-3.1-70B"
+  # "Llama-3.1-8B"
+  num_layers: 32
+
+analysis:
+  # Hold out entire functional-group families. For example, if alcohol is in
+  # a test fold, every alcohol molecule and every one of its prompt templates
+  # is excluded from that fold's training set. Use "molecule" to restore the
+  # original molecule-held-out behavior.
+  split_by: "functional_group"
+
+  # With 20 functional groups and 5 folds, each test fold contains about four
+  # complete functional-group families. Across the five folds, every family is
+  # eventually tested once and used for training in the other folds.
+  cv_splits: 5
+
+  # A source and target with the same name is direct recall, so reject it by
+  # default. Leave this false for indirect-recall experiments.
+  allow_direct_pairs: false
+
+classification_probe:
+  kernel: "linear"
+  c: 2.0
+  class_weight: "balanced"
+
+regression_probe:
+  kernel: "linear"
+  c: 2.0
+
+# Each experiment means:
+#   activations from SOURCE prompts -> probe predicts TARGET CSV column
+#
+# target_type must be:
+#   classification  for functional_group, functional_group_structure,
+#                   or water_solubility
+#   regression      for mw, pka, pkah, tpsa,
+#                   avg_carbon_oxidation_state, hbd, hba,
+#                   boiling_point_c, or carbon_count
+#
+# prompt_name and templates_per_molecule are read automatically from the
+# extraction YAML. To activate another experiment, set enabled: true.
+experiments:
+  # Do not enable source -> functional_group classification while
+  # split_by is functional_group. Its test classes do not exist in training,
+  # so a closed-set SVC cannot predict them. Use split_by: molecule for these.
+  - name: "mw_to_functional_group"
+    source_entity: "mw"
+    target_column: "functional_group"
+    target_type: "classification"
+    enabled: false
+
+  - name: "pka_to_functional_group"
+    source_entity: "pka"
+    target_column: "functional_group"
+    target_type: "classification"
+    enabled: false
+
+  - name: "tpsa_to_functional_group"
+    source_entity: "tpsa"
+    target_column: "functional_group"
+    target_type: "classification"
+    enabled: false
+
+  - name: "functional_group_to_mw"
+    source_entity: "functional_group"
+    target_column: "mw"
+    target_type: "regression"
+    enabled: true
+
+  - name: "functional_group_to_boiling_point"
+    source_entity: "functional_group"
+    target_column: "boiling_point_c"
+    target_type: "regression"
+    enabled: true
+
+  - name: "functional_group_to_pka"
+    source_entity: "functional_group"
+    target_column: "pka"
+    target_type: "regression"
+    enabled: true
+
+  - name: "functional_group_to_pkah"
+    source_entity: "functional_group"
+    target_column: "pkah"
+    target_type: "regression"
+    enabled: true

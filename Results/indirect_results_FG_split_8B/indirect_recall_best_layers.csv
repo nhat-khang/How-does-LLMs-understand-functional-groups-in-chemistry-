@@ -1,0 +1,5 @@
+experiment,model,source_entity,target_column,target_type,prompt_name,templates_per_molecule,layer,split_by,n_split_groups,n_molecules,n_prompt_activations,primary_metric,score,score_std,r2,mae,accuracy,balanced_accuracy,macro_f1
+functional_group_to_mw,Llama-3.1-8B,functional_group,mw,regression,10_templates,10,30,functional_group,20,92,920,r2,0.4856196171833148,0.22784519193046396,0.4856196171833148,14.355663206814679,nan,nan,nan
+functional_group_to_boiling_point,Llama-3.1-8B,functional_group,boiling_point_c,regression,10_templates,10,15,functional_group,16,62,620,r2,0.1598294854049191,0.30867471729002305,0.1598294854049191,36.73502146678394,nan,nan,nan
+functional_group_to_pka,Llama-3.1-8B,functional_group,pka,regression,10_templates,10,15,functional_group,15,72,720,r2,-43.3361853652598,86.42033867590145,-43.3361853652598,10.583868691667837,nan,nan,nan
+functional_group_to_pkah,Llama-3.1-8B,functional_group,pkah,regression,10_templates,10,27,functional_group,13,64,640,r2,-1.0499005934557106,2.836080700870339,-1.0499005934557106,2.8523735278788287,nan,nan,nan
