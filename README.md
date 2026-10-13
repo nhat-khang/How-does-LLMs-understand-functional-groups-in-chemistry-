@@ -122,15 +122,3 @@ GPU jobs need `--partition=gpu --gres=gpu:1` (and your account). Check a job wit
 | `*_heatmap_92mol*.png` | heatmap: molecule × layer, coloured when the answer is in the top-5 |
 | `*_layer_N_tsne.png` | t-SNE map for one layer |
 
-## Next steps
-
-- Report top-1 match rate next to top-5.
-- Analyze the intervention results.
-- Look at the neighbours of each molecule on the activation map.
-- Test molecules unlikely to appear in textbooks, to separate understanding from memory.
-- Control: replace IUPAC names with formulas or anonymous IDs and see whether direct-recall scores collapse.
-- Extend to the 70B model.
-
-## Team
-
-University of Nebraska–Lincoln. Research advisor: Dr. Janghoon. Researchers: Anh Nguyen, Tran, Khang.
