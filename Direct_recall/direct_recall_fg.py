@@ -44,7 +44,7 @@ from sklearn.utils.class_weight import compute_sample_weight
 # Run this script while standing INSIDE the functional_groups/ folder.
 CONFIG_YAML_PATH = '../config_extract_activation_fg_8B.yaml'
 CSV_PATH = '../functional_group_dataset_2.csv'
-ACTIVATIONS_BASE_DIR = '../activation_datasets_functional_groups_2/meta-llama-Meta-Llama-3.1-8B/'
+ACTIVATIONS_BASE_DIR = '../activation_datasets_functional_groups_2/meta-llama-Llama-3.1-8B/'
 OUTPUT_DIR = '../Results/direct_recall_fg_8B'
 SUMMARY_CSV_PATH = os.path.join(OUTPUT_DIR, 'direct_recall_summary.csv')
 
