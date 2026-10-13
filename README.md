@@ -17,7 +17,7 @@ We look inside the model (its hidden activations) and ask:
 
 | Item | Value |
 |---|---|
-| File | `functional_group_dataset.csv` |
+| File | `functional_group_dataset_2.csv` |
 | Molecules | 92 |
 | Functional-group families | 20 (alcohol, amine, ketone, aldehyde, ester, amide, nitrile, thiol, thioether, sulfone, sulfoxide, alkyl halides, nitro, imine, alkane, ...) |
 | Entities (what we ask about) | 11: `functional_group`, `functional_group_structure`, `mw`, `pka`, `pkah`, `tpsa`, `avg_carbon_oxidation_state`, `hbd`, `hba`, `boiling_point_c`, `water_solubility` |
@@ -39,13 +39,14 @@ Note: molecule structures are written in condensed notation. An earlier version 
 
 | # | Experiment | Question | Script / folder |
 |---|---|---|---|
-| 1 | **t-SNE** | Do activations sort themselves by functional group? | `tsne_activation_all_layer.py` |
-| 2 | **Direct recall** | Can a linear probe read the label from the activation? | `Direct_recall/direct_recall_fg.py` |
-| 3 | **Indirect recall** (molecule held out) | Does the label survive when the prompt asks about something else? | `indirect_recall_fg.py` |
-| 4 | **Indirect recall** (functional group held out) | Does it work for a group never seen in training? | `indirect_recall_fg.py` |
-| 5 | **Position probe** | Is the position of the group (1 or 2) encoded? | — |
+| 0 | **Extract activations** | Save the hidden states of the model for every prompt | `extract_activations.py`, `Data extractor/` |
+| 1 | **t-SNE** | Do activations sort themselves by functional group? | `t-SNE/` |
+| 2 | **Direct recall** | Can a linear probe read the label from the activation? | `Direct_recall/` |
+| 3 | **Indirect recall** (molecule held out) | Does the label survive when the prompt asks about something else? | `Indirect_recall/`, `config_indirect_fg.yaml` |
+| 4 | **Indirect recall** (functional group held out) | Does it work for a group never seen in training? | `Indirect_recall/`, `config_indirect_fg_modify_split.yaml` |
+| 5 | **Position probe** | Is the position of the group (1 or 2) encoded? | `Position_test/`, `config_extract_fg_position_ablation_8B.yaml` |
 | 6 | **Logit lens** | At which layer can the model's output layer "read" the answer? | `logit_lens/` |
-| 7 | **Intervention** | If we patch in a class's average activation, does the model name that group? | `functional_group_intervention.py` |
+| 7 | **Intervention** | If we patch in a class's average activation, does the model name that group? | `functional_group_intervention.py` (add to the repo when ready) |
 
 ### How each one works (short)
 
@@ -74,45 +75,39 @@ Note: molecule structures are written in condensed notation. An earlier version 
 
 ## Repository layout
 
-> Adjust to match your repo.
-
 ```
 .
-├── functional_group_dataset.csv
-├── config_extract_activation_fg_8B.yaml     # activation extraction settings
-├── Direct_recall/
-│   └── direct_recall_fg.py
-├── logit_lens/
-│   ├── logit_lens_fg.py
-│   ├── logit_lens_fg_all.py                 # 92 molecules, 5 entities
-│   ├── logit_lens_fg_numeric.py
-│   └── logit_lens_bare_name.py
-├── tsne_activation_all_layer.py
-├── indirect_recall_fg.py
-├── functional_group_intervention.py
-├── run_*.sh                                 # SLURM job scripts
-└── Results/                                 # CSVs, heatmaps, t-SNE plots
+├── Data extractor/                              # code to build the activation data
+├── Direct_recall/                               # experiment 2
+├── Indirect_recall/                             # experiments 3 and 4
+├── Position_test/                               # experiment 5
+├── t-SNE/                                       # experiment 1
+├── logit_lens/                                  # experiment 6
+├── Results/                                     # CSVs, heatmaps, plots
+├── activation_datasets_functional_groups_2/     # saved activations (main dataset)
+├── activation_datasets_fg_position_ablation/    # saved activations (position test)
+├── config_extract_activation_fg_8B.yaml         # extraction settings (main)
+├── config_extract_fg_position_ablation_8B.yaml  # extraction settings (position test)
+├── config_indirect_fg.yaml                      # indirect recall, molecule split
+├── config_indirect_fg_modify_split.yaml         # indirect recall, functional-group split
+├── extract_activations.py
+├── functional_group_dataset_2.csv
+└── README.md
 ```
+
+The activation folders are large (see `.gitattributes` for how they are stored).
 
 ## How to run
 
-The scripts were run on the HCC Swan cluster with SLURM and a conda environment named `chemical`.
+The scripts were run on the HCC Swan cluster with SLURM and a conda environment named `chemical`. Paths inside the scripts are relative, so run everything **from the repository root**.
 
 ```bash
-# 1. Go to the project folder (paths in the scripts are relative to it)
-cd /path/to/Prof-Ock-data
+# 0. Extract activations (GPU job)
+python extract_activations.py   # settings come from config_extract_activation_fg_8B.yaml
 
-# 2. Direct recall (CPU job)
-sbatch run_direct_recall_fg_8B.sh
-
-# 3. t-SNE (CPU job)
-sbatch run_tsne_pka_mw.slurm
-
-# 4. Logit lens (GPU job)
-sbatch run_logit_lens_fg_all_8B.sh
-
-# 5. Intervention (GPU job)
-sbatch run_intervention_fg_8B.sh
+# 1. Direct recall, t-SNE, indirect recall, position test, logit lens:
+#    run the script inside each folder (see the .sh / .slurm job file next to it)
+sbatch <job_file>
 ```
 
 GPU jobs need `--partition=gpu --gres=gpu:1` (and your account). Check a job with `squeue -u $USER` or `sacct -j <jobid>`.
