@@ -1,0 +1,661 @@
+entity_type,fg_class,molecule,true_value,layer,top1_token,top1_prob,top5_tokens,matched
+water_solubility,alcohol,Propan-1-ol,miscible,0,olar,0.0128,olar(0.01); 톤(0.01); ерш(0.01); ολ(0.01); ]={(0.00),False
+water_solubility,alcohol,Propan-1-ol,miscible,1,زة,0.0181,زة(0.02); öğ(0.02); Disposition(0.01); Inflater(0.01); RYPTO(0.01),False
+water_solubility,alcohol,Propan-1-ol,miscible,2,ocoder,0.0169,ocoder(0.02); лл(0.01); öğ(0.01); زة(0.01); yms(0.01),False
+water_solubility,alcohol,Propan-1-ol,miscible,3,čin,0.0098,čin(0.01); errat(0.01); iot(0.01); oir(0.00); .updateDynamic(0.00),False
+water_solubility,alcohol,Propan-1-ol,miscible,4,.updateDynamic,0.0612,.updateDynamic(0.06); .nih(0.01); діл(0.01); .Restr(0.01); сього(0.00),False
+water_solubility,alcohol,Propan-1-ol,miscible,5,rophe,0.0097,rophe(0.01); Scatter(0.01); ToFront(0.01); .nih(0.00); .dc(0.00),False
+water_solubility,alcohol,Propan-1-ol,miscible,6,acker,0.0134,acker(0.01); tox(0.01); Evel(0.00); вся(0.00); pheres(0.00),False
+water_solubility,alcohol,Propan-1-ol,miscible,7,iese,0.0048,iese(0.00); 健(0.00); ード(0.00); ationToken(0.00); ktop(0.00),False
+water_solubility,alcohol,Propan-1-ol,miscible,8,ippi,0.0338,ippi(0.03); Hoe(0.01); eree(0.01); UMB(0.00); conv(0.00),False
+water_solubility,alcohol,Propan-1-ol,miscible,9,álie,0.0383,álie(0.04); ubb(0.01); Hoe(0.01); Tow(0.01); Tobias(0.01),False
+water_solubility,alcohol,Propan-1-ol,miscible,10,.snap,0.0064,.snap(0.01); urdy(0.00); ktop(0.00); ills(0.00); _bh(0.00),False
+water_solubility,alcohol,Propan-1-ol,miscible,11,ktop,0.0092,ktop(0.01); stance(0.01); SION(0.00); uada(0.00); hana(0.00),False
+water_solubility,alcohol,Propan-1-ol,miscible,12,ульта,0.0075,ульта(0.01); idy(0.01); uada(0.00); #af(0.00); mund(0.00),False
+water_solubility,alcohol,Propan-1-ol,miscible,13,#af,0.0952,#af(0.10); #ad(0.01); -*-(0.01); #aa(0.01); ульта(0.00),False
+water_solubility,alcohol,Propan-1-ol,miscible,14,#af,0.0099,#af(0.01); ertino(0.01); ộp(0.00); #ab(0.00); Textbox(0.00),False
+water_solubility,alcohol,Propan-1-ol,miscible,15,#af,0.0671,#af(0.07); #ab(0.01); Assigned(0.01); yles(0.01); #aa(0.01),False
+water_solubility,alcohol,Propan-1-ol,miscible,16,#af,0.0235,#af(0.02); .tf(0.02); ôi(0.01); álie(0.01); ysa(0.01),False
+water_solubility,alcohol,Propan-1-ol,miscible,17,#af,0.0078,#af(0.01); ertino(0.01); #aa(0.01); 誠(0.01); Mobility(0.01),False
+water_solubility,alcohol,Propan-1-ol,miscible,18,ewater,0.0294,ewater(0.03); 水(0.02); water(0.02); aquatic(0.02); -water(0.01),False
+water_solubility,alcohol,Propan-1-ol,miscible,19,ewater,0.1644,ewater(0.16); ALOG(0.01); aquatic(0.01); water(0.01); Pickup(0.01),False
+water_solubility,alcohol,Propan-1-ol,miscible,20,ALOG,0.0186,ALOG(0.02); _PARTITION(0.02); Partition(0.01); urga(0.01); ewater(0.01),False
+water_solubility,alcohol,Propan-1-ol,miscible,21,Partition,0.0556,Partition(0.06); Partition(0.03); partition(0.02); sol(0.02); ewater(0.01),False
+water_solubility,alcohol,Propan-1-ol,miscible,22,misc,0.0296,misc(0.03); misc(0.02); 鉄道(0.01); Partition(0.01); ALOG(0.01),True
+water_solubility,alcohol,Propan-1-ol,miscible,23,misc,0.0682,misc(0.07); misc(0.05); ALOG(0.02); /misc(0.02); sol(0.01),True
+water_solubility,alcohol,Propan-1-ol,miscible,24,misc,0.085,misc(0.09); /misc(0.06); misc(0.04); Misc(0.01); sol(0.01),True
+water_solubility,alcohol,Propan-1-ol,miscible,25,misc,0.0562,misc(0.06); /misc(0.04); misc(0.03); бут(0.02); isco(0.01),True
+water_solubility,alcohol,Propan-1-ol,miscible,26,misc,0.0892,misc(0.09); /misc(0.07); misc(0.03); бут(0.02); Highly(0.01),True
+water_solubility,alcohol,Propan-1-ol,miscible,27,misc,0.0516,misc(0.05); misc(0.02); isco(0.01); miscellaneous(0.01); бут(0.01),True
+water_solubility,alcohol,Propan-1-ol,miscible,28,misc,0.0167,misc(0.02); misc(0.02); ajo(0.01); miscellaneous(0.01); isco(0.01),True
+water_solubility,alcohol,Propan-1-ol,miscible,29,рак,0.0175,рак(0.02); III(0.01); ugu(0.01); miscellaneous(0.01); misc(0.01),True
+water_solubility,alcohol,Propan-1-ol,miscible,30,2,0.0597,2(0.06); 3(0.05); 1(0.03); ivo(0.02); ugu(0.02),False
+water_solubility,alcohol,Propan-1-ol,miscible,31,1,0.375,1(0.38); 2(0.26); 3(0.17); 4(0.08); 5(0.03),False
+water_solubility,alcohol,Propan-1-ol,miscible,32,1,0.3113,1(0.31); 2(0.26); 3(0.17); 4(0.08); 0(0.04),False
+water_solubility,aldehyde,Propanal,high,0,olar,0.0128,olar(0.01); 톤(0.01); ерш(0.01); ολ(0.01); ]={(0.00),False
+water_solubility,aldehyde,Propanal,high,1,زة,0.0183,زة(0.02); öğ(0.02); Disposition(0.01); Inflater(0.01); RYPTO(0.01),False
+water_solubility,aldehyde,Propanal,high,2,лл,0.0175,лл(0.02); ocoder(0.02); زة(0.01); öğ(0.01); yms(0.01),False
+water_solubility,aldehyde,Propanal,high,3,errat,0.0136,errat(0.01); čin(0.01); iot(0.01); ibling(0.00); oir(0.00),False
+water_solubility,aldehyde,Propanal,high,4,.updateDynamic,0.0548,.updateDynamic(0.05); .nih(0.01); діл(0.01); .Restr(0.01); ')?>(0.00),False
+water_solubility,aldehyde,Propanal,high,5,rophe,0.0088,rophe(0.01); Scatter(0.01); ToFront(0.01); .nih(0.01); .dc(0.01),False
+water_solubility,aldehyde,Propanal,high,6,acker,0.0111,acker(0.01); tox(0.01); iese(0.01); pheres(0.01); ationToken(0.00),False
+water_solubility,aldehyde,Propanal,high,7,iese,0.0074,iese(0.01); 健(0.00); ktop(0.00); toy(0.00); Tob(0.00),False
+water_solubility,aldehyde,Propanal,high,8,ippi,0.0382,ippi(0.04); Hoe(0.01); сь(0.01); (EC(0.00); UMB(0.00),False
+water_solubility,aldehyde,Propanal,high,9,álie,0.0484,álie(0.05); Hoe(0.01); ubb(0.01); Tow(0.01); الی(0.00),False
+water_solubility,aldehyde,Propanal,high,10,ills,0.0066,ills(0.01); eline(0.01); .snap(0.00); ktop(0.00); şehir(0.00),False
+water_solubility,aldehyde,Propanal,high,11,ktop,0.0177,ktop(0.02); stance(0.00); uada(0.00); eline(0.00); SION(0.00),False
+water_solubility,aldehyde,Propanal,high,12,idy,0.005,idy(0.01); ульта(0.00); uada(0.00); #ad(0.00); mund(0.00),False
+water_solubility,aldehyde,Propanal,high,13,#af,0.067,#af(0.07); -*-(0.02); #ad(0.01); #aa(0.01); /******/(0.01),False
+water_solubility,aldehyde,Propanal,high,14,#af,0.0089,#af(0.01); /******/(0.01); ertino(0.00); quot(0.00); Dickinson(0.00),False
+water_solubility,aldehyde,Propanal,high,15,#af,0.0583,#af(0.06); #ab(0.01); šak(0.01); Assigned(0.01); RuntimeObject(0.01),False
+water_solubility,aldehyde,Propanal,high,16,.tf,0.0311,.tf(0.03); ôi(0.02); #af(0.01); álie(0.01); Dai(0.01),False
+water_solubility,aldehyde,Propanal,high,17,Mobility,0.0095,Mobility(0.01); #af(0.00); Histor(0.00); kek(0.00); .mob(0.00),False
+water_solubility,aldehyde,Propanal,high,18,aquatic,0.0274,aquatic(0.03); ewater(0.02); 水(0.02); water(0.02); water(0.01),False
+water_solubility,aldehyde,Propanal,high,19,ewater,0.2177,ewater(0.22); aquatic(0.02); ALOG(0.01); ść(0.01); pane(0.01),False
+water_solubility,aldehyde,Propanal,high,20,ALOG,0.0368,ALOG(0.04); _PARTITION(0.03); Partition(0.02); urga(0.01); Ey(0.01),False
+water_solubility,aldehyde,Propanal,high,21,Partition,0.0603,Partition(0.06); partition(0.03); Partition(0.02); ść(0.02); Polar(0.02),False
+water_solubility,aldehyde,Propanal,high,22,ALOG,0.02,ALOG(0.02); misc(0.02); Partition(0.01); misc(0.01); 鉄道(0.01),False
+water_solubility,aldehyde,Propanal,high,23,ALOG,0.0331,ALOG(0.03); misc(0.03); misc(0.02); /misc(0.01); sol(0.01),False
+water_solubility,aldehyde,Propanal,high,24,/misc,0.0315,/misc(0.03); misc(0.02); ALOG(0.02); misc(0.01); ipa(0.01),False
+water_solubility,aldehyde,Propanal,high,25,/misc,0.0207,/misc(0.02); ALOG(0.02); misc(0.01); бут(0.01); misc(0.01),False
+water_solubility,aldehyde,Propanal,high,26,/misc,0.0474,/misc(0.05); misc(0.02); бут(0.01); Highly(0.01); misc(0.01),True
+water_solubility,aldehyde,Propanal,high,27,misc,0.0125,misc(0.01); бут(0.01); /misc(0.01); Highly(0.01); imm(0.01),True
+water_solubility,aldehyde,Propanal,high,28,misc,0.0075,misc(0.01); 3(0.01); ajo(0.01); misc(0.01); miscellaneous(0.01),False
+water_solubility,aldehyde,Propanal,high,29,рак,0.0141,рак(0.01); 3(0.01); III(0.01); imm(0.01); 2(0.01),False
+water_solubility,aldehyde,Propanal,high,30,2,0.1067,2(0.11); 3(0.06); ugu(0.02); 1(0.02); ivo(0.01),False
+water_solubility,aldehyde,Propanal,high,31,2,0.3469,2(0.35); 1(0.27); 3(0.17); 4(0.12); 5(0.03),False
+water_solubility,aldehyde,Propanal,high,32,1,0.2966,1(0.30); 2(0.27); 3(0.16); 4(0.08); 5(0.04),False
+water_solubility,alkyl bromide,1-Bromopropane,low,0,olar,0.0128,olar(0.01); 톤(0.01); ерш(0.01); ολ(0.01); ]={(0.00),False
+water_solubility,alkyl bromide,1-Bromopropane,low,1,öğ,0.022,öğ(0.02); زة(0.02); Disposition(0.01); Inflater(0.01); RYPTO(0.01),False
+water_solubility,alkyl bromide,1-Bromopropane,low,2,ocoder,0.0191,ocoder(0.02); лл(0.01); زة(0.01); öğ(0.01); ��(0.01),False
+water_solubility,alkyl bromide,1-Bromopropane,low,3,čin,0.0099,čin(0.01); errat(0.01); iot(0.00); oir(0.00); _MD(0.00),False
+water_solubility,alkyl bromide,1-Bromopropane,low,4,.updateDynamic,0.0518,.updateDynamic(0.05); .nih(0.01); .Restr(0.00); _hooks(0.00); сього(0.00),False
+water_solubility,alkyl bromide,1-Bromopropane,low,5,rophe,0.0117,rophe(0.01); ToFront(0.01); hos(0.01); Scatter(0.01); .dc(0.01),False
+water_solubility,alkyl bromide,1-Bromopropane,low,6,acker,0.009,acker(0.01); Evel(0.01); tox(0.01); Textbox(0.01); pheres(0.01),False
+water_solubility,alkyl bromide,1-Bromopropane,low,7,iese,0.0067,iese(0.01); Tob(0.01); 健(0.00); toy(0.00); Toe(0.00),False
+water_solubility,alkyl bromide,1-Bromopropane,low,8,ippi,0.0271,ippi(0.03); Hoe(0.01); 拓(0.01); abra(0.00); یره(0.00),False
+water_solubility,alkyl bromide,1-Bromopropane,low,9,álie,0.0259,álie(0.03); Hoe(0.01); ubb(0.01); Tow(0.01); iled(0.00),False
+water_solubility,alkyl bromide,1-Bromopropane,low,10,urdy,0.0066,urdy(0.01); .snap(0.01); ills(0.00); _bh(0.00); van(0.00),False
+water_solubility,alkyl bromide,1-Bromopropane,low,11,ktop,0.0066,ktop(0.01); stance(0.01); #ad(0.00); #af(0.00); нет(0.00),False
+water_solubility,alkyl bromide,1-Bromopropane,low,12,ульта,0.0062,ульта(0.01); NGX(0.00); #ad(0.00); 抜(0.00); #af(0.00),False
+water_solubility,alkyl bromide,1-Bromopropane,low,13,#af,0.0762,#af(0.08); #ad(0.01); -*-(0.01); /******/(0.01); 碎(0.01),False
+water_solubility,alkyl bromide,1-Bromopropane,low,14,#af,0.0126,#af(0.01); Textbox(0.01); ertino(0.01); adil(0.00); есп(0.00),False
+water_solubility,alkyl bromide,1-Bromopropane,low,15,#af,0.0608,#af(0.06); šak(0.01); ertino(0.01); yles(0.01); #aa(0.01),False
+water_solubility,alkyl bromide,1-Bromopropane,low,16,.tf,0.0289,.tf(0.03); #af(0.01); ôi(0.01); ysa(0.01); Dai(0.00),False
+water_solubility,alkyl bromide,1-Bromopropane,low,17,Mobility,0.013,Mobility(0.01); #af(0.01); 誠(0.01); �(0.00); kek(0.00),False
+water_solubility,alkyl bromide,1-Bromopropane,low,18,aquatic,0.0373,aquatic(0.04); ewater(0.03); Aqu(0.01); Conc(0.01); xic(0.01),False
+water_solubility,alkyl bromide,1-Bromopropane,low,19,ewater,0.0516,ewater(0.05); aquatic(0.01); barg(0.01); Conc(0.01); pane(0.01),False
+water_solubility,alkyl bromide,1-Bromopropane,low,20,_PARTITION,0.0333,_PARTITION(0.03); Partition(0.02); 乙(0.01); atra(0.01); borg(0.01),False
+water_solubility,alkyl bromide,1-Bromopropane,low,21,Partition,0.0779,Partition(0.08); partition(0.06); Partition(0.03); _PARTITION(0.03); ockey(0.01),False
+water_solubility,alkyl bromide,1-Bromopropane,low,22,misc,0.0236,misc(0.02); Partition(0.02); _PARTITION(0.01); misc(0.01); partition(0.01),False
+water_solubility,alkyl bromide,1-Bromopropane,low,23,misc,0.036,misc(0.04); Partition(0.02); misc(0.01); Partition(0.01); partition(0.01),False
+water_solubility,alkyl bromide,1-Bromopropane,low,24,Partition,0.0175,Partition(0.02); misc(0.02); partition(0.01); misc(0.01); Advisory(0.01),False
+water_solubility,alkyl bromide,1-Bromopropane,low,25,ALOG,0.0109,ALOG(0.01); Partition(0.01); Pub(0.01); isco(0.01); 100(0.01),False
+water_solubility,alkyl bromide,1-Bromopropane,low,26,isco,0.0129,isco(0.01); бут(0.01); Category(0.01); /Foundation(0.01); Cabr(0.01),False
+water_solubility,alkyl bromide,1-Bromopropane,low,27,III,0.015,III(0.01); isco(0.01); Highly(0.01); gi(0.01); 3(0.01),False
+water_solubility,alkyl bromide,1-Bromopropane,low,28,3,0.0119,3(0.01); uts(0.01); isco(0.01); ajo(0.01); avian(0.00),False
+water_solubility,alkyl bromide,1-Bromopropane,low,29,3,0.0133,3(0.01); III(0.01); uts(0.01); 2(0.01); ills(0.01),False
+water_solubility,alkyl bromide,1-Bromopropane,low,30,2,0.145,2(0.15); 3(0.09); 1(0.04); 4(0.03); uts(0.01),False
+water_solubility,alkyl bromide,1-Bromopropane,low,31,1,0.251,1(0.25); 2(0.23); 3(0.19); 4(0.17); 5(0.05),False
+water_solubility,alkyl bromide,1-Bromopropane,low,32,1,0.2605,1(0.26); 2(0.20); 3(0.15); 4(0.09); 0(0.07),False
+water_solubility,alkyl chloride,1-Chloropropane,low,0,olar,0.0128,olar(0.01); 톤(0.01); ерш(0.01); ολ(0.01); ]={(0.00),False
+water_solubility,alkyl chloride,1-Chloropropane,low,1,öğ,0.0238,öğ(0.02); زة(0.02); Inflater(0.01); Disposition(0.01); RYPTO(0.01),False
+water_solubility,alkyl chloride,1-Chloropropane,low,2,ocoder,0.0192,ocoder(0.02); лл(0.01); زة(0.01); öğ(0.01); ��(0.01),False
+water_solubility,alkyl chloride,1-Chloropropane,low,3,čin,0.0149,čin(0.01); errat(0.01); iot(0.01); oir(0.00); FH(0.00),False
+water_solubility,alkyl chloride,1-Chloropropane,low,4,.updateDynamic,0.0452,.updateDynamic(0.05); .Restr(0.01); сього(0.01); _hooks(0.01); .nih(0.00),False
+water_solubility,alkyl chloride,1-Chloropropane,low,5,rophe,0.0105,rophe(0.01); hos(0.01); Scatter(0.01); .dc(0.01); ToFront(0.00),False
+water_solubility,alkyl chloride,1-Chloropropane,low,6,acker,0.0105,acker(0.01); Evel(0.01); Textbox(0.01); pheres(0.01); tox(0.01),False
+water_solubility,alkyl chloride,1-Chloropropane,low,7,iese,0.0062,iese(0.01); Tob(0.00); 健(0.00); ード(0.00); ď(0.00),False
+water_solubility,alkyl chloride,1-Chloropropane,low,8,ippi,0.0201,ippi(0.02); Hoe(0.01); 拓(0.01); یره(0.00); abra(0.00),False
+water_solubility,alkyl chloride,1-Chloropropane,low,9,álie,0.0183,álie(0.02); Hoe(0.01); Tow(0.01); ubb(0.00); Ray(0.00),False
+water_solubility,alkyl chloride,1-Chloropropane,low,10,.snap,0.0049,.snap(0.00); ills(0.00); ktop(0.00); eline(0.00); τώ(0.00),False
+water_solubility,alkyl chloride,1-Chloropropane,low,11,stance,0.0094,stance(0.01); ktop(0.00); SION(0.00); нет(0.00); ульта(0.00),False
+water_solubility,alkyl chloride,1-Chloropropane,low,12,ульта,0.0095,ульта(0.01); NGX(0.00); #ad(0.00); 抜(0.00); .Restr(0.00),False
+water_solubility,alkyl chloride,1-Chloropropane,low,13,#af,0.1168,#af(0.12); #ad(0.01); ульта(0.01); /******/(0.01); #aa(0.01),False
+water_solubility,alkyl chloride,1-Chloropropane,low,14,#af,0.0137,#af(0.01); Textbox(0.01); ertino(0.00); /******/(0.00); Comet(0.00),False
+water_solubility,alkyl chloride,1-Chloropropane,low,15,#af,0.0563,#af(0.06); šak(0.01); Assigned(0.01); yles(0.01); #ab(0.01),False
+water_solubility,alkyl chloride,1-Chloropropane,low,16,.tf,0.0263,.tf(0.03); ôi(0.01); #af(0.01); ysa(0.00); Dai(0.00),False
+water_solubility,alkyl chloride,1-Chloropropane,low,17,Mobility,0.0113,Mobility(0.01); kek(0.01); 誠(0.01); teg(0.00); Histor(0.00),False
+water_solubility,alkyl chloride,1-Chloropropane,low,18,aquatic,0.0115,aquatic(0.01); ewater(0.01); 水(0.01); water(0.01); xic(0.01),False
+water_solubility,alkyl chloride,1-Chloropropane,low,19,ewater,0.0463,ewater(0.05); ALOG(0.01); pane(0.01); barg(0.01); aquatic(0.01),False
+water_solubility,alkyl chloride,1-Chloropropane,low,20,_PARTITION,0.02,_PARTITION(0.02); Partition(0.01); ALOG(0.01); atra(0.01); borg(0.01),False
+water_solubility,alkyl chloride,1-Chloropropane,low,21,Partition,0.045,Partition(0.05); partition(0.03); sol(0.02); Partition(0.01); _PARTITION(0.01),False
+water_solubility,alkyl chloride,1-Chloropropane,low,22,misc,0.0191,misc(0.02); misc(0.02); /misc(0.02); Disposition(0.01); RAFT(0.01),False
+water_solubility,alkyl chloride,1-Chloropropane,low,23,misc,0.0326,misc(0.03); misc(0.02); /misc(0.01); Moder(0.01); ALOG(0.01),False
+water_solubility,alkyl chloride,1-Chloropropane,low,24,misc,0.0223,misc(0.02); /misc(0.02); ipp(0.01); misc(0.01); Pruitt(0.01),False
+water_solubility,alkyl chloride,1-Chloropropane,low,25,Pub,0.0133,Pub(0.01); бут(0.01); ipp(0.01); ALOG(0.01); Pub(0.01),False
+water_solubility,alkyl chloride,1-Chloropropane,low,26,бут,0.0177,бут(0.02); /misc(0.01); Disposition(0.01); imm(0.01); isco(0.01),False
+water_solubility,alkyl chloride,1-Chloropropane,low,27,imm,0.0121,imm(0.01); бут(0.01); III(0.01); Highly(0.01); isco(0.01),False
+water_solubility,alkyl chloride,1-Chloropropane,low,28,uts,0.0109,uts(0.01); 3(0.01); imm(0.01); ajo(0.01); бут(0.00),False
+water_solubility,alkyl chloride,1-Chloropropane,low,29,3,0.01,3(0.01); uts(0.01); рак(0.01); III(0.01); estro(0.01),False
+water_solubility,alkyl chloride,1-Chloropropane,low,30,2,0.0756,2(0.08); 3(0.06); 1(0.04); uts(0.02); ivo(0.01),False
+water_solubility,alkyl chloride,1-Chloropropane,low,31,1,0.3267,1(0.33); 2(0.21); 3(0.16); 4(0.13); 5(0.06),False
+water_solubility,alkyl chloride,1-Chloropropane,low,32,1,0.2869,1(0.29); 2(0.21); 3(0.14); 4(0.08); 0(0.06),False
+water_solubility,alkyl fluoride,1-Fluoropropane,,0,olar,0.0128,olar(0.01); 톤(0.01); ерш(0.01); ολ(0.01); ]={(0.00),
+water_solubility,alkyl fluoride,1-Fluoropropane,,1,öğ,0.021,öğ(0.02); زة(0.02); Disposition(0.01); Inflater(0.01); RYPTO(0.01),
+water_solubility,alkyl fluoride,1-Fluoropropane,,2,ocoder,0.0177,ocoder(0.02); лл(0.01); öğ(0.01); زة(0.01); /Area(0.01),
+water_solubility,alkyl fluoride,1-Fluoropropane,,3,čin,0.0091,čin(0.01); errat(0.01); iot(0.01); pls(0.00); FH(0.00),
+water_solubility,alkyl fluoride,1-Fluoropropane,,4,.updateDynamic,0.0539,.updateDynamic(0.05); .nih(0.01); .Restr(0.01); _hooks(0.00); діл(0.00),
+water_solubility,alkyl fluoride,1-Fluoropropane,,5,hos,0.0098,hos(0.01); rophe(0.01); .dc(0.01); Scatter(0.01); ToFront(0.01),
+water_solubility,alkyl fluoride,1-Fluoropropane,,6,acker,0.0096,acker(0.01); Textbox(0.01); Evel(0.01); iese(0.01); вся(0.00),
+water_solubility,alkyl fluoride,1-Fluoropropane,,7,iese,0.0067,iese(0.01); Tob(0.00); ationToken(0.00); 健(0.00); toy(0.00),
+water_solubility,alkyl fluoride,1-Fluoropropane,,8,ippi,0.0232,ippi(0.02); Hoe(0.01); 拓(0.01); یره(0.00); addAll(0.00),
+water_solubility,alkyl fluoride,1-Fluoropropane,,9,álie,0.0259,álie(0.03); Hoe(0.01); Tow(0.01); ubb(0.01); Tobias(0.00),
+water_solubility,alkyl fluoride,1-Fluoropropane,,10,.snap,0.0042,.snap(0.00); urdy(0.00); şehir(0.00); conven(0.00); .nih(0.00),
+water_solubility,alkyl fluoride,1-Fluoropropane,,11,ktop,0.0067,ktop(0.01); stance(0.00); SION(0.00); :Object(0.00); __;(0.00),
+water_solubility,alkyl fluoride,1-Fluoropropane,,12,ульта,0.0044,ульта(0.00); idy(0.00); 抜(0.00); NGX(0.00); -spot(0.00),
+water_solubility,alkyl fluoride,1-Fluoropropane,,13,#af,0.0793,#af(0.08); /******/(0.01); #ad(0.01); #aa(0.01); adil(0.01),
+water_solubility,alkyl fluoride,1-Fluoropropane,,14,#af,0.0195,#af(0.02); Textbox(0.01); /******/(0.01); ertino(0.01); �(0.01),
+water_solubility,alkyl fluoride,1-Fluoropropane,,15,#af,0.0635,#af(0.06); šak(0.02); Assigned(0.01); specifier(0.01); #ab(0.01),
+water_solubility,alkyl fluoride,1-Fluoropropane,,16,.tf,0.0382,.tf(0.04); #af(0.02); ôi(0.01); ertino(0.01); 铺(0.00),
+water_solubility,alkyl fluoride,1-Fluoropropane,,17,Mobility,0.0126,Mobility(0.01); Histor(0.01); kek(0.00); Brid(0.00); ertino(0.00),
+water_solubility,alkyl fluoride,1-Fluoropropane,,18,rat,0.0092,rat(0.01); aquatic(0.01); ewater(0.01); Reform(0.01); xic(0.01),
+water_solubility,alkyl fluoride,1-Fluoropropane,,19,pane,0.0132,pane(0.01); ewater(0.01); ść(0.01); ALOG(0.01); 芙(0.01),
+water_solubility,alkyl fluoride,1-Fluoropropane,,20,_PARTITION,0.0248,_PARTITION(0.02); Partition(0.02); 乙(0.01); anes(0.01); тии(0.01),
+water_solubility,alkyl fluoride,1-Fluoropropane,,21,ockey,0.0515,ockey(0.05); Partition(0.05); partition(0.03); Partition(0.02); _PARTITION(0.01),
+water_solubility,alkyl fluoride,1-Fluoropropane,,22,misc,0.024,misc(0.02); ubu(0.02); Category(0.02); misc(0.01); /misc(0.01),
+water_solubility,alkyl fluoride,1-Fluoropropane,,23,misc,0.0396,misc(0.04); Category(0.02); /misc(0.01); �(0.01); misc(0.01),
+water_solubility,alkyl fluoride,1-Fluoropropane,,24,/misc,0.0342,/misc(0.03); misc(0.02); misc(0.02); ubu(0.01); ipa(0.01),
+water_solubility,alkyl fluoride,1-Fluoropropane,,25,/misc,0.0192,/misc(0.02); Pub(0.02); _misc(0.01); misc(0.01); бут(0.01),
+water_solubility,alkyl fluoride,1-Fluoropropane,,26,/misc,0.0381,/misc(0.04); low(0.01); Highly(0.01); misc(0.01); ubu(0.01),
+water_solubility,alkyl fluoride,1-Fluoropropane,,27,III,0.0166,III(0.02); imm(0.02); Highly(0.01); oun(0.01); Pub(0.01),
+water_solubility,alkyl fluoride,1-Fluoropropane,,28,uts,0.0392,uts(0.04); 3(0.03); III(0.01); 2(0.01); oun(0.01),
+water_solubility,alkyl fluoride,1-Fluoropropane,,29,uts,0.0492,uts(0.05); 3(0.05); III(0.02); ert(0.01); 2(0.01),
+water_solubility,alkyl fluoride,1-Fluoropropane,,30,3,0.2839,3(0.28); 2(0.22); 1(0.05); uts(0.03); ivo(0.02),
+water_solubility,alkyl fluoride,1-Fluoropropane,,31,2,0.2964,2(0.30); 3(0.29); 1(0.27); 4(0.10); 5(0.02),
+water_solubility,alkyl fluoride,1-Fluoropropane,,32,1,0.3062,1(0.31); 2(0.25); 3(0.19); 4(0.09); 0(0.04),
+water_solubility,alkyl iodide,1-Iodopropane,,0,olar,0.0128,olar(0.01); 톤(0.01); ерш(0.01); ολ(0.01); ]={(0.00),
+water_solubility,alkyl iodide,1-Iodopropane,,1,öğ,0.0198,öğ(0.02); زة(0.02); Disposition(0.01); Inflater(0.01); RYPTO(0.01),
+water_solubility,alkyl iodide,1-Iodopropane,,2,ocoder,0.0145,ocoder(0.01); лл(0.01); öğ(0.01); زة(0.01); yms(0.01),
+water_solubility,alkyl iodide,1-Iodopropane,,3,čin,0.0159,čin(0.02); errat(0.01); iot(0.01); .updateDynamic(0.00); tokenize(0.00),
+water_solubility,alkyl iodide,1-Iodopropane,,4,.updateDynamic,0.0346,.updateDynamic(0.03); .Restr(0.01); .nih(0.00); діл(0.00); _hooks(0.00),
+water_solubility,alkyl iodide,1-Iodopropane,,5,rophe,0.0095,rophe(0.01); Scatter(0.01); hos(0.01); .dc(0.01); ToFront(0.01),
+water_solubility,alkyl iodide,1-Iodopropane,,6,acker,0.0077,acker(0.01); Textbox(0.01); Evel(0.01); ationToken(0.01); tox(0.00),
+water_solubility,alkyl iodide,1-Iodopropane,,7,iese,0.0061,iese(0.01); ktop(0.01); 健(0.00); 皆(0.00); کت(0.00),
+water_solubility,alkyl iodide,1-Iodopropane,,8,ippi,0.0456,ippi(0.05); Hoe(0.01); сь(0.01); eree(0.01); 拓(0.01),
+water_solubility,alkyl iodide,1-Iodopropane,,9,álie,0.031,álie(0.03); Hoe(0.01); Tow(0.01); ubb(0.01); �(0.00),
+water_solubility,alkyl iodide,1-Iodopropane,,10,.snap,0.0074,.snap(0.01); ills(0.01); .nih(0.00); urdy(0.00); ktop(0.00),
+water_solubility,alkyl iodide,1-Iodopropane,,11,ktop,0.0103,ktop(0.01); stance(0.01); SION(0.00); #af(0.00); uada(0.00),
+water_solubility,alkyl iodide,1-Iodopropane,,12,ульта,0.0064,ульта(0.01); #af(0.00); 抜(0.00); idy(0.00); #ad(0.00),
+water_solubility,alkyl iodide,1-Iodopropane,,13,#af,0.0955,#af(0.10); #aa(0.01); /******/(0.01); #ad(0.01); -*-(0.01),
+water_solubility,alkyl iodide,1-Iodopropane,,14,#af,0.0127,#af(0.01); Textbox(0.01); /******/(0.01); ertino(0.01); �(0.00),
+water_solubility,alkyl iodide,1-Iodopropane,,15,#af,0.0501,#af(0.05); šak(0.01); Assigned(0.01); RuntimeObject(0.01); #aa(0.00),
+water_solubility,alkyl iodide,1-Iodopropane,,16,.tf,0.0436,.tf(0.04); #af(0.01); ôi(0.01); álie(0.01); ysa(0.00),
+water_solubility,alkyl iodide,1-Iodopropane,,17,Mobility,0.0104,Mobility(0.01); 誠(0.01); #af(0.01); Voy(0.00); Brid(0.00),
+water_solubility,alkyl iodide,1-Iodopropane,,18,xic,0.0116,xic(0.01); aquatic(0.01); ewater(0.01); Conc(0.01); rat(0.01),
+water_solubility,alkyl iodide,1-Iodopropane,,19,ewater,0.02,ewater(0.02); ść(0.01); Conc(0.01); ALOG(0.01); Pickup(0.00),
+water_solubility,alkyl iodide,1-Iodopropane,,20,_PARTITION,0.017,_PARTITION(0.02); Partition(0.01); тии(0.01); ALOG(0.01); anes(0.01),
+water_solubility,alkyl iodide,1-Iodopropane,,21,Partition,0.0693,Partition(0.07); ockey(0.03); partition(0.03); sol(0.03); Partition(0.03),
+water_solubility,alkyl iodide,1-Iodopropane,,22,misc,0.0201,misc(0.02); /misc(0.02); Disposition(0.01); ductive(0.01); misc(0.01),
+water_solubility,alkyl iodide,1-Iodopropane,,23,misc,0.0374,misc(0.04); /misc(0.01); ALOG(0.01); misc(0.01); Category(0.01),
+water_solubility,alkyl iodide,1-Iodopropane,,24,/misc,0.0264,/misc(0.03); Advisory(0.02); misc(0.01); misc(0.01); Pub(0.01),
+water_solubility,alkyl iodide,1-Iodopropane,,25,/misc,0.0235,/misc(0.02); Advisory(0.01); misc(0.01); Pub(0.01); ALOG(0.01),
+water_solubility,alkyl iodide,1-Iodopropane,,26,/misc,0.0444,/misc(0.04); misc(0.01); бут(0.01); III(0.01); Advisory(0.01),
+water_solubility,alkyl iodide,1-Iodopropane,,27,III,0.0573,III(0.06); 3(0.02); uts(0.01); Highly(0.01); imm(0.01),
+water_solubility,alkyl iodide,1-Iodopropane,,28,uts,0.0424,uts(0.04); 3(0.01); III(0.01); Banner(0.01); ajo(0.01),
+water_solubility,alkyl iodide,1-Iodopropane,,29,uts,0.0437,uts(0.04); III(0.02); 3(0.02); 2(0.01); elo(0.01),
+water_solubility,alkyl iodide,1-Iodopropane,,30,2,0.1099,2(0.11); 3(0.09); uts(0.07); 1(0.03); ivo(0.03),
+water_solubility,alkyl iodide,1-Iodopropane,,31,1,0.3503,1(0.35); 2(0.30); 3(0.20); 4(0.08); 5(0.02),
+water_solubility,alkyl iodide,1-Iodopropane,,32,1,0.3198,1(0.32); 2(0.25); 3(0.17); 4(0.08); 0(0.05),
+water_solubility,amide,Propanamide,high,0,olar,0.0128,olar(0.01); 톤(0.01); ерш(0.01); ολ(0.01); ]={(0.00),False
+water_solubility,amide,Propanamide,high,1,öğ,0.0213,öğ(0.02); زة(0.02); Disposition(0.01); Inflater(0.01); RYPTO(0.01),False
+water_solubility,amide,Propanamide,high,2,лл,0.0165,лл(0.02); ocoder(0.02); öğ(0.01); زة(0.01); ��(0.01),False
+water_solubility,amide,Propanamide,high,3,errat,0.0117,errat(0.01); čin(0.01); iot(0.01); UILTIN(0.00); .updateDynamic(0.00),False
+water_solubility,amide,Propanamide,high,4,.updateDynamic,0.0481,.updateDynamic(0.05); .nih(0.01); .Restr(0.01); діл(0.01); urre(0.00),False
+water_solubility,amide,Propanamide,high,5,rophe,0.0085,rophe(0.01); Scatter(0.01); .nih(0.01); hos(0.01); ToFront(0.01),False
+water_solubility,amide,Propanamide,high,6,acker,0.0115,acker(0.01); pheres(0.01); tox(0.00); iese(0.00); Textbox(0.00),False
+water_solubility,amide,Propanamide,high,7,iese,0.0053,iese(0.01); stract(0.00); 健(0.00); Tow(0.00); 成人(0.00),False
+water_solubility,amide,Propanamide,high,8,ippi,0.0313,ippi(0.03); Hoe(0.01); bolts(0.00); Tow(0.00); conv(0.00),False
+water_solubility,amide,Propanamide,high,9,álie,0.0319,álie(0.03); Tow(0.01); Hoe(0.01); ubb(0.01); stacks(0.00),False
+water_solubility,amide,Propanamide,high,10,.snap,0.0071,.snap(0.01); urdy(0.01); eline(0.00); ills(0.00); .datatables(0.00),False
+water_solubility,amide,Propanamide,high,11,stance,0.0069,stance(0.01); ktop(0.01); uada(0.00); hana(0.00); лага(0.00),False
+water_solubility,amide,Propanamide,high,12,ульта,0.006,ульта(0.01); 抜(0.00); uada(0.00); mund(0.00); Orchard(0.00),False
+water_solubility,amide,Propanamide,high,13,#af,0.0648,#af(0.06); #ad(0.01); adil(0.01); ульта(0.01); -*-(0.00),False
+water_solubility,amide,Propanamide,high,14,ertino,0.0126,ertino(0.01); #af(0.01); Textbox(0.01); �能(0.00); adil(0.00),False
+water_solubility,amide,Propanamide,high,15,#af,0.0547,#af(0.05); Assigned(0.01); #ab(0.01); ertino(0.01); yles(0.01),False
+water_solubility,amide,Propanamide,high,16,.tf,0.0383,.tf(0.04); #af(0.01); ysa(0.01); álie(0.01); ôi(0.01),False
+water_solubility,amide,Propanamide,high,17,#af,0.018,#af(0.02); #aa(0.02); CHED(0.01); 誠(0.01); teg(0.00),False
+water_solubility,amide,Propanamide,high,18,ewater,0.0177,ewater(0.02); #af(0.01); aquatic(0.01); steam(0.00); ALOG(0.00),False
+water_solubility,amide,Propanamide,high,19,ewater,0.0742,ewater(0.07); ็ด(0.01); тии(0.01); ysa(0.01); ductive(0.01),False
+water_solubility,amide,Propanamide,high,20,_PARTITION,0.0193,_PARTITION(0.02); ALOG(0.01); Partition(0.01); ewater(0.01); ्बन(0.01),False
+water_solubility,amide,Propanamide,high,21,Partition,0.0748,Partition(0.07); sol(0.06); Partition(0.03); partition(0.03); _PARTITION(0.02),False
+water_solubility,amide,Propanamide,high,22,ollo,0.0128,ollo(0.01); ALOG(0.01); Partition(0.01); sol(0.01); ductive(0.01),False
+water_solubility,amide,Propanamide,high,23,ALOG,0.0289,ALOG(0.03); sol(0.03); misc(0.02); misc(0.01); ollo(0.01),False
+water_solubility,amide,Propanamide,high,24,ALOG,0.024,ALOG(0.02); misc(0.02); partitions(0.02); /misc(0.01); Partition(0.01),False
+water_solubility,amide,Propanamide,high,25,ALOG,0.0257,ALOG(0.03); misc(0.03); /misc(0.02); misc(0.02); бут(0.01),False
+water_solubility,amide,Propanamide,high,26,/misc,0.0313,/misc(0.03); misc(0.03); misc(0.01); бут(0.01); III(0.01),False
+water_solubility,amide,Propanamide,high,27,III,0.0989,III(0.10); II(0.02); Highly(0.01); 2(0.01); 3(0.01),True
+water_solubility,amide,Propanamide,high,28,uts,0.02,uts(0.02); III(0.02); ajo(0.01); 1(0.01); struct(0.01),False
+water_solubility,amide,Propanamide,high,29,uts,0.0225,uts(0.02); III(0.02); 1(0.02); рак(0.01); idget(0.01),False
+water_solubility,amide,Propanamide,high,30,uts,0.0577,uts(0.06); 2(0.05); 1(0.04); 3(0.02); ivo(0.02),False
+water_solubility,amide,Propanamide,high,31,1,0.4714,1(0.47); 2(0.24); 3(0.11); 4(0.07); uts(0.02),False
+water_solubility,amide,Propanamide,high,32,1,0.3511,1(0.35); 2(0.25); 3(0.15); 4(0.08); 0(0.04),False
+water_solubility,amine,Propan-1-amine,miscible,0,olar,0.0128,olar(0.01); 톤(0.01); ерш(0.01); ολ(0.01); ]={(0.00),False
+water_solubility,amine,Propan-1-amine,miscible,1,زة,0.0194,زة(0.02); öğ(0.02); Disposition(0.01); RYPTO(0.01); Inflater(0.01),False
+water_solubility,amine,Propan-1-amine,miscible,2,ocoder,0.017,ocoder(0.02); лл(0.01); öğ(0.01); زة(0.01); ��(0.01),False
+water_solubility,amine,Propan-1-amine,miscible,3,errat,0.0108,errat(0.01); čin(0.01); iot(0.01); UILTIN(0.00); .updateDynamic(0.00),False
+water_solubility,amine,Propan-1-amine,miscible,4,.updateDynamic,0.0501,.updateDynamic(0.05); .nih(0.01); .Restr(0.01); діл(0.00); _hooks(0.00),False
+water_solubility,amine,Propan-1-amine,miscible,5,rophe,0.0082,rophe(0.01); Scatter(0.01); .dc(0.01); hos(0.01); ToFront(0.01),False
+water_solubility,amine,Propan-1-amine,miscible,6,acker,0.0108,acker(0.01); Evel(0.01); pheres(0.01); tox(0.01); вся(0.00),False
+water_solubility,amine,Propan-1-amine,miscible,7,iese,0.0055,iese(0.01); stract(0.01); Tow(0.00); eree(0.00); ationToken(0.00),False
+water_solubility,amine,Propan-1-amine,miscible,8,ippi,0.0367,ippi(0.04); eree(0.01); Hoe(0.01); bolts(0.01); Tow(0.00),False
+water_solubility,amine,Propan-1-amine,miscible,9,álie,0.0364,álie(0.04); Tow(0.01); Hoe(0.01); ubb(0.01); .snap(0.00),False
+water_solubility,amine,Propan-1-amine,miscible,10,.snap,0.0068,.snap(0.01); urdy(0.01); ills(0.00); ktop(0.00); eline(0.00),False
+water_solubility,amine,Propan-1-amine,miscible,11,ktop,0.0132,ktop(0.01); stance(0.01); chooser(0.00); uada(0.00); ucht(0.00),False
+water_solubility,amine,Propan-1-amine,miscible,12,idy,0.0057,idy(0.01); ульта(0.01); uada(0.00); #ad(0.00); #af(0.00),False
+water_solubility,amine,Propan-1-amine,miscible,13,#af,0.0937,#af(0.09); #ad(0.01); #aa(0.01); -*-(0.01); adil(0.01),False
+water_solubility,amine,Propan-1-amine,miscible,14,ertino,0.0083,ertino(0.01); #af(0.01); -*-(0.01); šak(0.00); �能(0.00),False
+water_solubility,amine,Propan-1-amine,miscible,15,#af,0.0784,#af(0.08); šak(0.02); Assigned(0.01); #ab(0.01); #aa(0.01),False
+water_solubility,amine,Propan-1-amine,miscible,16,.tf,0.0272,.tf(0.03); #af(0.02); ysa(0.02); ôi(0.01); álie(0.01),False
+water_solubility,amine,Propan-1-amine,miscible,17,#af,0.0214,#af(0.02); #aa(0.02); CHED(0.01); _exempt(0.00); ewater(0.00),False
+water_solubility,amine,Propan-1-amine,miscible,18,ewater,0.0401,ewater(0.04); aquatic(0.02); #af(0.01); 水(0.01); -water(0.01),False
+water_solubility,amine,Propan-1-amine,miscible,19,ewater,0.1565,ewater(0.16); ็ด(0.01); #af(0.01); тии(0.01); aquatic(0.01),False
+water_solubility,amine,Propan-1-amine,miscible,20,ALOG,0.0095,ALOG(0.01); тии(0.01); ewater(0.01); Assigned(0.01); borg(0.01),False
+water_solubility,amine,Propan-1-amine,miscible,21,Partition,0.0221,Partition(0.02); sol(0.02); ール(0.01); partition(0.01); Partition(0.01),False
+water_solubility,amine,Propan-1-amine,miscible,22,misc,0.0111,misc(0.01); ALOG(0.01); 鉄道(0.01); misc(0.01); ール(0.01),True
+water_solubility,amine,Propan-1-amine,miscible,23,misc,0.0417,misc(0.04); misc(0.02); ALOG(0.02); /misc(0.01); Pub(0.01),True
+water_solubility,amine,Propan-1-amine,miscible,24,/misc,0.0461,/misc(0.05); misc(0.03); misc(0.02); ipa(0.01); ALOG(0.01),True
+water_solubility,amine,Propan-1-amine,miscible,25,misc,0.0384,misc(0.04); /misc(0.04); misc(0.03); бут(0.01); unal(0.01),True
+water_solubility,amine,Propan-1-amine,miscible,26,/misc,0.0497,/misc(0.05); misc(0.04); misc(0.02); Highly(0.02); бут(0.01),True
+water_solubility,amine,Propan-1-amine,miscible,27,Highly,0.0282,Highly(0.03); ajo(0.02); misc(0.02); III(0.01); miscellaneous(0.01),True
+water_solubility,amine,Propan-1-amine,miscible,28,ajo,0.064,ajo(0.06); Highly(0.01); misc(0.01); miscellaneous(0.01); III(0.01),True
+water_solubility,amine,Propan-1-amine,miscible,29,1,0.0245,1(0.02); 2(0.02); uts(0.01); III(0.01); sal(0.01),False
+water_solubility,amine,Propan-1-amine,miscible,30,2,0.0983,2(0.10); 1(0.04); uts(0.03); 3(0.02); oun(0.01),False
+water_solubility,amine,Propan-1-amine,miscible,31,1,0.4954,1(0.50); 2(0.30); 3(0.10); 4(0.04); uts(0.01),False
+water_solubility,amine,Propan-1-amine,miscible,32,1,0.3401,1(0.34); 2(0.28); 3(0.16); 4(0.07); 0(0.04),False
+water_solubility,carboxylic acid,Propanoic acid,miscible,0,olar,0.0128,olar(0.01); 톤(0.01); ерш(0.01); ολ(0.01); ]={(0.00),False
+water_solubility,carboxylic acid,Propanoic acid,miscible,1,öğ,0.0223,öğ(0.02); زة(0.02); Inflater(0.01); Disposition(0.01); RYPTO(0.01),False
+water_solubility,carboxylic acid,Propanoic acid,miscible,2,ocoder,0.0145,ocoder(0.01); лл(0.01); öğ(0.01); ��(0.01); زة(0.01),False
+water_solubility,carboxylic acid,Propanoic acid,miscible,3,čin,0.0105,čin(0.01); iot(0.01); errat(0.01); Humph(0.00); oir(0.00),False
+water_solubility,carboxylic acid,Propanoic acid,miscible,4,.updateDynamic,0.049,.updateDynamic(0.05); .Restr(0.01); .nih(0.01); ップ(0.00); _manage(0.00),False
+water_solubility,carboxylic acid,Propanoic acid,miscible,5,rophe,0.0075,rophe(0.01); ToFront(0.01); .dc(0.01); Scatter(0.00); dfa(0.00),False
+water_solubility,carboxylic acid,Propanoic acid,miscible,6,acker,0.0077,acker(0.01); Evel(0.01); Textbox(0.01); tox(0.01); pheres(0.01),False
+water_solubility,carboxylic acid,Propanoic acid,miscible,7,iese,0.0075,iese(0.01); stract(0.00); ationToken(0.00); eree(0.00); 健(0.00),False
+water_solubility,carboxylic acid,Propanoic acid,miscible,8,ippi,0.0295,ippi(0.03); eree(0.01); Tow(0.01); сь(0.01); UMB(0.00),False
+water_solubility,carboxylic acid,Propanoic acid,miscible,9,álie,0.0544,álie(0.05); ubb(0.01); Tow(0.01); Hoe(0.00); الی(0.00),False
+water_solubility,carboxylic acid,Propanoic acid,miscible,10,urdy,0.0061,urdy(0.01); .snap(0.01); ills(0.01); ktop(0.00); .datatables(0.00),False
+water_solubility,carboxylic acid,Propanoic acid,miscible,11,ktop,0.0079,ktop(0.01); stance(0.01); uada(0.00); chooser(0.00); ульта(0.00),False
+water_solubility,carboxylic acid,Propanoic acid,miscible,12,ульта,0.0083,ульта(0.01); uada(0.01); #ad(0.01); mund(0.00); #af(0.00),False
+water_solubility,carboxylic acid,Propanoic acid,miscible,13,#af,0.071,#af(0.07); #ad(0.02); #aa(0.01); -*-(0.01); #ab(0.01),False
+water_solubility,carboxylic acid,Propanoic acid,miscible,14,#af,0.0079,#af(0.01); #ab(0.01); �能(0.00); Dickinson(0.00); ộp(0.00),False
+water_solubility,carboxylic acid,Propanoic acid,miscible,15,#af,0.0809,#af(0.08); #ab(0.01); Assigned(0.01); #aa(0.01); RuntimeObject(0.01),False
+water_solubility,carboxylic acid,Propanoic acid,miscible,16,#af,0.0277,#af(0.03); .tf(0.02); álie(0.01); ôi(0.01); ysa(0.01),False
+water_solubility,carboxylic acid,Propanoic acid,miscible,17,ewater,0.0103,ewater(0.01); ysa(0.01); #af(0.01); Mobility(0.01); CHED(0.00),False
+water_solubility,carboxylic acid,Propanoic acid,miscible,18,ewater,0.0724,ewater(0.07); 水(0.01); water(0.01); aquatic(0.01); #af(0.01),False
+water_solubility,carboxylic acid,Propanoic acid,miscible,19,ewater,0.4561,ewater(0.46); water(0.01); aquatic(0.01); ็ด(0.01); pane(0.01),False
+water_solubility,carboxylic acid,Propanoic acid,miscible,20,ALOG,0.0128,ALOG(0.01); ewater(0.01); _PARTITION(0.01); Partition(0.01); Partition(0.01),False
+water_solubility,carboxylic acid,Propanoic acid,miscible,21,Partition,0.0329,Partition(0.03); Partition(0.02); ewater(0.02); ść(0.02); partition(0.01),False
+water_solubility,carboxylic acid,Propanoic acid,miscible,22,鉄道,0.0166,鉄道(0.02); ipa(0.01); ALOG(0.01); Partition(0.01); Partition(0.01),False
+water_solubility,carboxylic acid,Propanoic acid,miscible,23,misc,0.034,misc(0.03); sol(0.03); misc(0.02); ALOG(0.02); ipa(0.01),True
+water_solubility,carboxylic acid,Propanoic acid,miscible,24,misc,0.0545,misc(0.05); /misc(0.03); misc(0.02); ipa(0.01); ALOG(0.01),True
+water_solubility,carboxylic acid,Propanoic acid,miscible,25,misc,0.0434,misc(0.04); /misc(0.02); misc(0.02); бут(0.01); ALOG(0.01),True
+water_solubility,carboxylic acid,Propanoic acid,miscible,26,/misc,0.0493,/misc(0.05); misc(0.05); бут(0.02); misc(0.02); Highly(0.01),True
+water_solubility,carboxylic acid,Propanoic acid,miscible,27,misc,0.0174,misc(0.02); isco(0.01); misc(0.01); бут(0.01); /misc(0.01),True
+water_solubility,carboxylic acid,Propanoic acid,miscible,28,ajo,0.0199,ajo(0.02); misc(0.02); misc(0.01); isco(0.01); reck(0.01),True
+water_solubility,carboxylic acid,Propanoic acid,miscible,29,1,0.0156,1(0.02); рак(0.01); misc(0.01); III(0.01); misc(0.01),True
+water_solubility,carboxylic acid,Propanoic acid,miscible,30,2,0.0649,2(0.06); 1(0.04); 3(0.02); 100(0.02); ivo(0.01),False
+water_solubility,carboxylic acid,Propanoic acid,miscible,31,1,0.4387,1(0.44); 2(0.26); 3(0.08); 100(0.07); 4(0.06),False
+water_solubility,carboxylic acid,Propanoic acid,miscible,32,1,0.3193,1(0.32); 2(0.25); 3(0.14); 4(0.07); 0(0.04),False
+water_solubility,ester,Methyl ethanoate,moderate,0,olar,0.0128,olar(0.01); 톤(0.01); ерш(0.01); ολ(0.01); ]={(0.00),False
+water_solubility,ester,Methyl ethanoate,moderate,1,öğ,0.0276,öğ(0.03); زة(0.02); Inflater(0.01); Disposition(0.01); RYPTO(0.00),False
+water_solubility,ester,Methyl ethanoate,moderate,2,ocoder,0.0157,ocoder(0.02); öğ(0.01); лл(0.01); زة(0.01); ��(0.01),False
+water_solubility,ester,Methyl ethanoate,moderate,3,errat,0.0089,errat(0.01); čin(0.01); iot(0.01); .updateDynamic(0.00); Humph(0.00),False
+water_solubility,ester,Methyl ethanoate,moderate,4,.updateDynamic,0.0565,.updateDynamic(0.06); .Restr(0.01); _manage(0.01); _hooks(0.00); ップ(0.00),False
+water_solubility,ester,Methyl ethanoate,moderate,5,rophe,0.007,rophe(0.01); hos(0.01); Scatter(0.01); ToFront(0.01); ')?>(0.00),False
+water_solubility,ester,Methyl ethanoate,moderate,6,acker,0.0107,acker(0.01); pheres(0.01); Evel(0.01); tox(0.00); Textbox(0.00),False
+water_solubility,ester,Methyl ethanoate,moderate,7,iese,0.0055,iese(0.01); stract(0.00); 健(0.00); ktop(0.00); ationToken(0.00),False
+water_solubility,ester,Methyl ethanoate,moderate,8,ippi,0.0314,ippi(0.03); сь(0.01); Tow(0.01); conv(0.01); eree(0.01),False
+water_solubility,ester,Methyl ethanoate,moderate,9,álie,0.0703,álie(0.07); ubb(0.01); Hoe(0.01); Tow(0.01); الی(0.00),False
+water_solubility,ester,Methyl ethanoate,moderate,10,urdy,0.0055,urdy(0.01); ktop(0.01); eline(0.00); .snap(0.00); ills(0.00),False
+water_solubility,ester,Methyl ethanoate,moderate,11,ktop,0.0208,ktop(0.02); stance(0.01); SION(0.00); #af(0.00); kat(0.00),False
+water_solubility,ester,Methyl ethanoate,moderate,12,ульта,0.0069,ульта(0.01); idy(0.00); uada(0.00); #ad(0.00); 抜(0.00),False
+water_solubility,ester,Methyl ethanoate,moderate,13,#af,0.0524,#af(0.05); #ad(0.01); -*-(0.01); #aa(0.01); /******/(0.00),False
+water_solubility,ester,Methyl ethanoate,moderate,14,#af,0.0121,#af(0.01); ertino(0.01); /******/(0.00); álie(0.00); Textbox(0.00),False
+water_solubility,ester,Methyl ethanoate,moderate,15,#af,0.0719,#af(0.07); ertino(0.01); #ab(0.01); šak(0.01); τυ(0.01),False
+water_solubility,ester,Methyl ethanoate,moderate,16,.tf,0.0264,.tf(0.03); #af(0.02); álie(0.01); 铺(0.01); ôi(0.01),False
+water_solubility,ester,Methyl ethanoate,moderate,17,#af,0.0082,#af(0.01); 誠(0.01); teg(0.01); ertino(0.00); 积(0.00),False
+water_solubility,ester,Methyl ethanoate,moderate,18,ewater,0.0247,ewater(0.02); aquatic(0.01); water(0.01); 水(0.01); #af(0.01),False
+water_solubility,ester,Methyl ethanoate,moderate,19,ewater,0.0947,ewater(0.09); ็ด(0.01); aquatic(0.01); pane(0.01); ALOG(0.01),False
+water_solubility,ester,Methyl ethanoate,moderate,20,Partition,0.0169,Partition(0.02); _PARTITION(0.02); ALOG(0.01); urga(0.01); тии(0.01),False
+water_solubility,ester,Methyl ethanoate,moderate,21,Partition,0.0462,Partition(0.05); partition(0.02); Partition(0.02); _PARTITION(0.01); sol(0.01),False
+water_solubility,ester,Methyl ethanoate,moderate,22,ipa,0.0213,ipa(0.02); Partition(0.01); misc(0.01); misc(0.01); /misc(0.01),False
+water_solubility,ester,Methyl ethanoate,moderate,23,misc,0.0471,misc(0.05); misc(0.03); /misc(0.01); ipa(0.01); ALOG(0.01),False
+water_solubility,ester,Methyl ethanoate,moderate,24,/misc,0.0631,/misc(0.06); misc(0.06); ipa(0.02); misc(0.02); isco(0.01),False
+water_solubility,ester,Methyl ethanoate,moderate,25,/misc,0.0426,/misc(0.04); misc(0.04); misc(0.02); бут(0.02); isco(0.01),False
+water_solubility,ester,Methyl ethanoate,moderate,26,/misc,0.074,/misc(0.07); misc(0.04); misc(0.02); Highly(0.02); бут(0.01),False
+water_solubility,ester,Methyl ethanoate,moderate,27,III,0.0186,III(0.02); misc(0.01); Highly(0.01); misc(0.01); /misc(0.01),False
+water_solubility,ester,Methyl ethanoate,moderate,28,3,0.0182,3(0.02); misc(0.01); III(0.01); misc(0.01); uts(0.01),False
+water_solubility,ester,Methyl ethanoate,moderate,29,3,0.0302,3(0.03); III(0.02); рак(0.02); 1(0.01); comed(0.01),False
+water_solubility,ester,Methyl ethanoate,moderate,30,3,0.1198,3(0.12); 2(0.06); ivo(0.03); 1(0.02); uts(0.01),False
+water_solubility,ester,Methyl ethanoate,moderate,31,3,0.2625,3(0.26); 1(0.25); 2(0.24); 4(0.13); 5(0.03),False
+water_solubility,ester,Methyl ethanoate,moderate,32,1,0.2893,1(0.29); 2(0.25); 3(0.19); 4(0.09); 0(0.04),False
+water_solubility,ether,Methoxyethane,miscible,0,olar,0.0128,olar(0.01); 톤(0.01); ерш(0.01); ολ(0.01); ]={(0.00),False
+water_solubility,ether,Methoxyethane,miscible,1,öğ,0.0252,öğ(0.03); زة(0.02); Inflater(0.01); Disposition(0.01); RYPTO(0.01),False
+water_solubility,ether,Methoxyethane,miscible,2,ocoder,0.0172,ocoder(0.02); лл(0.02); öğ(0.01); ��(0.01); زة(0.01),False
+water_solubility,ether,Methoxyethane,miscible,3,čin,0.011,čin(0.01); errat(0.01); iot(0.01); .updateDynamic(0.00); oir(0.00),False
+water_solubility,ether,Methoxyethane,miscible,4,.updateDynamic,0.0581,.updateDynamic(0.06); .Restr(0.01); _hooks(0.01); .nih(0.01); діл(0.00),False
+water_solubility,ether,Methoxyethane,miscible,5,rophe,0.0092,rophe(0.01); ToFront(0.01); hos(0.01); Scatter(0.00); .dc(0.00),False
+water_solubility,ether,Methoxyethane,miscible,6,acker,0.0099,acker(0.01); pheres(0.01); Evel(0.01); tox(0.00); iese(0.00),False
+water_solubility,ether,Methoxyethane,miscible,7,iese,0.0053,iese(0.01); ationToken(0.00); ktop(0.00); 健(0.00); stract(0.00),False
+water_solubility,ether,Methoxyethane,miscible,8,ippi,0.0283,ippi(0.03); Hoe(0.01); 拓(0.01); eree(0.00); сь(0.00),False
+water_solubility,ether,Methoxyethane,miscible,9,álie,0.0387,álie(0.04); Hoe(0.01); ubb(0.01); Tow(0.01); Tobias(0.00),False
+water_solubility,ether,Methoxyethane,miscible,10,urdy,0.0087,urdy(0.01); .snap(0.00); ktop(0.00); şehir(0.00); idy(0.00),False
+water_solubility,ether,Methoxyethane,miscible,11,ktop,0.0113,ktop(0.01); stance(0.01); SION(0.00); uada(0.00); chooser(0.00),False
+water_solubility,ether,Methoxyethane,miscible,12,ульта,0.0073,ульта(0.01); idy(0.01); uada(0.01); NGX(0.00); #ad(0.00),False
+water_solubility,ether,Methoxyethane,miscible,13,#af,0.0731,#af(0.07); #aa(0.01); #ad(0.01); ульта(0.01); -*-(0.01),False
+water_solubility,ether,Methoxyethane,miscible,14,ertino,0.0125,ertino(0.01); #af(0.01); quot(0.00); Textbox(0.00); �(0.00),False
+water_solubility,ether,Methoxyethane,miscible,15,#af,0.0406,#af(0.04); ertino(0.01); Assigned(0.01); šak(0.01); yles(0.01),False
+water_solubility,ether,Methoxyethane,miscible,16,.tf,0.0266,.tf(0.03); ôi(0.02); #af(0.01); ertino(0.01); 铺(0.01),False
+water_solubility,ether,Methoxyethane,miscible,17,誠,0.012,誠(0.01); ertino(0.01); Mobility(0.01); #af(0.01); kek(0.00),False
+water_solubility,ether,Methoxyethane,miscible,18,ewater,0.0161,ewater(0.02); aquatic(0.01); Reform(0.01); water(0.01); -water(0.01),False
+water_solubility,ether,Methoxyethane,miscible,19,ewater,0.0359,ewater(0.04); тии(0.01); ALOG(0.01); ductive(0.01); aquatic(0.01),False
+water_solubility,ether,Methoxyethane,miscible,20,_PARTITION,0.0208,_PARTITION(0.02); Partition(0.02); ALOG(0.01); тии(0.01); anes(0.01),False
+water_solubility,ether,Methoxyethane,miscible,21,Partition,0.0891,Partition(0.09); partition(0.05); Partition(0.04); sol(0.03); _PARTITION(0.02),False
+water_solubility,ether,Methoxyethane,miscible,22,misc,0.0277,misc(0.03); misc(0.03); /misc(0.02); ductive(0.02); Partition(0.01),True
+water_solubility,ether,Methoxyethane,miscible,23,misc,0.0661,misc(0.07); misc(0.05); /misc(0.04); ALOG(0.02); Partition(0.01),True
+water_solubility,ether,Methoxyethane,miscible,24,/misc,0.0993,/misc(0.10); misc(0.04); misc(0.03); ipa(0.01); III(0.01),True
+water_solubility,ether,Methoxyethane,miscible,25,/misc,0.0934,/misc(0.09); misc(0.02); misc(0.02); III(0.01); Pub(0.01),True
+water_solubility,ether,Methoxyethane,miscible,26,/misc,0.1097,/misc(0.11); misc(0.03); misc(0.02); III(0.02); бут(0.01),True
+water_solubility,ether,Methoxyethane,miscible,27,III,0.056,III(0.06); imm(0.01); misc(0.01); miscellaneous(0.01); misc(0.01),True
+water_solubility,ether,Methoxyethane,miscible,28,III,0.0192,III(0.02); uts(0.02); 3(0.01); умер(0.01); miscellaneous(0.01),False
+water_solubility,ether,Methoxyethane,miscible,29,III,0.0193,III(0.02); uts(0.01); 3(0.01); рак(0.01); ert(0.01),False
+water_solubility,ether,Methoxyethane,miscible,30,2,0.1078,2(0.11); 3(0.09); ivo(0.03); uts(0.02); 1(0.02),False
+water_solubility,ether,Methoxyethane,miscible,31,2,0.3359,2(0.34); 1(0.25); 3(0.23); 4(0.12); 5(0.02),False
+water_solubility,ether,Methoxyethane,miscible,32,1,0.2966,1(0.30); 2(0.26); 3(0.19); 4(0.09); 0(0.04),False
+water_solubility,imine,Propan-1-imine,,0,olar,0.0128,olar(0.01); 톤(0.01); ерш(0.01); ολ(0.01); ]={(0.00),
+water_solubility,imine,Propan-1-imine,,1,زة,0.0189,زة(0.02); öğ(0.02); Disposition(0.01); RYPTO(0.01); Inflater(0.01),
+water_solubility,imine,Propan-1-imine,,2,ocoder,0.0195,ocoder(0.02); лл(0.02); öğ(0.01); yms(0.01); زة(0.01),
+water_solubility,imine,Propan-1-imine,,3,errat,0.0134,errat(0.01); čin(0.01); iot(0.01); .updateDynamic(0.00); _MD(0.00),
+water_solubility,imine,Propan-1-imine,,4,.updateDynamic,0.0452,.updateDynamic(0.05); діл(0.01); .Restr(0.01); .nih(0.01); ップ(0.00),
+water_solubility,imine,Propan-1-imine,,5,Scatter,0.0111,Scatter(0.01); rophe(0.01); ToFront(0.01); .dc(0.01); dfa(0.01),
+water_solubility,imine,Propan-1-imine,,6,acker,0.01,acker(0.01); tox(0.01); Evel(0.01); pheres(0.01); вся(0.00),
+water_solubility,imine,Propan-1-imine,,7,健,0.0039,健(0.00); stract(0.00); ード(0.00); Tob(0.00); iese(0.00),
+water_solubility,imine,Propan-1-imine,,8,ippi,0.0415,ippi(0.04); conv(0.01); eree(0.01); Hoe(0.01); bolts(0.00),
+water_solubility,imine,Propan-1-imine,,9,álie,0.0318,álie(0.03); Hoe(0.01); ubb(0.01); Tow(0.01); van(0.00),
+water_solubility,imine,Propan-1-imine,,10,ills,0.0089,ills(0.01); .snap(0.01); şehir(0.00); eline(0.00); van(0.00),
+water_solubility,imine,Propan-1-imine,,11,ktop,0.0172,ktop(0.02); SION(0.00); stance(0.00); uada(0.00); нет(0.00),
+water_solubility,imine,Propan-1-imine,,12,ульта,0.0054,ульта(0.01); uada(0.00); CLUDE(0.00); ills(0.00); 봉(0.00),
+water_solubility,imine,Propan-1-imine,,13,#af,0.0613,#af(0.06); -*-(0.01); Ά(0.01); #aa(0.01); adil(0.01),
+water_solubility,imine,Propan-1-imine,,14,#af,0.0077,#af(0.01); ertino(0.01); Textbox(0.00); -*-(0.00); oví(0.00),
+water_solubility,imine,Propan-1-imine,,15,#af,0.0431,#af(0.04); šak(0.01); Assigned(0.01); ốn(0.01); specifier(0.01),
+water_solubility,imine,Propan-1-imine,,16,.tf,0.032,.tf(0.03); ôi(0.01); #af(0.01); álie(0.01); ysa(0.01),
+water_solubility,imine,Propan-1-imine,,17,#af,0.0164,#af(0.02); #aa(0.01); CHED(0.01); 誠(0.00); Mobility(0.00),
+water_solubility,imine,Propan-1-imine,,18,ewater,0.0198,ewater(0.02); aquatic(0.01); xic(0.01); #af(0.01); steam(0.01),
+water_solubility,imine,Propan-1-imine,,19,ewater,0.0776,ewater(0.08); ็ด(0.01); тии(0.01); بان(0.01); ductive(0.01),
+water_solubility,imine,Propan-1-imine,,20,_PARTITION,0.0323,_PARTITION(0.03); Partition(0.02); ALOG(0.01); тии(0.01); anes(0.01),
+water_solubility,imine,Propan-1-imine,,21,Partition,0.1128,Partition(0.11); partition(0.06); Partition(0.03); sol(0.03); _PARTITION(0.03),
+water_solubility,imine,Propan-1-imine,,22,Partition,0.0181,Partition(0.02); _PARTITION(0.01); ollo(0.01); ALOG(0.01); ductive(0.01),
+water_solubility,imine,Propan-1-imine,,23,ALOG,0.0387,ALOG(0.04); misc(0.03); Partition(0.02); misc(0.01); Pub(0.01),
+water_solubility,imine,Propan-1-imine,,24,partitions,0.024,partitions(0.02); /misc(0.02); ALOG(0.02); Partition(0.02); misc(0.02),
+water_solubility,imine,Propan-1-imine,,25,ALOG,0.0311,ALOG(0.03); /misc(0.02); misc(0.01); misc(0.01); Pub(0.01),
+water_solubility,imine,Propan-1-imine,,26,/misc,0.0324,/misc(0.03); Highly(0.01); misc(0.01); misc(0.01); бут(0.01),
+water_solubility,imine,Propan-1-imine,,27,III,0.0339,III(0.03); Highly(0.02); 3(0.02); 2(0.01); бут(0.01),
+water_solubility,imine,Propan-1-imine,,28,uts,0.0098,uts(0.01); 3(0.01); III(0.01); ajo(0.01); struct(0.01),
+water_solubility,imine,Propan-1-imine,,29,uts,0.0161,uts(0.02); 1(0.01); III(0.01); Log(0.01); 3(0.01),
+water_solubility,imine,Propan-1-imine,,30,2,0.0737,2(0.07); 3(0.05); 1(0.04); uts(0.04); 4(0.01),
+water_solubility,imine,Propan-1-imine,,31,1,0.4492,1(0.45); 2(0.25); 3(0.16); 4(0.10); 0(0.01),
+water_solubility,imine,Propan-1-imine,,32,1,0.3511,1(0.35); 2(0.25); 3(0.16); 4(0.08); 0(0.07),
+water_solubility,ketone,Propan-2-one,miscible,0,olar,0.0128,olar(0.01); 톤(0.01); ерш(0.01); ολ(0.01); ]={(0.00),False
+water_solubility,ketone,Propan-2-one,miscible,1,زة,0.019,زة(0.02); öğ(0.02); Disposition(0.01); Inflater(0.01); RYPTO(0.01),False
+water_solubility,ketone,Propan-2-one,miscible,2,ocoder,0.0171,ocoder(0.02); лл(0.02); öğ(0.01); زة(0.01); -UA(0.01),False
+water_solubility,ketone,Propan-2-one,miscible,3,errat,0.0116,errat(0.01); čin(0.01); iot(0.01); _MD(0.00); ibling(0.00),False
+water_solubility,ketone,Propan-2-one,miscible,4,.updateDynamic,0.0546,.updateDynamic(0.05); .Restr(0.01); .nih(0.00); діл(0.00); ップ(0.00),False
+water_solubility,ketone,Propan-2-one,miscible,5,rophe,0.0104,rophe(0.01); Scatter(0.01); ToFront(0.00); hos(0.00); dfa(0.00),False
+water_solubility,ketone,Propan-2-one,miscible,6,acker,0.013,acker(0.01); pheres(0.01); Textbox(0.00); tox(0.00); iese(0.00),False
+water_solubility,ketone,Propan-2-one,miscible,7,iese,0.0048,iese(0.00); 健(0.00); ktop(0.00); ード(0.00); stract(0.00),False
+water_solubility,ketone,Propan-2-one,miscible,8,ippi,0.0314,ippi(0.03); сь(0.01); Hoe(0.01); eree(0.01); UMB(0.00),False
+water_solubility,ketone,Propan-2-one,miscible,9,álie,0.042,álie(0.04); Hoe(0.01); ubb(0.01); stacks(0.01); Tow(0.01),False
+water_solubility,ketone,Propan-2-one,miscible,10,ills,0.0053,ills(0.01); ktop(0.00); .snap(0.00); urdy(0.00); eline(0.00),False
+water_solubility,ketone,Propan-2-one,miscible,11,ktop,0.0118,ktop(0.01); SION(0.00); stance(0.00); uada(0.00); hana(0.00),False
+water_solubility,ketone,Propan-2-one,miscible,12,ульта,0.0075,ульта(0.01); uada(0.01); idy(0.01); #ad(0.00); 抜(0.00),False
+water_solubility,ketone,Propan-2-one,miscible,13,#af,0.0617,#af(0.06); #ad(0.01); -*-(0.01); #aa(0.01); ульта(0.00),False
+water_solubility,ketone,Propan-2-one,miscible,14,#af,0.0129,#af(0.01); ertino(0.01); #ab(0.00); /******/(0.00); Dickinson(0.00),False
+water_solubility,ketone,Propan-2-one,miscible,15,#af,0.0939,#af(0.09); #ab(0.02); Assigned(0.01); RuntimeObject(0.01); šak(0.01),False
+water_solubility,ketone,Propan-2-one,miscible,16,#af,0.0359,#af(0.04); .tf(0.03); ôi(0.01); 铺(0.01); álie(0.01),False
+water_solubility,ketone,Propan-2-one,miscible,17,#af,0.0098,#af(0.01); ertino(0.01); kek(0.00); Mobility(0.00); Histor(0.00),False
+water_solubility,ketone,Propan-2-one,miscible,18,ewater,0.0218,ewater(0.02); water(0.02); 水(0.01); #af(0.01); -water(0.01),False
+water_solubility,ketone,Propan-2-one,miscible,19,ewater,0.1641,ewater(0.16); pane(0.01); ALOG(0.01); pton(0.01); aquatic(0.01),False
+water_solubility,ketone,Propan-2-one,miscible,20,_PARTITION,0.0231,_PARTITION(0.02); Partition(0.02); ALOG(0.02); urga(0.01); Ey(0.01),False
+water_solubility,ketone,Propan-2-one,miscible,21,Partition,0.0651,Partition(0.07); partition(0.03); Partition(0.03); _PARTITION(0.02); sol(0.01),False
+water_solubility,ketone,Propan-2-one,miscible,22,鉄道,0.0139,鉄道(0.01); ALOG(0.01); Partition(0.01); ipa(0.01); misc(0.01),True
+water_solubility,ketone,Propan-2-one,miscible,23,misc,0.0277,misc(0.03); ALOG(0.02); misc(0.01); /misc(0.01); sol(0.01),True
+water_solubility,ketone,Propan-2-one,miscible,24,/misc,0.0266,/misc(0.03); misc(0.02); ipa(0.02); misc(0.01); ALOG(0.01),True
+water_solubility,ketone,Propan-2-one,miscible,25,/misc,0.0211,/misc(0.02); misc(0.02); бут(0.01); misc(0.01); ALOG(0.01),True
+water_solubility,ketone,Propan-2-one,miscible,26,/misc,0.0498,/misc(0.05); misc(0.03); misc(0.01); Highly(0.01); бут(0.01),True
+water_solubility,ketone,Propan-2-one,miscible,27,misc,0.0175,misc(0.02); /misc(0.01); misc(0.01); III(0.01); Highly(0.01),True
+water_solubility,ketone,Propan-2-one,miscible,28,misc,0.0099,misc(0.01); misc(0.01); 3(0.01); III(0.01); рак(0.01),True
+water_solubility,ketone,Propan-2-one,miscible,29,3,0.0161,3(0.02); рак(0.01); III(0.01); ube(0.01); ert(0.01),False
+water_solubility,ketone,Propan-2-one,miscible,30,2,0.085,2(0.09); 3(0.08); 1(0.02); ivo(0.02); ugu(0.01),False
+water_solubility,ketone,Propan-2-one,miscible,31,2,0.3162,2(0.32); 1(0.26); 3(0.19); 4(0.12); 5(0.04),False
+water_solubility,ketone,Propan-2-one,miscible,32,1,0.2869,1(0.29); 2(0.25); 3(0.17); 4(0.08); 0(0.04),False
+water_solubility,nitrile,Propanenitrile,high,0,olar,0.0128,olar(0.01); 톤(0.01); ерш(0.01); ολ(0.01); ]={(0.00),False
+water_solubility,nitrile,Propanenitrile,high,1,öğ,0.0203,öğ(0.02); زة(0.02); Disposition(0.01); RYPTO(0.01); Inflater(0.01),False
+water_solubility,nitrile,Propanenitrile,high,2,ocoder,0.0156,ocoder(0.02); лл(0.01); öğ(0.01); زة(0.01); ��(0.01),False
+water_solubility,nitrile,Propanenitrile,high,3,errat,0.0108,errat(0.01); čin(0.01); iot(0.01); .updateDynamic(0.00); oir(0.00),False
+water_solubility,nitrile,Propanenitrile,high,4,.updateDynamic,0.0553,.updateDynamic(0.06); .nih(0.01); .Restr(0.01); діл(0.00); ップ(0.00),False
+water_solubility,nitrile,Propanenitrile,high,5,rophe,0.01,rophe(0.01); ToFront(0.01); Scatter(0.01); .nih(0.01); hos(0.00),False
+water_solubility,nitrile,Propanenitrile,high,6,acker,0.0091,acker(0.01); ationToken(0.01); pheres(0.01); iese(0.01); Textbox(0.00),False
+water_solubility,nitrile,Propanenitrile,high,7,iese,0.0052,iese(0.01); Tow(0.00); 皆(0.00); stract(0.00); ationToken(0.00),False
+water_solubility,nitrile,Propanenitrile,high,8,ippi,0.026,ippi(0.03); Hoe(0.01); Tow(0.01); eree(0.01); 皆(0.01),False
+water_solubility,nitrile,Propanenitrile,high,9,álie,0.0443,álie(0.04); Hoe(0.01); ubb(0.01); Tow(0.01); keypress(0.00),False
+water_solubility,nitrile,Propanenitrile,high,10,eline,0.0088,eline(0.01); ills(0.00); .snap(0.00); ktop(0.00); .nih(0.00),False
+water_solubility,nitrile,Propanenitrile,high,11,ktop,0.0152,ktop(0.02); eline(0.00); SION(0.00); stance(0.00); kat(0.00),False
+water_solubility,nitrile,Propanenitrile,high,12,ульта,0.0058,ульта(0.01); idy(0.00); mund(0.00); ấy(0.00); 抜(0.00),False
+water_solubility,nitrile,Propanenitrile,high,13,#af,0.0734,#af(0.07); -*-(0.01); #ad(0.01); ульта(0.01); /******/(0.01),False
+water_solubility,nitrile,Propanenitrile,high,14,#af,0.0181,#af(0.02); ertino(0.01); )did(0.01); /******/(0.00); quot(0.00),False
+water_solubility,nitrile,Propanenitrile,high,15,#af,0.0494,#af(0.05); šak(0.01); #ab(0.01); specifier(0.01); )did(0.01),False
+water_solubility,nitrile,Propanenitrile,high,16,.tf,0.018,.tf(0.02); #af(0.01); ôi(0.01); 铺(0.01); ertino(0.00),False
+water_solubility,nitrile,Propanenitrile,high,17,Mobility,0.0071,Mobility(0.01); kek(0.01); Histor(0.01); water(0.01); 积(0.01),False
+water_solubility,nitrile,Propanenitrile,high,18,water,0.0273,water(0.03); ewater(0.02); aquatic(0.02); 水(0.02); water(0.01),False
+water_solubility,nitrile,Propanenitrile,high,19,ewater,0.1644,ewater(0.16); pane(0.02); aquatic(0.02); pton(0.01); water(0.01),False
+water_solubility,nitrile,Propanenitrile,high,20,ALOG,0.0135,ALOG(0.01); _PARTITION(0.01); Partition(0.01); urga(0.01); borg(0.01),False
+water_solubility,nitrile,Propanenitrile,high,21,Partition,0.0307,Partition(0.03); partition(0.02); 鉄道(0.01); sol(0.01); Ey(0.01),False
+water_solubility,nitrile,Propanenitrile,high,22,鉄道,0.0211,鉄道(0.02); misc(0.02); /misc(0.01); misc(0.01); руз(0.01),False
+water_solubility,nitrile,Propanenitrile,high,23,misc,0.0274,misc(0.03); .tip(0.02); misc(0.01); /misc(0.01); ALOG(0.01),False
+water_solubility,nitrile,Propanenitrile,high,24,/misc,0.0213,/misc(0.02); misc(0.02); ipa(0.01); misc(0.01); ullo(0.01),False
+water_solubility,nitrile,Propanenitrile,high,25,/misc,0.012,/misc(0.01); ALOG(0.01); 100(0.01); misc(0.01); ipp(0.01),False
+water_solubility,nitrile,Propanenitrile,high,26,/misc,0.0242,/misc(0.02); misc(0.01); Highly(0.01); imm(0.01); estro(0.01),True
+water_solubility,nitrile,Propanenitrile,high,27,estro,0.013,estro(0.01); imm(0.01); misc(0.01); بو(0.01); isco(0.01),False
+water_solubility,nitrile,Propanenitrile,high,28,ajo,0.0091,ajo(0.01); misc(0.01); рак(0.01); imm(0.01); misc(0.01),False
+water_solubility,nitrile,Propanenitrile,high,29,рак,0.0257,рак(0.03); estro(0.02); ola(0.01); حل(0.01); imm(0.01),False
+water_solubility,nitrile,Propanenitrile,high,30,2,0.0313,2(0.03); 1(0.03); 3(0.02); ivo(0.01); uts(0.01),False
+water_solubility,nitrile,Propanenitrile,high,31,1,0.4368,1(0.44); 2(0.20); 3(0.12); 4(0.09); 5(0.04),False
+water_solubility,nitrile,Propanenitrile,high,32,1,0.3125,1(0.31); 2(0.22); 3(0.13); 4(0.07); 0(0.07),False
+water_solubility,nitro,1-Nitropropane,low,0,olar,0.0128,olar(0.01); 톤(0.01); ерш(0.01); ολ(0.01); ]={(0.00),False
+water_solubility,nitro,1-Nitropropane,low,1,زة,0.019,زة(0.02); öğ(0.02); Disposition(0.01); RYPTO(0.01); Inflater(0.01),False
+water_solubility,nitro,1-Nitropropane,low,2,ocoder,0.0182,ocoder(0.02); лл(0.01); زة(0.01); ��(0.01); öğ(0.01),False
+water_solubility,nitro,1-Nitropropane,low,3,čin,0.0153,čin(0.02); errat(0.01); iot(0.00); pls(0.00); FH(0.00),False
+water_solubility,nitro,1-Nitropropane,low,4,.updateDynamic,0.0419,.updateDynamic(0.04); .nih(0.01); _hooks(0.01); .Restr(0.01); сього(0.00),False
+water_solubility,nitro,1-Nitropropane,low,5,rophe,0.0123,rophe(0.01); hos(0.01); Scatter(0.01); .nih(0.01); .dc(0.01),False
+water_solubility,nitro,1-Nitropropane,low,6,acker,0.0122,acker(0.01); Textbox(0.01); Evel(0.01); tox(0.01); pheres(0.01),False
+water_solubility,nitro,1-Nitropropane,low,7,iese,0.0075,iese(0.01); .cx(0.00); ktop(0.00); Tob(0.00); ationToken(0.00),False
+water_solubility,nitro,1-Nitropropane,low,8,ippi,0.0252,ippi(0.03); Hoe(0.01); 拓(0.01); یره(0.00); сь(0.00),False
+water_solubility,nitro,1-Nitropropane,low,9,álie,0.0264,álie(0.03); Hoe(0.01); Tow(0.01); ubb(0.01); الی(0.00),False
+water_solubility,nitro,1-Nitropropane,low,10,.snap,0.0071,.snap(0.01); urdy(0.01); ills(0.00); .nih(0.00); τώ(0.00),False
+water_solubility,nitro,1-Nitropropane,low,11,stance,0.0044,stance(0.00); ktop(0.00); ульта(0.00); kat(0.00); uada(0.00),False
+water_solubility,nitro,1-Nitropropane,low,12,ульта,0.011,ульта(0.01); NGX(0.00); #ad(0.00); 抜(0.00); #af(0.00),False
+water_solubility,nitro,1-Nitropropane,low,13,#af,0.088,#af(0.09); #ad(0.01); /******/(0.01); ульта(0.01); #aa(0.01),False
+water_solubility,nitro,1-Nitropropane,low,14,Textbox,0.011,Textbox(0.01); #af(0.01); ertino(0.01); adil(0.01); �(0.00),False
+water_solubility,nitro,1-Nitropropane,low,15,#af,0.0564,#af(0.06); šak(0.01); Assigned(0.01); #ab(0.01); #aa(0.01),False
+water_solubility,nitro,1-Nitropropane,low,16,.tf,0.0388,.tf(0.04); ôi(0.01); #af(0.01); ysa(0.01); álie(0.00),False
+water_solubility,nitro,1-Nitropropane,low,17,誠,0.0083,誠(0.01); Mobility(0.01); #af(0.01); kek(0.01); #aa(0.00),False
+water_solubility,nitro,1-Nitropropane,low,18,aquatic,0.0208,aquatic(0.02); ewater(0.02); rat(0.01); 水(0.01); #af(0.01),False
+water_solubility,nitro,1-Nitropropane,low,19,ewater,0.0709,ewater(0.07); ALOG(0.01); aquatic(0.01); pane(0.01); тии(0.01),False
+water_solubility,nitro,1-Nitropropane,low,20,_PARTITION,0.0146,_PARTITION(0.01); ALOG(0.01); Partition(0.01); тии(0.01); ewater(0.01),False
+water_solubility,nitro,1-Nitropropane,low,21,Partition,0.0475,Partition(0.05); sol(0.03); partition(0.02); Partition(0.01); _PARTITION(0.01),False
+water_solubility,nitro,1-Nitropropane,low,22,misc,0.0244,misc(0.02); misc(0.02); /misc(0.01); Disposition(0.01); Partition(0.01),False
+water_solubility,nitro,1-Nitropropane,low,23,misc,0.0399,misc(0.04); misc(0.02); ALOG(0.01); Partition(0.01); Moder(0.01),False
+water_solubility,nitro,1-Nitropropane,low,24,misc,0.0237,misc(0.02); /misc(0.01); ALOG(0.01); misc(0.01); Advisory(0.01),False
+water_solubility,nitro,1-Nitropropane,low,25,бут,0.0151,бут(0.02); ALOG(0.01); Pub(0.01); /misc(0.01); misc(0.01),False
+water_solubility,nitro,1-Nitropropane,low,26,бут,0.0196,бут(0.02); /misc(0.02); isco(0.01); imm(0.01); misc(0.01),False
+water_solubility,nitro,1-Nitropropane,low,27,III,0.0269,III(0.03); imm(0.02); 2(0.01); Highly(0.01); II(0.01),False
+water_solubility,nitro,1-Nitropropane,low,28,uts,0.0259,uts(0.03); ajo(0.01); 3(0.01); imm(0.01); 2(0.01),False
+water_solubility,nitro,1-Nitropropane,low,29,uts,0.0231,uts(0.02); рак(0.01); 2(0.01); III(0.01); 3(0.01),False
+water_solubility,nitro,1-Nitropropane,low,30,2,0.1815,2(0.18); 3(0.06); uts(0.04); 1(0.04); ugu(0.01),False
+water_solubility,nitro,1-Nitropropane,low,31,2,0.3564,2(0.36); 1(0.32); 3(0.15); 4(0.09); 5(0.02),False
+water_solubility,nitro,1-Nitropropane,low,32,1,0.3147,1(0.31); 2(0.27); 3(0.15); 4(0.08); 0(0.04),False
+water_solubility,none (alkane),Propane,very low,0,olar,0.0128,olar(0.01); 톤(0.01); ерш(0.01); ολ(0.01); ]={(0.00),False
+water_solubility,none (alkane),Propane,very low,1,زة,0.0189,زة(0.02); öğ(0.02); Disposition(0.01); RYPTO(0.01); Inflater(0.01),False
+water_solubility,none (alkane),Propane,very low,2,ocoder,0.0157,ocoder(0.02); лл(0.02); öğ(0.01); زة(0.01); -UA(0.01),False
+water_solubility,none (alkane),Propane,very low,3,čin,0.0108,čin(0.01); errat(0.01); iot(0.01); .updateDynamic(0.00); _MD(0.00),False
+water_solubility,none (alkane),Propane,very low,4,.updateDynamic,0.0628,.updateDynamic(0.06); .nih(0.01); .Restr(0.01); діл(0.01); _hooks(0.00),False
+water_solubility,none (alkane),Propane,very low,5,rophe,0.0132,rophe(0.01); ToFront(0.01); hos(0.00); dfa(0.00); ')?>(0.00),False
+water_solubility,none (alkane),Propane,very low,6,iese,0.0093,iese(0.01); acker(0.01); pheres(0.01); tox(0.01); Textbox(0.00),False
+water_solubility,none (alkane),Propane,very low,7,iese,0.012,iese(0.01); 健(0.01); фи(0.00); eree(0.00); ktop(0.00),False
+water_solubility,none (alkane),Propane,very low,8,ippi,0.0257,ippi(0.03); Hoe(0.01); сь(0.00); conven(0.00); 皆(0.00),False
+water_solubility,none (alkane),Propane,very low,9,álie,0.0266,álie(0.03); ubb(0.01); Hoe(0.01); addAll(0.01); یره(0.00),False
+water_solubility,none (alkane),Propane,very low,10,.snap,0.0085,.snap(0.01); ktop(0.01); idy(0.01); urdy(0.01); abolic(0.00),False
+water_solubility,none (alkane),Propane,very low,11,ktop,0.025,ktop(0.03); #af(0.00); #ad(0.00); idy(0.00); SION(0.00),False
+water_solubility,none (alkane),Propane,very low,12,idy,0.0117,idy(0.01); #ad(0.01); ульта(0.01); mund(0.01); #af(0.00),False
+water_solubility,none (alkane),Propane,very low,13,#af,0.0433,#af(0.04); #ad(0.01); -*-(0.01); 碎(0.00); adil(0.00),False
+water_solubility,none (alkane),Propane,very low,14,#af,0.0074,#af(0.01); есп(0.01); ertino(0.00); adil(0.00); /******/(0.00),False
+water_solubility,none (alkane),Propane,very low,15,#af,0.0723,#af(0.07); RuntimeObject(0.01); Conway(0.01); yles(0.01); WRAPPER(0.01),False
+water_solubility,none (alkane),Propane,very low,16,#af,0.0309,#af(0.03); .tf(0.02); ôi(0.02); Conway(0.00); Rank(0.00),False
+water_solubility,none (alkane),Propane,very low,17,#af,0.0113,#af(0.01); Mobility(0.01); ika(0.01); |#(0.00); _exempt(0.00),False
+water_solubility,none (alkane),Propane,very low,18,water,0.0296,water(0.03); water(0.03); ewater(0.02); -water(0.02); _gas(0.02),False
+water_solubility,none (alkane),Propane,very low,19,ewater,0.0935,ewater(0.09); water(0.01); pane(0.01); aquatic(0.01); hydro(0.01),False
+water_solubility,none (alkane),Propane,very low,20,тии,0.0145,тии(0.01); ewater(0.01); ALOG(0.01); ductive(0.01); atra(0.01),False
+water_solubility,none (alkane),Propane,very low,21,Partition,0.025,Partition(0.02); partition(0.02); ockey(0.02); Ey(0.01); ść(0.01),False
+water_solubility,none (alkane),Propane,very low,22,/misc,0.0488,/misc(0.05); misc(0.04); ubu(0.04); misc(0.03); RAFT(0.02),False
+water_solubility,none (alkane),Propane,very low,23,/misc,0.1245,/misc(0.12); misc(0.06); misc(0.02); ubu(0.01); RAFT(0.01),False
+water_solubility,none (alkane),Propane,very low,24,/misc,0.2729,/misc(0.27); misc(0.03); misc(0.02); ubu(0.02); Howard(0.01),False
+water_solubility,none (alkane),Propane,very low,25,/misc,0.1296,/misc(0.13); _misc(0.02); ockey(0.01); misc(0.01); imm(0.01),False
+water_solubility,none (alkane),Propane,very low,26,/misc,0.146,/misc(0.15); Low(0.03); low(0.02); imm(0.02); .low(0.01),False
+water_solubility,none (alkane),Propane,very low,27,imm,0.0811,imm(0.08); low(0.01); Low(0.01); .low(0.01); ubu(0.01),False
+water_solubility,none (alkane),Propane,very low,28,imm,0.021,imm(0.02); isco(0.01); 3(0.01); uts(0.01); Barr(0.01),False
+water_solubility,none (alkane),Propane,very low,29,imm,0.0199,imm(0.02); 3(0.02); imper(0.02); ugu(0.01); 2(0.01),False
+water_solubility,none (alkane),Propane,very low,30,3,0.1128,3(0.11); 2(0.11); ugu(0.02); ivo(0.01); uts(0.01),False
+water_solubility,none (alkane),Propane,very low,31,2,0.3733,2(0.37); 3(0.27); 1(0.23); 4(0.07); 0(0.02),False
+water_solubility,none (alkane),Propane,very low,32,1,0.2703,1(0.27); 2(0.27); 3(0.19); 0(0.09); 4(0.08),False
+water_solubility,sulfone,Methyl ethyl sulfone,,0,olar,0.0128,olar(0.01); 톤(0.01); ерш(0.01); ολ(0.01); ]={(0.00),
+water_solubility,sulfone,Methyl ethyl sulfone,,1,öğ,0.0329,öğ(0.03); زة(0.02); Inflater(0.01); RYPTO(0.01); Disposition(0.00),
+water_solubility,sulfone,Methyl ethyl sulfone,,2,ocoder,0.0155,ocoder(0.02); öğ(0.01); лл(0.01); ��(0.01); زة(0.01),
+water_solubility,sulfone,Methyl ethyl sulfone,,3,iot,0.01,iot(0.01); čin(0.01); errat(0.01); FH(0.00); .updateDynamic(0.00),
+water_solubility,sulfone,Methyl ethyl sulfone,,4,.updateDynamic,0.0721,.updateDynamic(0.07); .nih(0.01); _hooks(0.01); .Restr(0.01); _manage(0.00),
+water_solubility,sulfone,Methyl ethyl sulfone,,5,rophe,0.0089,rophe(0.01); hos(0.01); Scatter(0.01); ToFront(0.00); .dc(0.00),
+water_solubility,sulfone,Methyl ethyl sulfone,,6,acker,0.0158,acker(0.02); Evel(0.01); Textbox(0.00); iese(0.00); tox(0.00),
+water_solubility,sulfone,Methyl ethyl sulfone,,7,iese,0.0049,iese(0.00); stract(0.00); ationToken(0.00); ード(0.00); ď(0.00),
+water_solubility,sulfone,Methyl ethyl sulfone,,8,ippi,0.034,ippi(0.03); eree(0.01); Hoe(0.01); сь(0.00); conven(0.00),
+water_solubility,sulfone,Methyl ethyl sulfone,,9,álie,0.0331,álie(0.03); Hoe(0.01); ubb(0.01); Tow(0.01); adil(0.00),
+water_solubility,sulfone,Methyl ethyl sulfone,,10,urdy,0.0051,urdy(0.01); ills(0.00); .snap(0.00); şehir(0.00); eline(0.00),
+water_solubility,sulfone,Methyl ethyl sulfone,,11,ktop,0.0074,ktop(0.01); stance(0.01); hana(0.00); uada(0.00); SION(0.00),
+water_solubility,sulfone,Methyl ethyl sulfone,,12,ульта,0.0078,ульта(0.01); uada(0.00); NGX(0.00); adil(0.00); idy(0.00),
+water_solubility,sulfone,Methyl ethyl sulfone,,13,#af,0.0673,#af(0.07); adil(0.01); -*-(0.01); #ad(0.01); ульта(0.01),
+water_solubility,sulfone,Methyl ethyl sulfone,,14,ertino,0.0137,ertino(0.01); #af(0.01); Textbox(0.01); quot(0.00); ẹ(0.00),
+water_solubility,sulfone,Methyl ethyl sulfone,,15,#af,0.0421,#af(0.04); ertino(0.02); Assigned(0.01); šak(0.01); #aa(0.01),
+water_solubility,sulfone,Methyl ethyl sulfone,,16,.tf,0.0243,.tf(0.02); ertino(0.01); #af(0.01); 铺(0.01); etas(0.01),
+water_solubility,sulfone,Methyl ethyl sulfone,,17,#af,0.0181,#af(0.02); 誠(0.01); ertino(0.01); #aa(0.01); CHED(0.01),
+water_solubility,sulfone,Methyl ethyl sulfone,,18,ewater,0.0145,ewater(0.01); xic(0.01); aquatic(0.01); #af(0.01); kek(0.01),
+water_solubility,sulfone,Methyl ethyl sulfone,,19,ewater,0.049,ewater(0.05); ็ด(0.01); amph(0.01); Conc(0.01); тии(0.01),
+water_solubility,sulfone,Methyl ethyl sulfone,,20,_PARTITION,0.0181,_PARTITION(0.02); ALOG(0.01); Assigned(0.01); тии(0.01); anes(0.01),
+water_solubility,sulfone,Methyl ethyl sulfone,,21,sol,0.0536,sol(0.05); Partition(0.04); partition(0.02); Partition(0.02); _PARTITION(0.02),
+water_solubility,sulfone,Methyl ethyl sulfone,,22,ollo,0.0105,ollo(0.01); ductive(0.01); ALOG(0.01); Disposition(0.01); Partition(0.01),
+water_solubility,sulfone,Methyl ethyl sulfone,,23,misc,0.0236,misc(0.02); ALOG(0.02); misc(0.01); sol(0.01); ollo(0.01),
+water_solubility,sulfone,Methyl ethyl sulfone,,24,partitions,0.0179,partitions(0.02); /misc(0.01); ALOG(0.01); misc(0.01); Partition(0.01),
+water_solubility,sulfone,Methyl ethyl sulfone,,25,/misc,0.02,/misc(0.02); ALOG(0.02); misc(0.01); misc(0.01); бут(0.01),
+water_solubility,sulfone,Methyl ethyl sulfone,,26,/misc,0.0327,/misc(0.03); misc(0.01); Fry(0.01); бут(0.01); misc(0.01),
+water_solubility,sulfone,Methyl ethyl sulfone,,27,III,0.0663,III(0.07); Highly(0.01); II(0.01); 1(0.01); 2(0.01),
+water_solubility,sulfone,Methyl ethyl sulfone,,28,uts,0.0221,uts(0.02); ajo(0.01); 1(0.01); III(0.01); 3(0.00),
+water_solubility,sulfone,Methyl ethyl sulfone,,29,1,0.021,1(0.02); uts(0.02); III(0.01); idget(0.00); 3(0.00),
+water_solubility,sulfone,Methyl ethyl sulfone,,30,1,0.094,1(0.09); uts(0.04); 2(0.03); ivo(0.03); 3(0.02),
+water_solubility,sulfone,Methyl ethyl sulfone,,31,1,0.6211,1(0.62); 2(0.14); 3(0.07); 4(0.07); 5(0.01),
+water_solubility,sulfone,Methyl ethyl sulfone,,32,1,0.3691,1(0.37); 2(0.21); 3(0.13); 4(0.08); 0(0.06),
+water_solubility,sulfoxide,Methyl ethyl sulfoxide,,0,olar,0.0128,olar(0.01); 톤(0.01); ерш(0.01); ολ(0.01); ]={(0.00),
+water_solubility,sulfoxide,Methyl ethyl sulfoxide,,1,öğ,0.0306,öğ(0.03); زة(0.02); Inflater(0.01); Disposition(0.01); RYPTO(0.01),
+water_solubility,sulfoxide,Methyl ethyl sulfoxide,,2,öğ,0.016,öğ(0.02); ocoder(0.02); лл(0.01); ��(0.01); زة(0.01),
+water_solubility,sulfoxide,Methyl ethyl sulfoxide,,3,čin,0.0097,čin(0.01); iot(0.01); errat(0.01); .updateDynamic(0.00); oir(0.00),
+water_solubility,sulfoxide,Methyl ethyl sulfoxide,,4,.updateDynamic,0.0621,.updateDynamic(0.06); .Restr(0.01); _hooks(0.01); _manage(0.00); .nih(0.00),
+water_solubility,sulfoxide,Methyl ethyl sulfoxide,,5,rophe,0.0087,rophe(0.01); hos(0.01); Scatter(0.01); ToFront(0.01); ')?>(0.00),
+water_solubility,sulfoxide,Methyl ethyl sulfoxide,,6,acker,0.0166,acker(0.02); Evel(0.01); Textbox(0.00); pheres(0.00); tox(0.00),
+water_solubility,sulfoxide,Methyl ethyl sulfoxide,,7,iese,0.0063,iese(0.01); stract(0.01); ationToken(0.00); 健(0.00); eree(0.00),
+water_solubility,sulfoxide,Methyl ethyl sulfoxide,,8,ippi,0.0298,ippi(0.03); bolts(0.01); Hoe(0.00); сь(0.00); eree(0.00),
+water_solubility,sulfoxide,Methyl ethyl sulfoxide,,9,álie,0.0389,álie(0.04); Hoe(0.01); ubb(0.01); Tow(0.01); Tobias(0.00),
+water_solubility,sulfoxide,Methyl ethyl sulfoxide,,10,urdy,0.0056,urdy(0.01); ills(0.00); .snap(0.00); Seam(0.00); şehir(0.00),
+water_solubility,sulfoxide,Methyl ethyl sulfoxide,,11,ktop,0.0084,ktop(0.01); stance(0.01); SION(0.00); hana(0.00); лага(0.00),
+water_solubility,sulfoxide,Methyl ethyl sulfoxide,,12,ульта,0.0105,ульта(0.01); uada(0.00); NGX(0.00); 抜(0.00); idy(0.00),
+water_solubility,sulfoxide,Methyl ethyl sulfoxide,,13,#af,0.0829,#af(0.08); #ad(0.01); adil(0.01); ульта(0.01); #aa(0.01),
+water_solubility,sulfoxide,Methyl ethyl sulfoxide,,14,#af,0.0105,#af(0.01); ertino(0.01); Textbox(0.01); quot(0.00); ẹ(0.00),
+water_solubility,sulfoxide,Methyl ethyl sulfoxide,,15,#af,0.0741,#af(0.07); ertino(0.01); Assigned(0.01); šak(0.01); #aa(0.01),
+water_solubility,sulfoxide,Methyl ethyl sulfoxide,,16,.tf,0.0278,.tf(0.03); #af(0.01); ertino(0.01); ôi(0.01); 铺(0.01),
+water_solubility,sulfoxide,Methyl ethyl sulfoxide,,17,#af,0.0178,#af(0.02); 誠(0.01); ertino(0.01); Mobility(0.01); #aa(0.01),
+water_solubility,sulfoxide,Methyl ethyl sulfoxide,,18,aquatic,0.0118,aquatic(0.01); xic(0.01); ewater(0.01); #af(0.01); .mob(0.01),
+water_solubility,sulfoxide,Methyl ethyl sulfoxide,,19,ewater,0.036,ewater(0.04); ็ด(0.01); тии(0.01); ductive(0.01); ALOG(0.01),
+water_solubility,sulfoxide,Methyl ethyl sulfoxide,,20,_PARTITION,0.0268,_PARTITION(0.03); Partition(0.01); тии(0.01); ALOG(0.01); borg(0.01),
+water_solubility,sulfoxide,Methyl ethyl sulfoxide,,21,Partition,0.0657,Partition(0.07); sol(0.05); partition(0.03); Partition(0.02); _PARTITION(0.02),
+water_solubility,sulfoxide,Methyl ethyl sulfoxide,,22,Partition,0.0131,Partition(0.01); misc(0.01); ollo(0.01); ductive(0.01); misc(0.01),
+water_solubility,sulfoxide,Methyl ethyl sulfoxide,,23,misc,0.0448,misc(0.04); misc(0.03); ALOG(0.02); sol(0.01); Partition(0.01),
+water_solubility,sulfoxide,Methyl ethyl sulfoxide,,24,misc,0.0319,misc(0.03); /misc(0.03); misc(0.02); partitions(0.01); Partition(0.01),
+water_solubility,sulfoxide,Methyl ethyl sulfoxide,,25,/misc,0.0302,/misc(0.03); misc(0.02); misc(0.02); ALOG(0.02); Pub(0.01),
+water_solubility,sulfoxide,Methyl ethyl sulfoxide,,26,/misc,0.0457,/misc(0.05); misc(0.03); misc(0.02); III(0.01); бут(0.01),
+water_solubility,sulfoxide,Methyl ethyl sulfoxide,,27,III,0.131,III(0.13); II(0.02); 2(0.01); imm(0.01); Highly(0.01),
+water_solubility,sulfoxide,Methyl ethyl sulfoxide,,28,III,0.0214,III(0.02); uts(0.02); ajo(0.01); умер(0.01); 3(0.01),
+water_solubility,sulfoxide,Methyl ethyl sulfoxide,,29,III,0.0236,III(0.02); uts(0.02); 1(0.01); ert(0.01); рак(0.01),
+water_solubility,sulfoxide,Methyl ethyl sulfoxide,,30,1,0.0657,1(0.07); 2(0.06); uts(0.04); 3(0.04); ivo(0.03),
+water_solubility,sulfoxide,Methyl ethyl sulfoxide,,31,1,0.5415,1(0.54); 2(0.19); 3(0.11); 4(0.08); 5(0.02),
+water_solubility,sulfoxide,Methyl ethyl sulfoxide,,32,1,0.3523,1(0.35); 2(0.23); 3(0.15); 4(0.09); 0(0.05),
+water_solubility,thioether,(Methylsulfanyl)ethane,very low,0,olar,0.0128,olar(0.01); 톤(0.01); ерш(0.01); ολ(0.01); ]={(0.00),False
+water_solubility,thioether,(Methylsulfanyl)ethane,very low,1,öğ,0.0336,öğ(0.03); زة(0.02); Inflater(0.01); Disposition(0.01); RYPTO(0.00),False
+water_solubility,thioether,(Methylsulfanyl)ethane,very low,2,ocoder,0.0177,ocoder(0.02); лл(0.01); öğ(0.01); ��(0.01); زة(0.01),False
+water_solubility,thioether,(Methylsulfanyl)ethane,very low,3,čin,0.0121,čin(0.01); errat(0.01); iot(0.01); .updateDynamic(0.00); ardy(0.00),False
+water_solubility,thioether,(Methylsulfanyl)ethane,very low,4,.updateDynamic,0.0799,.updateDynamic(0.08); _hooks(0.01); .Restr(0.01); _manage(0.00); .nih(0.00),False
+water_solubility,thioether,(Methylsulfanyl)ethane,very low,5,rophe,0.0084,rophe(0.01); hos(0.01); ToFront(0.01); Scatter(0.01); dfa(0.00),False
+water_solubility,thioether,(Methylsulfanyl)ethane,very low,6,acker,0.0139,acker(0.01); Evel(0.01); вся(0.01); Textbox(0.00); ationToken(0.00),False
+water_solubility,thioether,(Methylsulfanyl)ethane,very low,7,stract,0.005,stract(0.00); iese(0.00); Tob(0.00); ationToken(0.00); ktop(0.00),False
+water_solubility,thioether,(Methylsulfanyl)ethane,very low,8,ippi,0.0278,ippi(0.03); conv(0.01); сь(0.01); Hoe(0.00); bolts(0.00),False
+water_solubility,thioether,(Methylsulfanyl)ethane,very low,9,álie,0.0343,álie(0.03); ubb(0.01); Hoe(0.01); Tow(0.01); keypress(0.01),False
+water_solubility,thioether,(Methylsulfanyl)ethane,very low,10,.snap,0.0051,.snap(0.01); ktop(0.00); şehir(0.00); ills(0.00); eline(0.00),False
+water_solubility,thioether,(Methylsulfanyl)ethane,very low,11,ktop,0.0274,ktop(0.03); stance(0.01); нет(0.00); kat(0.00); uada(0.00),False
+water_solubility,thioether,(Methylsulfanyl)ethane,very low,12,ульта,0.0059,ульта(0.01); idy(0.01); uada(0.01); 抜(0.00); ấy(0.00),False
+water_solubility,thioether,(Methylsulfanyl)ethane,very low,13,#af,0.0789,#af(0.08); adil(0.01); -*-(0.01); Ά(0.01); ульта(0.01),False
+water_solubility,thioether,(Methylsulfanyl)ethane,very low,14,ertino,0.0117,ertino(0.01); #af(0.01); quot(0.01); edo(0.01); Textbox(0.00),False
+water_solubility,thioether,(Methylsulfanyl)ethane,very low,15,#af,0.0465,#af(0.05); ertino(0.02); šak(0.01); Assigned(0.01); стров(0.01),False
+water_solubility,thioether,(Methylsulfanyl)ethane,very low,16,ôi,0.0214,ôi(0.02); .tf(0.02); #af(0.01); ysa(0.01); 铺(0.01),False
+water_solubility,thioether,(Methylsulfanyl)ethane,very low,17,#af,0.0157,#af(0.02); 誠(0.01); CHED(0.01); ertino(0.01); #aa(0.01),False
+water_solubility,thioether,(Methylsulfanyl)ethane,very low,18,ewater,0.0146,ewater(0.01); aquatic(0.01); xic(0.01); Conc(0.01); #af(0.01),False
+water_solubility,thioether,(Methylsulfanyl)ethane,very low,19,ewater,0.029,ewater(0.03); ductive(0.01); Conc(0.01); بان(0.01); ็ด(0.01),False
+water_solubility,thioether,(Methylsulfanyl)ethane,very low,20,_PARTITION,0.0189,_PARTITION(0.02); anes(0.02); Partition(0.01); тии(0.01); ALOG(0.01),False
+water_solubility,thioether,(Methylsulfanyl)ethane,very low,21,Partition,0.0761,Partition(0.08); partition(0.05); sol(0.04); Partition(0.03); _PARTITION(0.02),False
+water_solubility,thioether,(Methylsulfanyl)ethane,very low,22,ductive,0.0216,ductive(0.02); /misc(0.02); misc(0.02); misc(0.01); ALOG(0.01),False
+water_solubility,thioether,(Methylsulfanyl)ethane,very low,23,misc,0.0582,misc(0.06); misc(0.03); /misc(0.02); ALOG(0.02); Partition(0.01),False
+water_solubility,thioether,(Methylsulfanyl)ethane,very low,24,/misc,0.062,/misc(0.06); misc(0.03); misc(0.03); partitions(0.02); Partition(0.01),False
+water_solubility,thioether,(Methylsulfanyl)ethane,very low,25,/misc,0.0857,/misc(0.09); misc(0.03); misc(0.02); Pub(0.01); ALOG(0.01),False
+water_solubility,thioether,(Methylsulfanyl)ethane,very low,26,/misc,0.1062,/misc(0.11); misc(0.03); misc(0.02); Highly(0.01); III(0.01),False
+water_solubility,thioether,(Methylsulfanyl)ethane,very low,27,III,0.0339,III(0.03); Highly(0.01); 3(0.01); misc(0.01); 2(0.01),False
+water_solubility,thioether,(Methylsulfanyl)ethane,very low,28,uts,0.0281,uts(0.03); 3(0.01); misc(0.01); III(0.01); 2(0.01),False
+water_solubility,thioether,(Methylsulfanyl)ethane,very low,29,uts,0.0318,uts(0.03); 3(0.01); III(0.01); 2(0.01); misc(0.01),False
+water_solubility,thioether,(Methylsulfanyl)ethane,very low,30,2,0.1003,2(0.10); 3(0.08); uts(0.06); 4(0.03); ivo(0.02),False
+water_solubility,thioether,(Methylsulfanyl)ethane,very low,31,2,0.3115,2(0.31); 3(0.24); 1(0.22); 4(0.16); 5(0.02),False
+water_solubility,thioether,(Methylsulfanyl)ethane,very low,32,1,0.2764,1(0.28); 2(0.26); 3(0.19); 4(0.11); 5(0.04),False
+water_solubility,thiol,Propane-1-thiol,low,0,olar,0.0128,olar(0.01); 톤(0.01); ерш(0.01); ολ(0.01); ]={(0.00),False
+water_solubility,thiol,Propane-1-thiol,low,1,öğ,0.0187,öğ(0.02); زة(0.02); Inflater(0.01); Disposition(0.01); RYPTO(0.01),False
+water_solubility,thiol,Propane-1-thiol,low,2,лл,0.0164,лл(0.02); ocoder(0.01); öğ(0.01); زة(0.01); ��(0.01),False
+water_solubility,thiol,Propane-1-thiol,low,3,čin,0.0113,čin(0.01); errat(0.01); iot(0.01); Weekly(0.00); .updateDynamic(0.00),False
+water_solubility,thiol,Propane-1-thiol,low,4,.updateDynamic,0.0552,.updateDynamic(0.06); .Restr(0.01); діл(0.01); .nih(0.01); _hooks(0.01),False
+water_solubility,thiol,Propane-1-thiol,low,5,ToFront,0.0065,ToFront(0.01); Scatter(0.01); rophe(0.01); ')?>(0.00); hos(0.00),False
+water_solubility,thiol,Propane-1-thiol,low,6,acker,0.0086,acker(0.01); Evel(0.01); Textbox(0.01); ationToken(0.00); pheres(0.00),False
+water_solubility,thiol,Propane-1-thiol,low,7,stract,0.0051,stract(0.01); iese(0.00); 皆(0.00); ード(0.00); Tester(0.00),False
+water_solubility,thiol,Propane-1-thiol,low,8,ippi,0.0252,ippi(0.03); conv(0.01); Hoe(0.01); bolts(0.01); 皆(0.01),False
+water_solubility,thiol,Propane-1-thiol,low,9,álie,0.04,álie(0.04); ubb(0.01); Tow(0.01); Hoe(0.01); 范(0.01),False
+water_solubility,thiol,Propane-1-thiol,low,10,.snap,0.0073,.snap(0.01); ills(0.00); şehir(0.00); .nih(0.00); van(0.00),False
+water_solubility,thiol,Propane-1-thiol,low,11,ktop,0.0188,ktop(0.02); __;(0.00); SION(0.00); _FW(0.00); uada(0.00),False
+water_solubility,thiol,Propane-1-thiol,low,12,ульта,0.0088,ульта(0.01); idy(0.01); ấy(0.00); #af(0.00); 抜(0.00),False
+water_solubility,thiol,Propane-1-thiol,low,13,#af,0.0819,#af(0.08); adil(0.01); -*-(0.01); /******/(0.01); #ad(0.01),False
+water_solubility,thiol,Propane-1-thiol,low,14,#af,0.011,#af(0.01); ertino(0.01); quot(0.00); Textbox(0.00); -*-(0.00),False
+water_solubility,thiol,Propane-1-thiol,low,15,#af,0.0676,#af(0.07); šak(0.01); Assigned(0.01); RuntimeObject(0.01); #ab(0.01),False
+water_solubility,thiol,Propane-1-thiol,low,16,ôi,0.0244,ôi(0.02); #af(0.02); .tf(0.02); ysa(0.01); 铺(0.01),False
+water_solubility,thiol,Propane-1-thiol,low,17,#af,0.0107,#af(0.01); CHED(0.01); 誠(0.01); Mobility(0.01); #aa(0.00),False
+water_solubility,thiol,Propane-1-thiol,low,18,ewater,0.022,ewater(0.02); aquatic(0.02); #af(0.01); Conc(0.01); steam(0.00),False
+water_solubility,thiol,Propane-1-thiol,low,19,ewater,0.102,ewater(0.10); ALOG(0.01); ductive(0.01); aquatic(0.01); ็ด(0.00),False
+water_solubility,thiol,Propane-1-thiol,low,20,_PARTITION,0.0163,_PARTITION(0.02); Partition(0.02); ALOG(0.01); ewater(0.01); тии(0.01),False
+water_solubility,thiol,Propane-1-thiol,low,21,Partition,0.0998,Partition(0.10); partition(0.05); sol(0.04); Partition(0.03); _PARTITION(0.02),False
+water_solubility,thiol,Propane-1-thiol,low,22,misc,0.0254,misc(0.03); /misc(0.02); misc(0.02); ALOG(0.01); Partition(0.01),False
+water_solubility,thiol,Propane-1-thiol,low,23,misc,0.0755,misc(0.08); misc(0.03); /misc(0.02); ALOG(0.02); Partition(0.01),False
+water_solubility,thiol,Propane-1-thiol,low,24,/misc,0.0798,/misc(0.08); misc(0.04); misc(0.03); partitions(0.01); Partition(0.01),False
+water_solubility,thiol,Propane-1-thiol,low,25,/misc,0.0698,/misc(0.07); misc(0.03); misc(0.02); ALOG(0.01); Pub(0.01),False
+water_solubility,thiol,Propane-1-thiol,low,26,/misc,0.1016,/misc(0.10); misc(0.04); misc(0.02); Highly(0.01); miscellaneous(0.01),False
+water_solubility,thiol,Propane-1-thiol,low,27,III,0.0158,III(0.02); Highly(0.01); 2(0.01); 3(0.01); imm(0.01),False
+water_solubility,thiol,Propane-1-thiol,low,28,uts,0.0143,uts(0.01); 3(0.01); 2(0.01); misc(0.01); ajo(0.01),False
+water_solubility,thiol,Propane-1-thiol,low,29,2,0.0274,2(0.03); 3(0.02); uts(0.02); 1(0.01); III(0.01),False
+water_solubility,thiol,Propane-1-thiol,low,30,2,0.2573,2(0.26); 3(0.12); 1(0.04); uts(0.04); ivo(0.02),False
+water_solubility,thiol,Propane-1-thiol,low,31,2,0.4253,2(0.43); 1(0.28); 3(0.19); 4(0.07); 5(0.01),False
+water_solubility,thiol,Propane-1-thiol,low,32,1,0.3003,1(0.30); 2(0.29); 3(0.19); 4(0.09); 0(0.04),False

@@ -1,0 +1,661 @@
+entity_type,fg_class,molecule,true_value,layer,top1_token,top1_prob,top5_tokens,matched
+pka,alcohol,Propan-1-ol,16.1,0,olar,0.0128,olar(0.01); 톤(0.01); ерш(0.01); ολ(0.01); ]={(0.00),False
+pka,alcohol,Propan-1-ol,16.1,1,öğ,0.0146,öğ(0.01); Disposition(0.01); RYPTO(0.01); زة(0.01); 'gc(0.01),False
+pka,alcohol,Propan-1-ol,16.1,2,öğ,0.0181,öğ(0.02); 'gc(0.01); opr(0.01); uate(0.01); /Area(0.00),False
+pka,alcohol,Propan-1-ol,16.1,3,슴,0.0142,슴(0.01); adan(0.01); ateg(0.00); ویی(0.00); .Restr(0.00),False
+pka,alcohol,Propan-1-ol,16.1,4,tester,0.0179,tester(0.02); діл(0.01); utow(0.01); conserve(0.01); Tester(0.01),False
+pka,alcohol,Propan-1-ol,16.1,5,illery,0.0062,illery(0.01); /an(0.01); 晴(0.00); 'gc(0.00); IRST(0.00),False
+pka,alcohol,Propan-1-ol,16.1,6,LAY,0.0083,LAY(0.01); ちは(0.01); .Ultra(0.01); тож(0.01); .AD(0.00),False
+pka,alcohol,Propan-1-ol,16.1,7,ippi,0.0091,ippi(0.01); 袖(0.01); Alley(0.01); .AD(0.01); =__(0.01),False
+pka,alcohol,Propan-1-ol,16.1,8,=__,0.0137,=__(0.01); arness(0.01); sonian(0.00); Kron(0.00); quare(0.00),False
+pka,alcohol,Propan-1-ol,16.1,9,quare,0.0068,quare(0.01); anness(0.01); =__(0.00); olland(0.00); ubb(0.00),False
+pka,alcohol,Propan-1-ol,16.1,10,anness,0.0083,anness(0.01); ertino(0.01); 晴(0.00); Textbox(0.00); =__(0.00),False
+pka,alcohol,Propan-1-ol,16.1,11,�,0.0054,�(0.01); hay(0.00); حد(0.00); anes(0.00); Mir(0.00),False
+pka,alcohol,Propan-1-ol,16.1,12,坂,0.0165,坂(0.02); anes(0.01); Mir(0.01); Stout(0.00); Kitt(0.00),False
+pka,alcohol,Propan-1-ol,16.1,13,quares,0.009,quares(0.01); -*-(0.01); anes(0.01); #aa(0.00); �(0.00),False
+pka,alcohol,Propan-1-ol,16.1,14,#aa,0.0088,#aa(0.01); anes(0.01); ConverterFactory(0.00); рут(0.00); #ab(0.00),False
+pka,alcohol,Propan-1-ol,16.1,15,#af,0.0614,#af(0.06); zcze(0.03); #aa(0.02); ConverterFactory(0.01); _vlog(0.01),False
+pka,alcohol,Propan-1-ol,16.1,16,#aa,0.0116,#aa(0.01); avs(0.01); onders(0.01); allet(0.00); 阳(0.00),False
+pka,alcohol,Propan-1-ol,16.1,17,allet,0.0255,allet(0.03); pH(0.02); омер(0.01); Vine(0.01); -stack(0.01),False
+pka,alcohol,Propan-1-ol,16.1,18,'gc,0.0755,'gc(0.08); -water(0.01); NDER(0.01); water(0.01); 水(0.01),False
+pka,alcohol,Propan-1-ol,16.1,19,ube,0.0234,ube(0.02); ewater(0.02); water(0.01); -water(0.01); angan(0.01),False
+pka,alcohol,Propan-1-ol,16.1,20,кислот,0.0284,кислот(0.03); �(0.02); pH(0.01); idity(0.01); IFY(0.01),False
+pka,alcohol,Propan-1-ol,16.1,21,�,0.0527,�(0.05); кислот(0.02); pH(0.02); acids(0.02); acidity(0.01),False
+pka,alcohol,Propan-1-ol,16.1,22,�,0.1183,�(0.12); owi(0.04); еля(0.01); heit(0.01); ertos(0.01),False
+pka,alcohol,Propan-1-ol,16.1,23,�,0.0447,�(0.04); obox(0.01); heit(0.01); alcoholic(0.01); -valu(0.01),False
+pka,alcohol,Propan-1-ol,16.1,24,ipa,0.0305,ipa(0.03); alcoholic(0.02); �(0.01); -valu(0.01); ipi(0.01),False
+pka,alcohol,Propan-1-ol,16.1,25,�,0.0246,�(0.02); _acquire(0.02); ویه(0.01); -valu(0.01); alcoholic(0.01),False
+pka,alcohol,Propan-1-ol,16.1,26,Partition,0.0156,Partition(0.02); obo(0.01); �(0.01); olph(0.01); Coy(0.01),False
+pka,alcohol,Propan-1-ol,16.1,27,olph,0.0174,olph(0.02); obo(0.01); Coy(0.01); olls(0.01); quil(0.01),False
+pka,alcohol,Propan-1-ol,16.1,28,obo,0.0113,obo(0.01); isel(0.01); STA(0.01); olph(0.01); quil(0.01),False
+pka,alcohol,Propan-1-ol,16.1,29,16,0.0397,16(0.04); oll(0.01); quil(0.01); 15(0.01); olph(0.01),True
+pka,alcohol,Propan-1-ol,16.1,30,16,0.3264,16(0.33); isel(0.01); Wolfe(0.01); fang(0.01); 15(0.01),True
+pka,alcohol,Propan-1-ol,16.1,31,16,0.9805,16(0.98); 15(0.00); 19(0.00); 25(0.00); sixteen(0.00),True
+pka,alcohol,Propan-1-ol,16.1,32,16,0.7358,16(0.74); 15(0.09); 17(0.04); 19(0.03); 20(0.02),True
+pka,aldehyde,Propanal,17.0,0,olar,0.0128,olar(0.01); 톤(0.01); ерш(0.01); ολ(0.01); ]={(0.00),False
+pka,aldehyde,Propanal,17.0,1,öğ,0.014,öğ(0.01); Disposition(0.01); RYPTO(0.01); زة(0.01); 'gc(0.01),False
+pka,aldehyde,Propanal,17.0,2,öğ,0.0206,öğ(0.02); 'gc(0.01); opr(0.01); uate(0.01); anes(0.01),False
+pka,aldehyde,Propanal,17.0,3,슴,0.0123,슴(0.01); .Restr(0.01); adan(0.01); erna(0.01); ویی(0.01),False
+pka,aldehyde,Propanal,17.0,4,tester,0.0157,tester(0.02); діл(0.01); 슴(0.01); .Restr(0.01); areth(0.01),False
+pka,aldehyde,Propanal,17.0,5,illery,0.0069,illery(0.01); /an(0.01); cion(0.00); ocomplete(0.00); 'gc(0.00),False
+pka,aldehyde,Propanal,17.0,6,ちは,0.0107,ちは(0.01); .Ultra(0.01); LAY(0.01); .AD(0.00); тож(0.00),False
+pka,aldehyde,Propanal,17.0,7,ippi,0.0096,ippi(0.01); 袖(0.01); sonian(0.01); .AD(0.00); Alley(0.00),False
+pka,aldehyde,Propanal,17.0,8,=__,0.0176,=__(0.02); sonian(0.01); Kron(0.00); quare(0.00); ippi(0.00),False
+pka,aldehyde,Propanal,17.0,9,quare,0.0163,quare(0.02); =__(0.01); ubb(0.01); anness(0.01); .AI(0.01),False
+pka,aldehyde,Propanal,17.0,10,anness,0.0116,anness(0.01); =__(0.01); �(0.01); anes(0.01); ertino(0.01),False
+pka,aldehyde,Propanal,17.0,11,�,0.0086,�(0.01); anness(0.01); anes(0.01); -*-(0.00); Mir(0.00),False
+pka,aldehyde,Propanal,17.0,12,anes,0.0261,anes(0.03); 坂(0.01); McCabe(0.01); Dickinson(0.01); Mir(0.01),False
+pka,aldehyde,Propanal,17.0,13,quares,0.0102,quares(0.01); -*-(0.01); ConverterFactory(0.01); �(0.01); zcze(0.01),False
+pka,aldehyde,Propanal,17.0,14,#aa,0.0085,#aa(0.01); ConverterFactory(0.01); utas(0.01); anes(0.01); /******/(0.01),False
+pka,aldehyde,Propanal,17.0,15,#af,0.0584,#af(0.06); zcze(0.03); #aa(0.02); ConverterFactory(0.02); #ab(0.01),False
+pka,aldehyde,Propanal,17.0,16,Sext,0.0144,Sext(0.01); #aa(0.01); #af(0.00); ภาค(0.00); avs(0.00),False
+pka,aldehyde,Propanal,17.0,17,pH,0.0177,pH(0.02); allet(0.02); Vine(0.01); Woody(0.01); омер(0.01),False
+pka,aldehyde,Propanal,17.0,18,NDER,0.0174,NDER(0.02); 'gc(0.02); awy(0.01); Bron(0.01); омер(0.01),False
+pka,aldehyde,Propanal,17.0,19,Vine,0.0248,Vine(0.02); ANA(0.01); ube(0.01); Woody(0.01); омер(0.01),False
+pka,aldehyde,Propanal,17.0,20,�,0.0252,�(0.03); idity(0.01); кислот(0.01); acidity(0.01); Fritz(0.01),False
+pka,aldehyde,Propanal,17.0,21,�,0.0833,�(0.08); iegel(0.01); Bron(0.01); Leone(0.01); acidity(0.01),False
+pka,aldehyde,Propanal,17.0,22,�,0.077,�(0.08); owi(0.01); heit(0.01); iegel(0.01); aves(0.01),False
+pka,aldehyde,Propanal,17.0,23,-valu,0.019,-valu(0.02); vod(0.01); iegel(0.01); obox(0.01); Blanco(0.01),False
+pka,aldehyde,Propanal,17.0,24,acid,0.0411,acid(0.04); acid(0.03); nia(0.02); obox(0.02); acids(0.02),False
+pka,aldehyde,Propanal,17.0,25,acid,0.0695,acid(0.07); $MESS(0.06); acid(0.05); nia(0.02); acids(0.02),False
+pka,aldehyde,Propanal,17.0,26,$MESS,0.0285,$MESS(0.03); acid(0.03); acids(0.02); acid(0.02); nia(0.02),False
+pka,aldehyde,Propanal,17.0,27,nia,0.0301,nia(0.03); vine(0.03); acid(0.02); iddle(0.02); acids(0.02),False
+pka,aldehyde,Propanal,17.0,28,nia,0.0268,nia(0.03); $MESS(0.02); isel(0.01); ulo(0.01); CORD(0.01),False
+pka,aldehyde,Propanal,17.0,29,olph,0.0156,olph(0.02); 13(0.01); vine(0.01); acids(0.01); Vance(0.01),False
+pka,aldehyde,Propanal,17.0,30,ter,0.0148,"ter(0.01); 13(0.01); $MESS(0.01); acids(0.01); ""`(0.01)",False
+pka,aldehyde,Propanal,17.0,31,16,0.3086,16(0.31); 13(0.06); 17(0.04); 18(0.02); 12(0.02),True
+pka,aldehyde,Propanal,17.0,32,16,0.1721,16(0.17); 13(0.13); 17(0.10); 14(0.09); 12(0.08),True
+pka,alkyl bromide,1-Bromopropane,48.0,0,olar,0.0128,olar(0.01); 톤(0.01); ерш(0.01); ολ(0.01); ]={(0.00),False
+pka,alkyl bromide,1-Bromopropane,48.0,1,öğ,0.0176,öğ(0.02); RYPTO(0.01); Disposition(0.01); زة(0.01); 'gc(0.01),False
+pka,alkyl bromide,1-Bromopropane,48.0,2,öğ,0.0203,öğ(0.02); 'gc(0.01); opr(0.01); uate(0.01); anes(0.00),False
+pka,alkyl bromide,1-Bromopropane,48.0,3,슴,0.0129,슴(0.01); adan(0.01); .Restr(0.01); ateg(0.00); ویی(0.00),False
+pka,alkyl bromide,1-Bromopropane,48.0,4,tester,0.0169,tester(0.02); діл(0.01); 슴(0.01); conserve(0.01); Tester(0.01),False
+pka,alkyl bromide,1-Bromopropane,48.0,5,/an,0.0051,/an(0.01); illery(0.00); 'gc(0.00); IRST(0.00); ocomplete(0.00),False
+pka,alkyl bromide,1-Bromopropane,48.0,6,ちは,0.0084,ちは(0.01); LAY(0.01); .Ultra(0.01); yper(0.00); Macro(0.00),False
+pka,alkyl bromide,1-Bromopropane,48.0,7,ippi,0.008,ippi(0.01); 袖(0.01); Alley(0.01); .AD(0.00); iese(0.00),False
+pka,alkyl bromide,1-Bromopropane,48.0,8,=__,0.0147,=__(0.01); Textbox(0.01); Kron(0.00); quare(0.00); addAll(0.00),False
+pka,alkyl bromide,1-Bromopropane,48.0,9,quare,0.0107,quare(0.01); ubb(0.01); (PR(0.01); #ad(0.01); .AI(0.00),False
+pka,alkyl bromide,1-Bromopropane,48.0,10,anness,0.0167,anness(0.02); Textbox(0.01); anes(0.01); SFML(0.01); =__(0.01),False
+pka,alkyl bromide,1-Bromopropane,48.0,11,anes,0.0068,anes(0.01); anness(0.00); Exped(0.00); uppies(0.00); -*-(0.00),False
+pka,alkyl bromide,1-Bromopropane,48.0,12,anes,0.0157,anes(0.02); 坂(0.01); animate(0.01); Mir(0.00); ertino(0.00),False
+pka,alkyl bromide,1-Bromopropane,48.0,13,ConverterFactory,0.0181,ConverterFactory(0.02); quares(0.02); anes(0.01); -*-(0.00); �(0.00),False
+pka,alkyl bromide,1-Bromopropane,48.0,14,anes,0.0068,anes(0.01); utas(0.01); kk(0.00); ConverterFactory(0.00); /******/(0.00),False
+pka,alkyl bromide,1-Bromopropane,48.0,15,zcze,0.0217,zcze(0.02); #af(0.02); ConverterFactory(0.02); #aa(0.01); ика(0.00),False
+pka,alkyl bromide,1-Bromopropane,48.0,16,onders,0.0044,onders(0.00); 阳(0.00); anes(0.00); �能(0.00); quares(0.00),False
+pka,alkyl bromide,1-Bromopropane,48.0,17,.openg,0.0105,.openg(0.01); -stack(0.01); Vine(0.01); APA(0.01); vfs(0.00),False
+pka,alkyl bromide,1-Bromopropane,48.0,18,NDER,0.0102,NDER(0.01); upo(0.01); ube(0.01); _COMPLETED(0.01); anst(0.01),False
+pka,alkyl bromide,1-Bromopropane,48.0,19,anst,0.0286,anst(0.03); LEAR(0.01); frog(0.01); άκ(0.01); ewater(0.01),False
+pka,alkyl bromide,1-Bromopropane,48.0,20,Fritz,0.0136,Fritz(0.01); Bron(0.01); GOODMAN(0.01); Curtis(0.01); �(0.01),False
+pka,alkyl bromide,1-Bromopropane,48.0,21,Bron,0.0201,Bron(0.02); �(0.02); �(0.01); Pruitt(0.01); acidity(0.01),False
+pka,alkyl bromide,1-Bromopropane,48.0,22,�,0.0152,�(0.02); �(0.01); ertia(0.01); acidity(0.01); 단(0.01),False
+pka,alkyl bromide,1-Bromopropane,48.0,23,acidity,0.0142,acidity(0.01); RELATED(0.01); Tubes(0.01); acid(0.01); ocks(0.01),False
+pka,alkyl bromide,1-Bromopropane,48.0,24,ити,0.0164,ити(0.02); ITTE(0.01); ALK(0.01); RELATED(0.01); acidity(0.01),False
+pka,alkyl bromide,1-Bromopropane,48.0,25,nia,0.0193,nia(0.02); ити(0.01); Dann(0.01); pub(0.01); юр(0.01),False
+pka,alkyl bromide,1-Bromopropane,48.0,26,pub,0.0253,pub(0.03); ити(0.02); nia(0.02); PUB(0.01); acidity(0.01),False
+pka,alkyl bromide,1-Bromopropane,48.0,27,ити,0.0204,ити(0.02); isia(0.01); annual(0.01); PUB(0.01); 融(0.01),False
+pka,alkyl bromide,1-Bromopropane,48.0,28,uts,0.0145,uts(0.01); ити(0.01); aker(0.01); annual(0.01); řit(0.01),False
+pka,alkyl bromide,1-Bromopropane,48.0,29,annual,0.0075,annual(0.01); erti(0.01); CellStyle(0.01); 人才(0.01); uts(0.01),False
+pka,alkyl bromide,1-Bromopropane,48.0,30,uts,0.0152,uts(0.02); annual(0.01); 14(0.01); pub(0.01); ити(0.01),False
+pka,alkyl bromide,1-Bromopropane,48.0,31,12,0.1595,12(0.16); 11(0.11); 10(0.11); 13(0.08); 14(0.05),False
+pka,alkyl bromide,1-Bromopropane,48.0,32,12,0.1119,12(0.11); 11(0.10); 13(0.09); 14(0.09); 10(0.08),False
+pka,alkyl chloride,1-Chloropropane,48.0,0,olar,0.0128,olar(0.01); 톤(0.01); ерш(0.01); ολ(0.01); ]={(0.00),False
+pka,alkyl chloride,1-Chloropropane,48.0,1,öğ,0.0186,öğ(0.02); RYPTO(0.01); Disposition(0.01); 'gc(0.01); زة(0.01),False
+pka,alkyl chloride,1-Chloropropane,48.0,2,öğ,0.02,öğ(0.02); 'gc(0.01); opr(0.01); uate(0.01); anes(0.01),False
+pka,alkyl chloride,1-Chloropropane,48.0,3,슴,0.0117,슴(0.01); adan(0.01); .Restr(0.01); ویی(0.00); ateg(0.00),False
+pka,alkyl chloride,1-Chloropropane,48.0,4,tester,0.0172,tester(0.02); діл(0.01); Tester(0.01); conserve(0.01); 슴(0.01),False
+pka,alkyl chloride,1-Chloropropane,48.0,5,/an,0.0054,/an(0.01); 'gc(0.00); illery(0.00); IRST(0.00); cion(0.00),False
+pka,alkyl chloride,1-Chloropropane,48.0,6,ちは,0.0092,ちは(0.01); LAY(0.01); .Ultra(0.01); eso(0.01); тож(0.00),False
+pka,alkyl chloride,1-Chloropropane,48.0,7,ippi,0.0119,ippi(0.01); Alley(0.01); 袖(0.01); iese(0.01); =__(0.01),False
+pka,alkyl chloride,1-Chloropropane,48.0,8,=__,0.0224,=__(0.02); -UA(0.01); arness(0.01); Textbox(0.00); addAll(0.00),False
+pka,alkyl chloride,1-Chloropropane,48.0,9,quare,0.0141,quare(0.01); =__(0.01); ubb(0.01); (PR(0.01); SFML(0.00),False
+pka,alkyl chloride,1-Chloropropane,48.0,10,Textbox,0.0094,Textbox(0.01); anness(0.01); =__(0.01); SFML(0.01); ertino(0.01),False
+pka,alkyl chloride,1-Chloropropane,48.0,11,uppies,0.0035,uppies(0.00); Bay(0.00); hay(0.00); anes(0.00); Hay(0.00),False
+pka,alkyl chloride,1-Chloropropane,48.0,12,Mir,0.0098,Mir(0.01); anes(0.01); 坂(0.01); ertino(0.00); animate(0.00),False
+pka,alkyl chloride,1-Chloropropane,48.0,13,quares,0.0171,quares(0.02); ConverterFactory(0.01); nest(0.01); -*-(0.00); anes(0.00),False
+pka,alkyl chloride,1-Chloropropane,48.0,14,ConverterFactory,0.0061,ConverterFactory(0.01); kk(0.01); anes(0.01); utas(0.00); /******/(0.00),False
+pka,alkyl chloride,1-Chloropropane,48.0,15,zcze,0.036,zcze(0.04); #af(0.02); ConverterFactory(0.02); #aa(0.01); ика(0.01),False
+pka,alkyl chloride,1-Chloropropane,48.0,16,箱,0.0049,箱(0.00); #aa(0.00); Sext(0.00); �能(0.00); anes(0.00),False
+pka,alkyl chloride,1-Chloropropane,48.0,17,Vine,0.0171,Vine(0.02); .openg(0.01); -stack(0.01); pH(0.01); vfs(0.01),False
+pka,alkyl chloride,1-Chloropropane,48.0,18,NDER,0.0133,NDER(0.01); Bron(0.01); ube(0.01); �(0.01); Vinyl(0.01),False
+pka,alkyl chloride,1-Chloropropane,48.0,19,Vine,0.0109,Vine(0.01); ewater(0.01); ube(0.01); �(0.01); anst(0.01),False
+pka,alkyl chloride,1-Chloropropane,48.0,20,�,0.0436,�(0.04); Fritz(0.02); �(0.02); lek(0.01); pH(0.01),False
+pka,alkyl chloride,1-Chloropropane,48.0,21,�,0.0912,�(0.09); �(0.03); Fritz(0.01); Bron(0.01); lek(0.01),False
+pka,alkyl chloride,1-Chloropropane,48.0,22,�,0.0893,�(0.09); �(0.06); ertia(0.01); hist(0.01); acids(0.00),False
+pka,alkyl chloride,1-Chloropropane,48.0,23,ocks,0.0257,ocks(0.03); ertia(0.02); _RUNTIME(0.02); owi(0.01); �(0.01),False
+pka,alkyl chloride,1-Chloropropane,48.0,24,acid,0.0424,acid(0.04); ITTE(0.03); acid(0.02); ertia(0.01); ALK(0.01),False
+pka,alkyl chloride,1-Chloropropane,48.0,25,ksam,0.0098,ksam(0.01); �(0.01); acid(0.01); inf(0.01); ertia(0.01),False
+pka,alkyl chloride,1-Chloropropane,48.0,26,pub,0.03,pub(0.03); inf(0.02); nia(0.02); unch(0.01); Morrow(0.01),False
+pka,alkyl chloride,1-Chloropropane,48.0,27,unch,0.0176,unch(0.02); nia(0.02); Tubes(0.01); cock(0.01); ursor(0.01),False
+pka,alkyl chloride,1-Chloropropane,48.0,28,unch,0.0458,unch(0.05); ursor(0.02); nia(0.01); UNCH(0.01); egg(0.01),False
+pka,alkyl chloride,1-Chloropropane,48.0,29,tam,0.0286,tam(0.03); unch(0.01); GOODMAN(0.01); Tam(0.01); tam(0.01),False
+pka,alkyl chloride,1-Chloropropane,48.0,30,tam,0.0115,tam(0.01); ock(0.01); egg(0.01); GOODMAN(0.01); ента(0.00),False
+pka,alkyl chloride,1-Chloropropane,48.0,31,ione,0.0163,ione(0.02); ivity(0.01); 10(0.01); ile(0.01); ory(0.01),False
+pka,alkyl chloride,1-Chloropropane,48.0,32,3,0.0784,3(0.08); 4(0.07); 2(0.07); 5(0.07); 10(0.06),False
+pka,alkyl fluoride,1-Fluoropropane,48.0,0,olar,0.0128,olar(0.01); 톤(0.01); ерш(0.01); ολ(0.01); ]={(0.00),False
+pka,alkyl fluoride,1-Fluoropropane,48.0,1,öğ,0.0171,öğ(0.02); Disposition(0.01); RYPTO(0.01); زة(0.01); 'gc(0.01),False
+pka,alkyl fluoride,1-Fluoropropane,48.0,2,öğ,0.0201,öğ(0.02); 'gc(0.01); opr(0.01); uate(0.01); anes(0.00),False
+pka,alkyl fluoride,1-Fluoropropane,48.0,3,슴,0.0138,슴(0.01); adan(0.01); .Restr(0.00); ateg(0.00); ویی(0.00),False
+pka,alkyl fluoride,1-Fluoropropane,48.0,4,tester,0.0137,tester(0.01); діл(0.01); 슴(0.01); areth(0.01); utow(0.01),False
+pka,alkyl fluoride,1-Fluoropropane,48.0,5,illery,0.005,illery(0.00); /an(0.00); 'gc(0.00); IRST(0.00); eso(0.00),False
+pka,alkyl fluoride,1-Fluoropropane,48.0,6,ちは,0.0071,ちは(0.01); eso(0.01); LAY(0.01); тож(0.00); .Ultra(0.00),False
+pka,alkyl fluoride,1-Fluoropropane,48.0,7,ippi,0.0101,ippi(0.01); =__(0.01); Alley(0.01); sonian(0.00); 'gc(0.00),False
+pka,alkyl fluoride,1-Fluoropropane,48.0,8,=__,0.0172,=__(0.02); sonian(0.01); ippi(0.00); addAll(0.00); -UA(0.00),False
+pka,alkyl fluoride,1-Fluoropropane,48.0,9,quare,0.0101,quare(0.01); ubb(0.01); (PR(0.01); =__(0.01); .ai(0.00),False
+pka,alkyl fluoride,1-Fluoropropane,48.0,10,ertino,0.0138,ertino(0.01); anness(0.01); SFML(0.01); =__(0.01); anes(0.01),False
+pka,alkyl fluoride,1-Fluoropropane,48.0,11,anes,0.0063,anes(0.01); anness(0.00); Schedulers(0.00); حد(0.00); ertino(0.00),False
+pka,alkyl fluoride,1-Fluoropropane,48.0,12,anes,0.017,anes(0.02); 坂(0.01); ertino(0.01); animate(0.01); Mir(0.00),False
+pka,alkyl fluoride,1-Fluoropropane,48.0,13,quares,0.0107,quares(0.01); anes(0.01); ConverterFactory(0.01); nest(0.00); 坂(0.00),False
+pka,alkyl fluoride,1-Fluoropropane,48.0,14,anes,0.0068,anes(0.01); ConverterFactory(0.01); /******/(0.00); kk(0.00); #aa(0.00),False
+pka,alkyl fluoride,1-Fluoropropane,48.0,15,zcze,0.0366,zcze(0.04); #af(0.02); ConverterFactory(0.02); #aa(0.01); #ab(0.01),False
+pka,alkyl fluoride,1-Fluoropropane,48.0,16,Mu,0.0056,Mu(0.01); 箱(0.01); Sext(0.00); �(0.00); #aa(0.00),False
+pka,alkyl fluoride,1-Fluoropropane,48.0,17,pH,0.0411,pH(0.04); yon(0.01); 酸(0.01); -stack(0.01); -neutral(0.01),False
+pka,alkyl fluoride,1-Fluoropropane,48.0,18,Bron,0.0142,Bron(0.01); ube(0.01); LEAR(0.01); NDER(0.01); �(0.01),False
+pka,alkyl fluoride,1-Fluoropropane,48.0,19,LEAR,0.0316,LEAR(0.03); ube(0.02); arin(0.02); pH(0.01); xOffset(0.01),False
+pka,alkyl fluoride,1-Fluoropropane,48.0,20,pH,0.0391,pH(0.04); arin(0.03); кислот(0.03); IFY(0.01); acidity(0.01),False
+pka,alkyl fluoride,1-Fluoropropane,48.0,21,acid,0.0278,acid(0.03); pH(0.02); acidity(0.02); кислот(0.01); /basic(0.01),False
+pka,alkyl fluoride,1-Fluoropropane,48.0,22,acid,0.0229,acid(0.02); acids(0.01); �(0.01); HF(0.01); 芙(0.01),False
+pka,alkyl fluoride,1-Fluoropropane,48.0,23,HF,0.0399,HF(0.04); tae(0.02); .cf(0.01); acid(0.01); hf(0.01),False
+pka,alkyl fluoride,1-Fluoropropane,48.0,24,acid,0.0477,acid(0.05); XF(0.03); acid(0.02); TF(0.01); HF(0.01),False
+pka,alkyl fluoride,1-Fluoropropane,48.0,25,acid,0.023,acid(0.02); ertia(0.02); HF(0.01); XF(0.01); acid(0.01),False
+pka,alkyl fluoride,1-Fluoropropane,48.0,26,ertia,0.037,ertia(0.04); nia(0.01); itaire(0.01); _acquire(0.01); pub(0.01),False
+pka,alkyl fluoride,1-Fluoropropane,48.0,27,itaire,0.0308,itaire(0.03); ertia(0.02); eline(0.01); terminal(0.01); XF(0.01),False
+pka,alkyl fluoride,1-Fluoropropane,48.0,28,itaire,0.0468,itaire(0.05); isky(0.01); ertia(0.01); ента(0.01); ellow(0.01),False
+pka,alkyl fluoride,1-Fluoropropane,48.0,29,tam,0.0309,tam(0.03); Tam(0.02); Tam(0.01); tam(0.01); GOODMAN(0.00),False
+pka,alkyl fluoride,1-Fluoropropane,48.0,30,tam,0.0317,tam(0.03); Tam(0.01); rena(0.01); tam(0.01); ść(0.01),False
+pka,alkyl fluoride,1-Fluoropropane,48.0,31,12,0.039,12(0.04); 14(0.02); 15(0.02); 13(0.01); 9(0.01),False
+pka,alkyl fluoride,1-Fluoropropane,48.0,32,12,0.083,12(0.08); 14(0.08); 9(0.08); 15(0.08); 13(0.06),False
+pka,alkyl iodide,1-Iodopropane,48.0,0,olar,0.0128,olar(0.01); 톤(0.01); ерш(0.01); ολ(0.01); ]={(0.00),False
+pka,alkyl iodide,1-Iodopropane,48.0,1,öğ,0.0162,öğ(0.02); Disposition(0.01); RYPTO(0.01); زة(0.01); 'gc(0.01),False
+pka,alkyl iodide,1-Iodopropane,48.0,2,öğ,0.0252,öğ(0.03); 'gc(0.01); uate(0.01); opr(0.01); anes(0.00),False
+pka,alkyl iodide,1-Iodopropane,48.0,3,슴,0.0127,슴(0.01); adan(0.01); .Restr(0.00); ویی(0.00); Weekly(0.00),False
+pka,alkyl iodide,1-Iodopropane,48.0,4,tester,0.0153,tester(0.02); діл(0.01); 슴(0.01); conserve(0.01); Tester(0.01),False
+pka,alkyl iodide,1-Iodopropane,48.0,5,illery,0.0066,illery(0.01); /an(0.01); 'gc(0.00); cion(0.00); IRST(0.00),False
+pka,alkyl iodide,1-Iodopropane,48.0,6,ちは,0.0095,ちは(0.01); тож(0.01); .Ultra(0.01); LAY(0.01); eso(0.00),False
+pka,alkyl iodide,1-Iodopropane,48.0,7,ippi,0.0084,ippi(0.01); Alley(0.01); =__(0.00); 袖(0.00); sonian(0.00),False
+pka,alkyl iodide,1-Iodopropane,48.0,8,=__,0.0131,=__(0.01); sonian(0.01); Kron(0.01); -UA(0.01); ippi(0.00),False
+pka,alkyl iodide,1-Iodopropane,48.0,9,quare,0.0099,quare(0.01); (PR(0.01); .AI(0.00); �(0.00); ubb(0.00),False
+pka,alkyl iodide,1-Iodopropane,48.0,10,anness,0.0114,anness(0.01); anes(0.01); ertino(0.01); SFML(0.01); Textbox(0.01),False
+pka,alkyl iodide,1-Iodopropane,48.0,11,anes,0.0063,anes(0.01); حد(0.01); anness(0.00); -*-(0.00); haystack(0.00),False
+pka,alkyl iodide,1-Iodopropane,48.0,12,anes,0.0153,anes(0.02); 坂(0.01); animate(0.01); McCabe(0.00); Mir(0.00),False
+pka,alkyl iodide,1-Iodopropane,48.0,13,quares,0.0084,quares(0.01); anes(0.01); ConverterFactory(0.01); #aa(0.00); -*-(0.00),False
+pka,alkyl iodide,1-Iodopropane,48.0,14,/******/,0.0104,/******/(0.01); #aa(0.01); anes(0.01); kk(0.00); ConverterFactory(0.00),False
+pka,alkyl iodide,1-Iodopropane,48.0,15,zcze,0.0407,zcze(0.04); #af(0.03); ConverterFactory(0.02); #aa(0.02); #ab(0.01),False
+pka,alkyl iodide,1-Iodopropane,48.0,16,#aa,0.0081,#aa(0.01); avs(0.01); #af(0.00); 阳(0.00); ика(0.00),False
+pka,alkyl iodide,1-Iodopropane,48.0,17,upo,0.0085,upo(0.01); bsd(0.01); vfs(0.01); یدا(0.00); uda(0.00),False
+pka,alkyl iodide,1-Iodopropane,48.0,18,upo,0.0142,upo(0.01); NDER(0.01); uda(0.01); wią(0.01); ksam(0.01),False
+pka,alkyl iodide,1-Iodopropane,48.0,19,_COMPLETED,0.0143,_COMPLETED(0.01); Vine(0.01); nyder(0.01); anst(0.01); Fritz(0.01),False
+pka,alkyl iodide,1-Iodopropane,48.0,20,Fritz,0.0167,Fritz(0.02); IPP(0.02); IPP(0.01); arin(0.01); wl(0.01),False
+pka,alkyl iodide,1-Iodopropane,48.0,21,�,0.0204,�(0.02); IPP(0.02); arin(0.01); IPP(0.01); �(0.01),False
+pka,alkyl iodide,1-Iodopropane,48.0,22,�,0.0627,�(0.06); olec(0.02); �(0.01); �(0.01); itzer(0.01),False
+pka,alkyl iodide,1-Iodopropane,48.0,23,ити,0.0168,ити(0.02); �(0.01); Tubes(0.01); SDL(0.01); ingleton(0.01),False
+pka,alkyl iodide,1-Iodopropane,48.0,24,ити,0.0233,ити(0.02); pH(0.02); alk(0.02); �(0.01); ALK(0.01),False
+pka,alkyl iodide,1-Iodopropane,48.0,25,�,0.0154,�(0.02); ощ(0.01); ALK(0.01); ити(0.01); �(0.01),False
+pka,alkyl iodide,1-Iodopropane,48.0,26,asset,0.0148,asset(0.01); 融(0.01); ити(0.01); Cheers(0.01); pub(0.01),False
+pka,alkyl iodide,1-Iodopropane,48.0,27,rier,0.0225,rier(0.02); ити(0.01); 融(0.01); asset(0.01); ollen(0.01),False
+pka,alkyl iodide,1-Iodopropane,48.0,28,rier,0.0152,rier(0.02); asset(0.01); ити(0.01); asing(0.01); AYER(0.01),False
+pka,alkyl iodide,1-Iodopropane,48.0,29,ele,0.0259,ele(0.03); asset(0.00); REA(0.00); bras(0.00); egg(0.00),False
+pka,alkyl iodide,1-Iodopropane,48.0,30,ити,0.0463,ити(0.05); ationToken(0.01); REA(0.01); outines(0.01); alk(0.01),False
+pka,alkyl iodide,1-Iodopropane,48.0,31,10,0.1848,10(0.18); 11(0.11); 12(0.07); uts(0.02); 13(0.02),False
+pka,alkyl iodide,1-Iodopropane,48.0,32,10,0.174,10(0.17); 11(0.13); 12(0.10); 9(0.10); 13(0.07),False
+pka,amide,Propanamide,17.0,0,olar,0.0128,olar(0.01); 톤(0.01); ерш(0.01); ολ(0.01); ]={(0.00),False
+pka,amide,Propanamide,17.0,1,öğ,0.018,öğ(0.02); Disposition(0.01); RYPTO(0.01); زة(0.01); 'gc(0.01),False
+pka,amide,Propanamide,17.0,2,öğ,0.0256,öğ(0.03); 'gc(0.01); opr(0.01); uate(0.01); anes(0.00),False
+pka,amide,Propanamide,17.0,3,슴,0.0128,슴(0.01); adan(0.01); ویی(0.01); .Restr(0.01); erna(0.00),False
+pka,amide,Propanamide,17.0,4,tester,0.0177,tester(0.02); діл(0.01); areth(0.01); 슴(0.01); Tester(0.01),False
+pka,amide,Propanamide,17.0,5,/an,0.0068,/an(0.01); illery(0.01); 'gc(0.00); tester(0.00); rophe(0.00),False
+pka,amide,Propanamide,17.0,6,ちは,0.0128,ちは(0.01); .Ultra(0.01); тож(0.00); eso(0.00); LAY(0.00),False
+pka,amide,Propanamide,17.0,7,ippi,0.0147,ippi(0.01); 袖(0.01); .AD(0.00); iese(0.00); sonian(0.00),False
+pka,amide,Propanamide,17.0,8,=__,0.0184,=__(0.02); ippi(0.01); quare(0.00); anes(0.00); arness(0.00),False
+pka,amide,Propanamide,17.0,9,quare,0.0088,quare(0.01); (PR(0.01); olland(0.01); anness(0.01); =__(0.00),False
+pka,amide,Propanamide,17.0,10,ertino,0.0129,ertino(0.01); anness(0.01); _ADC(0.01); anes(0.01); SFML(0.01),False
+pka,amide,Propanamide,17.0,11,anes,0.0053,anes(0.01); �(0.00); anness(0.00); حد(0.00); haystack(0.00),False
+pka,amide,Propanamide,17.0,12,anes,0.0298,anes(0.03); 坂(0.01); Mir(0.01); Kitt(0.01); ComVisible(0.00),False
+pka,amide,Propanamide,17.0,13,quares,0.0162,quares(0.02); anes(0.01); ConverterFactory(0.01); nest(0.01); �(0.01),False
+pka,amide,Propanamide,17.0,14,ConverterFactory,0.0103,ConverterFactory(0.01); #aa(0.01); anes(0.01); ROOM(0.01); RAINT(0.01),False
+pka,amide,Propanamide,17.0,15,zcze,0.0435,zcze(0.04); #af(0.04); ConverterFactory(0.02); #aa(0.01); #ab(0.01),False
+pka,amide,Propanamide,17.0,16,ика,0.0062,ика(0.01); #aa(0.01); quares(0.00); Sext(0.00); avs(0.00),False
+pka,amide,Propanamide,17.0,17,pH,0.0631,pH(0.06); Hass(0.01); ープ(0.01); 酸(0.01); arin(0.01),False
+pka,amide,Propanamide,17.0,18,anford,0.0221,anford(0.02); nyder(0.02); 'gc(0.01); ewater(0.01); �(0.01),False
+pka,amide,Propanamide,17.0,19,ewater,0.1052,ewater(0.11); nyder(0.02); arin(0.01); Vine(0.01); Fritz(0.01),False
+pka,amide,Propanamide,17.0,20,กลาง,0.0342,กลาง(0.03); кислот(0.03); �(0.03); _vlog(0.03); acidity(0.01),False
+pka,amide,Propanamide,17.0,21,�,0.1422,�(0.14); кислот(0.03); erti(0.01); _vlog(0.01); acids(0.01),False
+pka,amide,Propanamide,17.0,22,�,0.0757,�(0.08); erti(0.02); кислот(0.01); กลาง(0.01); acids(0.01),False
+pka,amide,Propanamide,17.0,23,$MESS,0.0341,$MESS(0.03); กลาง(0.03); ویه(0.01); erti(0.01); �(0.01),False
+pka,amide,Propanamide,17.0,24,$MESS,0.034,$MESS(0.03); سته(0.02); кислот(0.01); ویه(0.01); itte(0.01),False
+pka,amide,Propanamide,17.0,25,$MESS,0.155,$MESS(0.16); سته(0.01); NTN(0.01); кислот(0.01); acids(0.01),False
+pka,amide,Propanamide,17.0,26,$MESS,0.0972,$MESS(0.10); سته(0.01); UNCH(0.01); acids(0.01); animate(0.01),False
+pka,amide,Propanamide,17.0,27,$MESS,0.0332,$MESS(0.03); chie(0.02); anke(0.01); UNCH(0.01); cad(0.01),False
+pka,amide,Propanamide,17.0,28,$MESS,0.0479,$MESS(0.05); 段(0.04); UNCH(0.03); 'gc(0.02); chie(0.02),False
+pka,amide,Propanamide,17.0,29,BX,0.0356,BX(0.04); chie(0.02); Tenn(0.01); ollen(0.01); anke(0.01),False
+pka,amide,Propanamide,17.0,30,AMA,0.0094,AMA(0.01); chie(0.01); orman(0.01); BX(0.01); >NN(0.01),False
+pka,amide,Propanamide,17.0,31,10,0.1659,10(0.17); 19(0.02); 9(0.01); ouch(0.01); 11(0.01),True
+pka,amide,Propanamide,17.0,32,10,0.3149,10(0.31); 9(0.09); 11(0.07); 1(0.05); 2(0.04),False
+pka,amine,Propan-1-amine,35.0,0,olar,0.0128,olar(0.01); 톤(0.01); ерш(0.01); ολ(0.01); ]={(0.00),False
+pka,amine,Propan-1-amine,35.0,1,öğ,0.0157,öğ(0.02); RYPTO(0.01); Disposition(0.01); زة(0.01); 'gc(0.01),False
+pka,amine,Propan-1-amine,35.0,2,öğ,0.0182,öğ(0.02); 'gc(0.01); opr(0.01); uate(0.01); anes(0.00),False
+pka,amine,Propan-1-amine,35.0,3,슴,0.0123,슴(0.01); adan(0.01); ویی(0.00); .Restr(0.00); ateg(0.00),False
+pka,amine,Propan-1-amine,35.0,4,tester,0.0173,tester(0.02); діл(0.01); conserve(0.01); Tester(0.01); utow(0.01),False
+pka,amine,Propan-1-amine,35.0,5,illery,0.0075,illery(0.01); /an(0.01); 晴(0.00); ếu(0.00); cion(0.00),False
+pka,amine,Propan-1-amine,35.0,6,ちは,0.0073,ちは(0.01); LAY(0.01); .Ultra(0.01); Macro(0.00); тож(0.00),False
+pka,amine,Propan-1-amine,35.0,7,ippi,0.0105,ippi(0.01); Alley(0.01); 袖(0.01); .AD(0.01); =__(0.01),False
+pka,amine,Propan-1-amine,35.0,8,=__,0.0152,=__(0.02); sonian(0.01); arness(0.01); Kron(0.00); olland(0.00),False
+pka,amine,Propan-1-amine,35.0,9,quare,0.0067,quare(0.01); =__(0.01); olland(0.01); ubb(0.00); ULAR(0.00),False
+pka,amine,Propan-1-amine,35.0,10,=__,0.0068,=__(0.01); �(0.01); anie(0.01); anes(0.01); SFML(0.00),False
+pka,amine,Propan-1-amine,35.0,11,hay,0.0098,hay(0.01); �(0.01); anes(0.01); Hay(0.01); حد(0.00),False
+pka,amine,Propan-1-amine,35.0,12,anes,0.0413,anes(0.04); 坂(0.01); Mir(0.01); Kitt(0.00); hay(0.00),False
+pka,amine,Propan-1-amine,35.0,13,anes,0.0094,anes(0.01); quares(0.01); #aa(0.01); �(0.01); ConverterFactory(0.00),False
+pka,amine,Propan-1-amine,35.0,14,anes,0.0099,anes(0.01); #aa(0.01); _hub(0.00); /******/(0.00); иком(0.00),False
+pka,amine,Propan-1-amine,35.0,15,#af,0.053,#af(0.05); zcze(0.04); #aa(0.01); ика(0.01); (PR(0.01),False
+pka,amine,Propan-1-amine,35.0,16,avs,0.0068,avs(0.01); Sext(0.01); ика(0.01); quares(0.00); #aa(0.00),False
+pka,amine,Propan-1-amine,35.0,17,pH,0.0142,pH(0.01); 'gc(0.01); 酸(0.01); -stack(0.01); allet(0.01),False
+pka,amine,Propan-1-amine,35.0,18,'gc,0.021,'gc(0.02); .CH(0.01); Bron(0.01); ewater(0.01); ube(0.01),False
+pka,amine,Propan-1-amine,35.0,19,ewater,0.0313,ewater(0.03); ube(0.02); Woody(0.01); aversable(0.01); arin(0.01),False
+pka,amine,Propan-1-amine,35.0,20,itzer,0.0183,itzer(0.02); �(0.02); pH(0.01); ewater(0.01); iddle(0.01),False
+pka,amine,Propan-1-amine,35.0,21,�,0.0675,�(0.07); pH(0.02); itzer(0.02); WCS(0.01); кислот(0.01),False
+pka,amine,Propan-1-amine,35.0,22,itzer,0.0608,itzer(0.06); �(0.05); uben(0.01); NH(0.01); Tubes(0.01),False
+pka,amine,Propan-1-amine,35.0,23,�,0.0351,�(0.04); itzer(0.03); obox(0.02); Tubes(0.02); enie(0.01),False
+pka,amine,Propan-1-amine,35.0,24,ertia,0.0246,ertia(0.02); elev(0.02); ALK(0.02); پای(0.02); �(0.02),False
+pka,amine,Propan-1-amine,35.0,25,�,0.029,�(0.03); ertia(0.03); quil(0.02); еля(0.02); 割(0.01),False
+pka,amine,Propan-1-amine,35.0,26,ertia,0.0201,ertia(0.02); Tubes(0.01); quil(0.01); decltype(0.01); _RUNTIME(0.01),False
+pka,amine,Propan-1-amine,35.0,27,rier,0.0705,rier(0.07); ertia(0.02); 基本(0.02); quil(0.01); decltype(0.01),False
+pka,amine,Propan-1-amine,35.0,28,��,0.0273,��(0.03); rier(0.02); unch(0.02); uts(0.01); RL(0.01),False
+pka,amine,Propan-1-amine,35.0,29,10,0.6392,10(0.64); ten(0.05); 11(0.02); TEN(0.02); 十(0.01),False
+pka,amine,Propan-1-amine,35.0,30,10,0.8535,10(0.85); 11(0.03); ten(0.00); RL(0.00); ۱۰(0.00),False
+pka,amine,Propan-1-amine,35.0,31,10,0.9692,10(0.97); 11(0.02); unch(0.00); ten(0.00); 9(0.00),False
+pka,amine,Propan-1-amine,35.0,32,10,0.8931,10(0.89); 11(0.08); 9(0.01); 12(0.00); 8(0.00),False
+pka,carboxylic acid,Propanoic acid,4.875,0,olar,0.0128,olar(0.01); 톤(0.01); ерш(0.01); ολ(0.01); ]={(0.00),False
+pka,carboxylic acid,Propanoic acid,4.875,1,öğ,0.0187,öğ(0.02); زة(0.01); RYPTO(0.01); Disposition(0.01); 'gc(0.01),False
+pka,carboxylic acid,Propanoic acid,4.875,2,öğ,0.0254,öğ(0.03); 'gc(0.01); opr(0.01); anes(0.01); uate(0.01),False
+pka,carboxylic acid,Propanoic acid,4.875,3,슴,0.0134,슴(0.01); adan(0.01); ویی(0.01); .Restr(0.00); ures(0.00),False
+pka,carboxylic acid,Propanoic acid,4.875,4,tester,0.0164,tester(0.02); Tester(0.01); діл(0.01); 슴(0.01); utow(0.01),False
+pka,carboxylic acid,Propanoic acid,4.875,5,illery,0.0067,illery(0.01); /an(0.01); 'gc(0.00); 晴(0.00); eso(0.00),False
+pka,carboxylic acid,Propanoic acid,4.875,6,ちは,0.0098,ちは(0.01); .Ultra(0.01); eso(0.01); LAY(0.01); тож(0.00),False
+pka,carboxylic acid,Propanoic acid,4.875,7,袖,0.0134,袖(0.01); ippi(0.01); .AD(0.01); ularity(0.00); ULAR(0.00),False
+pka,carboxylic acid,Propanoic acid,4.875,8,=__,0.0096,=__(0.01); arness(0.01); 袖(0.01); 'gc(0.00); anness(0.00),False
+pka,carboxylic acid,Propanoic acid,4.875,9,olland,0.0064,olland(0.01); quare(0.01); <TKey(0.01); anie(0.01); =__(0.01),False
+pka,carboxylic acid,Propanoic acid,4.875,10,anie,0.0062,anie(0.01); anness(0.01); =__(0.00); Textbox(0.00); 晴(0.00),False
+pka,carboxylic acid,Propanoic acid,4.875,11,hay,0.0085,hay(0.01); essaging(0.01); Hay(0.00); haystack(0.00); anes(0.00),False
+pka,carboxylic acid,Propanoic acid,4.875,12,Mir,0.0109,Mir(0.01); anes(0.01); hay(0.01); haystack(0.01); 坂(0.01),False
+pka,carboxylic acid,Propanoic acid,4.875,13,#aa,0.009,#aa(0.01); anes(0.01); zcze(0.01); ương(0.01); quares(0.00),False
+pka,carboxylic acid,Propanoic acid,4.875,14,#aa,0.01,#aa(0.01); .habbo(0.01); RAINT(0.00); anes(0.00); #ab(0.00),False
+pka,carboxylic acid,Propanoic acid,4.875,15,#af,0.0632,#af(0.06); #aa(0.02); zcze(0.02); рут(0.01); _vlog(0.01),False
+pka,carboxylic acid,Propanoic acid,4.875,16,#aa,0.0126,#aa(0.01); avs(0.01); �能(0.01); #af(0.01); ика(0.00),False
+pka,carboxylic acid,Propanoic acid,4.875,17,pH,0.3264,pH(0.33); 酸(0.08); омер(0.02); Vine(0.01); Acid(0.01),False
+pka,carboxylic acid,Propanoic acid,4.875,18,pH,0.0687,pH(0.07); 酸(0.03); 'gc(0.03); омер(0.02); Acid(0.02),False
+pka,carboxylic acid,Propanoic acid,4.875,19,омер,0.0427,омер(0.04); pH(0.04); ewater(0.01); Vine(0.01); 酸(0.01),False
+pka,carboxylic acid,Propanoic acid,4.875,20,pH,0.0801,pH(0.08); _vlog(0.05); acidity(0.04); กลาง(0.03); кислот(0.03),False
+pka,carboxylic acid,Propanoic acid,4.875,21,�,0.0357,�(0.04); Bron(0.02); Fritz(0.01); acids(0.01); _vlog(0.01),False
+pka,carboxylic acid,Propanoic acid,4.875,22,acids,0.064,acids(0.06); �(0.03); кислот(0.02); Bron(0.01); heit(0.01),False
+pka,carboxylic acid,Propanoic acid,4.875,23,ansi,0.0106,ansi(0.01); tae(0.01); olta(0.01); ewan(0.01); acids(0.00),False
+pka,carboxylic acid,Propanoic acid,4.875,24,acids,0.0616,acids(0.06); PROP(0.01); ipa(0.01); ewan(0.01); OOM(0.01),False
+pka,carboxylic acid,Propanoic acid,4.875,25,ewan,0.0107,ewan(0.01); -UA(0.01); tae(0.01); acids(0.01); ipa(0.01),False
+pka,carboxylic acid,Propanoic acid,4.875,26,-UA,0.0102,-UA(0.01); vine(0.01); 割(0.01); olver(0.01); iego(0.00),False
+pka,carboxylic acid,Propanoic acid,4.875,27,SRC,0.0309,SRC(0.03); ana(0.02); isky(0.01); vine(0.01); olver(0.01),False
+pka,carboxylic acid,Propanoic acid,4.875,28,ippo,0.019,ippo(0.02); isky(0.02); SRC(0.01); ana(0.01); vine(0.01),False
+pka,carboxylic acid,Propanoic acid,4.875,29,4,0.4417,4(0.44); 四(0.02); SRC(0.02); vine(0.01); iper(0.01),True
+pka,carboxylic acid,Propanoic acid,4.875,30,4,0.9414,4(0.94); 5(0.01); 四(0.00); four(0.00); four(0.00),True
+pka,carboxylic acid,Propanoic acid,4.875,31,4,0.9941,4(0.99); 5(0.00); four(0.00); 四(0.00); 3(0.00),True
+pka,carboxylic acid,Propanoic acid,4.875,32,4,0.8511,4(0.85); 5(0.12); 3(0.01); 2(0.01); 6(0.00),True
+pka,ester,Methyl ethanoate,25.0,0,olar,0.0128,olar(0.01); 톤(0.01); ерш(0.01); ολ(0.01); ]={(0.00),False
+pka,ester,Methyl ethanoate,25.0,1,öğ,0.0228,öğ(0.02); زة(0.01); RYPTO(0.01); Disposition(0.01); 'gc(0.01),False
+pka,ester,Methyl ethanoate,25.0,2,öğ,0.0308,öğ(0.03); 'gc(0.01); opr(0.01); زة(0.00); anes(0.00),False
+pka,ester,Methyl ethanoate,25.0,3,슴,0.0144,슴(0.01); adan(0.01); ویی(0.01); orp(0.00); .Restr(0.00),False
+pka,ester,Methyl ethanoate,25.0,4,tester,0.0192,tester(0.02); Tester(0.01); діл(0.01); 슴(0.01); areth(0.01),False
+pka,ester,Methyl ethanoate,25.0,5,/an,0.0054,/an(0.01); illery(0.01); eso(0.00); 'gc(0.00); IRST(0.00),False
+pka,ester,Methyl ethanoate,25.0,6,ちは,0.0112,ちは(0.01); eso(0.01); LAY(0.01); .Ultra(0.01); тож(0.00),False
+pka,ester,Methyl ethanoate,25.0,7,ippi,0.0094,ippi(0.01); 袖(0.01); Alley(0.01); .AD(0.01); sonian(0.01),False
+pka,ester,Methyl ethanoate,25.0,8,=__,0.0159,=__(0.02); arness(0.01); ULAR(0.00); Kron(0.00); addAll(0.00),False
+pka,ester,Methyl ethanoate,25.0,9,quare,0.0097,quare(0.01); anness(0.01); =__(0.01); (PR(0.01); �(0.01),False
+pka,ester,Methyl ethanoate,25.0,10,anness,0.0119,anness(0.01); ertino(0.01); �(0.01); SFML(0.01); =__(0.01),False
+pka,ester,Methyl ethanoate,25.0,11,Exped,0.0074,Exped(0.01); anes(0.01); �(0.01); anness(0.00); حد(0.00),False
+pka,ester,Methyl ethanoate,25.0,12,anes,0.0122,anes(0.01); 坂(0.01); Mir(0.01); animate(0.01); McCabe(0.01),False
+pka,ester,Methyl ethanoate,25.0,13,quares,0.0076,quares(0.01); #aa(0.01); �(0.01); anes(0.01); nest(0.00),False
+pka,ester,Methyl ethanoate,25.0,14,#aa,0.0122,#aa(0.01); utas(0.01); /******/(0.01); #ab(0.01); anes(0.00),False
+pka,ester,Methyl ethanoate,25.0,15,#af,0.0543,#af(0.05); #aa(0.02); zcze(0.02); ConverterFactory(0.01); #ab(0.01),False
+pka,ester,Methyl ethanoate,25.0,16,#aa,0.0131,#aa(0.01); �能(0.01); 阳(0.01); #af(0.01); onders(0.00),False
+pka,ester,Methyl ethanoate,25.0,17,pH,0.191,pH(0.19); Vine(0.04); 酸(0.01); uda(0.01); _Master(0.01),False
+pka,ester,Methyl ethanoate,25.0,18,'gc,0.0176,'gc(0.02); Vine(0.01); pH(0.01); Partition(0.01); NDER(0.01),False
+pka,ester,Methyl ethanoate,25.0,19,Vine,0.0757,Vine(0.08); acidity(0.02); омер(0.02); pH(0.01); anst(0.01),False
+pka,ester,Methyl ethanoate,25.0,20,acidity,0.0662,acidity(0.07); pH(0.05); acid(0.02); acidic(0.02); tae(0.01),False
+pka,ester,Methyl ethanoate,25.0,21,tae,0.0952,tae(0.10); �(0.04); Partition(0.02); �(0.01); defaultMessage(0.01),False
+pka,ester,Methyl ethanoate,25.0,22,vinegar,0.0356,vinegar(0.04); tae(0.03); Vine(0.02); heit(0.02); �(0.01),False
+pka,ester,Methyl ethanoate,25.0,23,tae,0.1083,tae(0.11); vine(0.02); Vine(0.02); Partition(0.01); vinegar(0.01),False
+pka,ester,Methyl ethanoate,25.0,24,vine,0.074,vine(0.07); Partition(0.03); acid(0.02); tae(0.01); vinegar(0.01),False
+pka,ester,Methyl ethanoate,25.0,25,tae,0.0605,tae(0.06); vine(0.05); anou(0.03); $MESS(0.01); vinegar(0.01),False
+pka,ester,Methyl ethanoate,25.0,26,vine,0.0414,vine(0.04); tae(0.04); �单(0.02); anou(0.01); Vine(0.01),False
+pka,ester,Methyl ethanoate,25.0,27,tae,0.0298,tae(0.03); �单(0.03); vine(0.02); Andersen(0.01); ingham(0.01),False
+pka,ester,Methyl ethanoate,25.0,28,ingham,0.0174,ingham(0.02); .backup(0.01); vine(0.01); tery(0.01); nia(0.01),False
+pka,ester,Methyl ethanoate,25.0,29,tam,0.0436,tam(0.04); vine(0.03); �单(0.02); tam(0.01); unction(0.01),False
+pka,ester,Methyl ethanoate,25.0,30,tam,0.0179,tam(0.02); $MESS(0.01); unction(0.01); RunWith(0.01); �单(0.01),False
+pka,ester,Methyl ethanoate,25.0,31,25,0.2649,25(0.26); 8(0.02); ione(0.01); 11(0.01); 10(0.01),True
+pka,ester,Methyl ethanoate,25.0,32,8,0.1497,8(0.15); 25(0.10); 4(0.09); 10(0.07); 7(0.06),True
+pka,ether,Methoxyethane,nan,0,olar,0.0128,olar(0.01); 톤(0.01); ерш(0.01); ολ(0.01); ]={(0.00),
+pka,ether,Methoxyethane,nan,1,öğ,0.0211,öğ(0.02); RYPTO(0.01); Disposition(0.01); زة(0.01); 'gc(0.01),
+pka,ether,Methoxyethane,nan,2,öğ,0.0267,öğ(0.03); 'gc(0.01); opr(0.01); uate(0.01); زة(0.00),
+pka,ether,Methoxyethane,nan,3,슴,0.0136,슴(0.01); adan(0.01); ویی(0.01); .Restr(0.00); ateg(0.00),
+pka,ether,Methoxyethane,nan,4,tester,0.0145,tester(0.01); діл(0.01); Tester(0.01); 슴(0.01); utow(0.01),
+pka,ether,Methoxyethane,nan,5,'gc,0.0053,'gc(0.01); /an(0.01); illery(0.00); eso(0.00); IRST(0.00),
+pka,ether,Methoxyethane,nan,6,ちは,0.0113,ちは(0.01); eso(0.01); LAY(0.01); .Ultra(0.01); тож(0.00),
+pka,ether,Methoxyethane,nan,7,ippi,0.0097,ippi(0.01); Alley(0.01); 袖(0.01); .AD(0.00); =__(0.00),
+pka,ether,Methoxyethane,nan,8,=__,0.0116,=__(0.01); arness(0.01); Kron(0.00); SFML(0.00); sonian(0.00),
+pka,ether,Methoxyethane,nan,9,quare,0.0107,quare(0.01); �(0.01); SFML(0.01); ubb(0.01); =__(0.01),
+pka,ether,Methoxyethane,nan,10,ertino,0.0125,ertino(0.01); anes(0.01); anness(0.01); SFML(0.01); Textbox(0.01),
+pka,ether,Methoxyethane,nan,11,anes,0.0092,anes(0.01); حد(0.01); anness(0.01); hay(0.00); Bay(0.00),
+pka,ether,Methoxyethane,nan,12,anes,0.0275,anes(0.03); 坂(0.02); ertino(0.01); McCabe(0.01); Mir(0.01),
+pka,ether,Methoxyethane,nan,13,anes,0.0095,anes(0.01); quares(0.01); ConverterFactory(0.01); zcze(0.01); �(0.01),
+pka,ether,Methoxyethane,nan,14,anes,0.0089,anes(0.01); ConverterFactory(0.01); utas(0.01); .habbo(0.01); /******/(0.01),
+pka,ether,Methoxyethane,nan,15,zcze,0.0415,zcze(0.04); ConverterFactory(0.02); #af(0.02); #aa(0.01); #ab(0.01),
+pka,ether,Methoxyethane,nan,16,Sext,0.0088,Sext(0.01); �能(0.01); onders(0.01); avs(0.01); Mu(0.00),
+pka,ether,Methoxyethane,nan,17,pH,0.0083,pH(0.01); -stack(0.01); _Master(0.01); یدا(0.01); Bron(0.01),
+pka,ether,Methoxyethane,nan,18,NDER,0.0458,NDER(0.05); ube(0.01); Bron(0.01); -water(0.01); 水(0.01),
+pka,ether,Methoxyethane,nan,19,ube,0.0933,ube(0.09); NDER(0.02); UBE(0.01); pheres(0.01); Vine(0.01),
+pka,ether,Methoxyethane,nan,20,owi,0.0313,owi(0.03); ube(0.02); pH(0.01); pus(0.01); �(0.01),
+pka,ether,Methoxyethane,nan,21,pH,0.2191,pH(0.22); tae(0.03); �(0.02); acidity(0.02); acidic(0.01),
+pka,ether,Methoxyethane,nan,22,pH,0.064,pH(0.06); owi(0.05); tae(0.01); �(0.01); dit(0.01),
+pka,ether,Methoxyethane,nan,23,ertia,0.0193,ertia(0.02); tae(0.01); owi(0.01); �(0.01); _acquire(0.01),
+pka,ether,Methoxyethane,nan,24,pH,0.0104,pH(0.01); cloud(0.01); Hra(0.01); ertia(0.01); Roger(0.01),
+pka,ether,Methoxyethane,nan,25,_acquire,0.0124,_acquire(0.01); Robbie(0.01); jit(0.01); anda(0.01); Kerr(0.01),
+pka,ether,Methoxyethane,nan,26,Robbie,0.0363,Robbie(0.04); Kerr(0.02); Coy(0.01); Roger(0.01); pub(0.01),
+pka,ether,Methoxyethane,nan,27,Kerr,0.0246,Kerr(0.02); .nano(0.01); ationToken(0.01); hta(0.01); _acquire(0.01),
+pka,ether,Methoxyethane,nan,28,ationToken,0.033,ationToken(0.03); _acquire(0.01); 頼(0.01); Kerr(0.01); GOODMAN(0.01),
+pka,ether,Methoxyethane,nan,29,ationToken,0.1237,ationToken(0.12); abi(0.01); nea(0.01); μερ(0.01); cast(0.00),
+pka,ether,Methoxyethane,nan,30,ationToken,0.1102,ationToken(0.11); 15(0.02); 16(0.01); ifiers(0.00); Kerr(0.00),
+pka,ether,Methoxyethane,nan,31,15,0.4392,15(0.44); 16(0.30); 17(0.01); Kerr(0.00); ips(0.00),
+pka,ether,Methoxyethane,nan,32,15,0.3611,15(0.36); 16(0.25); 14(0.06); 17(0.06); 18(0.03),
+pka,imine,Propan-1-imine,nan,0,olar,0.0128,olar(0.01); 톤(0.01); ерш(0.01); ολ(0.01); ]={(0.00),
+pka,imine,Propan-1-imine,nan,1,öğ,0.0149,öğ(0.01); Disposition(0.01); RYPTO(0.01); 'gc(0.01); زة(0.01),
+pka,imine,Propan-1-imine,nan,2,öğ,0.0198,öğ(0.02); 'gc(0.01); opr(0.01); uate(0.01); /Area(0.01),
+pka,imine,Propan-1-imine,nan,3,슴,0.0177,슴(0.02); .Restr(0.01); adan(0.01); ateg(0.00); ویی(0.00),
+pka,imine,Propan-1-imine,nan,4,tester,0.0153,tester(0.02); діл(0.01); utow(0.01); 슴(0.01); areth(0.01),
+pka,imine,Propan-1-imine,nan,5,illery,0.0094,illery(0.01); /an(0.00); 'gc(0.00); cion(0.00); eso(0.00),
+pka,imine,Propan-1-imine,nan,6,ちは,0.0127,ちは(0.01); LAY(0.01); .AD(0.01); .Ultra(0.00); tester(0.00),
+pka,imine,Propan-1-imine,nan,7,.AD,0.0058,.AD(0.01); 袖(0.01); ippi(0.01); tester(0.00); =__(0.00),
+pka,imine,Propan-1-imine,nan,8,=__,0.0136,=__(0.01); addAll(0.01); sonian(0.00); -UA(0.00); Kron(0.00),
+pka,imine,Propan-1-imine,nan,9,quare,0.0113,quare(0.01); .ai(0.01); (PR(0.01); olland(0.01); =__(0.01),
+pka,imine,Propan-1-imine,nan,10,�,0.0076,�(0.01); anness(0.01); SFML(0.01); =__(0.01); anes(0.01),
+pka,imine,Propan-1-imine,nan,11,�,0.0049,�(0.00); anes(0.00); hay(0.00); حد(0.00); anness(0.00),
+pka,imine,Propan-1-imine,nan,12,anes,0.0348,anes(0.03); 坂(0.01); Kitt(0.00); Dickinson(0.00); McCabe(0.00),
+pka,imine,Propan-1-imine,nan,13,anes,0.0167,anes(0.02); nest(0.01); zcze(0.01); quares(0.01); #aa(0.01),
+pka,imine,Propan-1-imine,nan,14,#aa,0.0083,#aa(0.01); anes(0.01); /******/(0.00); .habbo(0.00); _hub(0.00),
+pka,imine,Propan-1-imine,nan,15,#af,0.0268,#af(0.03); zcze(0.03); #aa(0.01); ConverterFactory(0.01); .habbo(0.01),
+pka,imine,Propan-1-imine,nan,16,Sext,0.0157,Sext(0.02); #aa(0.00); Crowley(0.00); лава(0.00); 阳(0.00),
+pka,imine,Propan-1-imine,nan,17,ynes,0.013,ynes(0.01); -stack(0.01); 'gc(0.01); یدا(0.00); pH(0.00),
+pka,imine,Propan-1-imine,nan,18,NDER,0.025,NDER(0.03); 'gc(0.02); .CH(0.01); ube(0.01); Bron(0.01),
+pka,imine,Propan-1-imine,nan,19,ewater,0.0128,ewater(0.01); arin(0.01); ube(0.01); ynes(0.01); NDER(0.01),
+pka,imine,Propan-1-imine,nan,20,itzer,0.0127,itzer(0.01); �(0.01); ursors(0.01); Fritz(0.01); pH(0.01),
+pka,imine,Propan-1-imine,nan,21,pH,0.0469,pH(0.05); �(0.02); δρο(0.01); itzer(0.01); acidity(0.01),
+pka,imine,Propan-1-imine,nan,22,itzer,0.0262,itzer(0.03); owi(0.03); �(0.02); NH(0.01); obox(0.01),
+pka,imine,Propan-1-imine,nan,23,owi,0.028,owi(0.03); itzer(0.02); obox(0.02); $MESS(0.01); _RUNTIME(0.01),
+pka,imine,Propan-1-imine,nan,24,nia,0.0239,nia(0.02); obox(0.02); ALK(0.01); $MESS(0.01); acid(0.01),
+pka,imine,Propan-1-imine,nan,25,$MESS,0.0467,$MESS(0.05); neutral(0.02); elevation(0.02); Neutral(0.01); erald(0.01),
+pka,imine,Propan-1-imine,nan,26,$MESS,0.0172,$MESS(0.02); decltype(0.02); GAN(0.01); Hammond(0.01); κα(0.01),
+pka,imine,Propan-1-imine,nan,27,rier,0.0667,rier(0.07); itness(0.01); nia(0.01); Hammond(0.01); _CFG(0.01),
+pka,imine,Propan-1-imine,nan,28,nia,0.0254,nia(0.03); Gord(0.01); rier(0.01); unch(0.01); 昭和(0.01),
+pka,imine,Propan-1-imine,nan,29,11,0.0497,11(0.05); ynes(0.01); _die(0.01); ele(0.01); tl(0.01),
+pka,imine,Propan-1-imine,nan,30,11,0.025,11(0.03); 10(0.02); nia(0.01); _die(0.01); INE(0.01),
+pka,imine,Propan-1-imine,nan,31,10,0.2069,10(0.21); 11(0.15); 35(0.04); 32(0.03); 31(0.02),
+pka,imine,Propan-1-imine,nan,32,10,0.1099,10(0.11); 11(0.10); 12(0.05); 32(0.04); 9(0.04),
+pka,ketone,Propan-2-one,20.0,0,olar,0.0128,olar(0.01); 톤(0.01); ерш(0.01); ολ(0.01); ]={(0.00),False
+pka,ketone,Propan-2-one,20.0,1,öğ,0.0138,öğ(0.01); Disposition(0.01); RYPTO(0.01); زة(0.01); 'gc(0.01),False
+pka,ketone,Propan-2-one,20.0,2,öğ,0.0199,öğ(0.02); 'gc(0.01); opr(0.01); uate(0.01); /Area(0.01),False
+pka,ketone,Propan-2-one,20.0,3,슴,0.0152,슴(0.02); adan(0.01); .Restr(0.01); ویی(0.00); erna(0.00),False
+pka,ketone,Propan-2-one,20.0,4,tester,0.0105,tester(0.01); діл(0.01); .Restr(0.01); 슴(0.01); utow(0.01),False
+pka,ketone,Propan-2-one,20.0,5,/an,0.006,/an(0.01); illery(0.01); eso(0.00); rophe(0.00); IRST(0.00),False
+pka,ketone,Propan-2-one,20.0,6,ちは,0.0103,ちは(0.01); .Ultra(0.01); LAY(0.01); eso(0.00); -UA(0.00),False
+pka,ketone,Propan-2-one,20.0,7,ippi,0.0086,ippi(0.01); 袖(0.01); =__(0.01); Alley(0.01); .AD(0.01),False
+pka,ketone,Propan-2-one,20.0,8,=__,0.0247,=__(0.02); sonian(0.01); quare(0.01); arness(0.01); addAll(0.00),False
+pka,ketone,Propan-2-one,20.0,9,quare,0.0109,quare(0.01); =__(0.01); anness(0.01); �(0.00); SFML(0.00),False
+pka,ketone,Propan-2-one,20.0,10,anness,0.011,anness(0.01); ertino(0.01); =__(0.01); SFML(0.01); �(0.01),False
+pka,ketone,Propan-2-one,20.0,11,�,0.0071,�(0.01); anes(0.01); Exped(0.00); essaging(0.00); hay(0.00),False
+pka,ketone,Propan-2-one,20.0,12,anes,0.02,anes(0.02); 坂(0.02); Mir(0.01); animate(0.00); McCabe(0.00),False
+pka,ketone,Propan-2-one,20.0,13,quares,0.0101,quares(0.01); anes(0.01); -*-(0.01); �(0.01); �(0.01),False
+pka,ketone,Propan-2-one,20.0,14,anes,0.0103,anes(0.01); utas(0.01); #aa(0.01); #ab(0.00); ConverterFactory(0.00),False
+pka,ketone,Propan-2-one,20.0,15,#af,0.0792,#af(0.08); #aa(0.02); zcze(0.02); #ab(0.02); ConverterFactory(0.01),False
+pka,ketone,Propan-2-one,20.0,16,#aa,0.0093,#aa(0.01); Sext(0.01); �能(0.01); avs(0.00); onders(0.00),False
+pka,ketone,Propan-2-one,20.0,17,pH,0.0782,pH(0.08); Vine(0.02); омер(0.01); -stack(0.01); 酸(0.01),False
+pka,ketone,Propan-2-one,20.0,18,'gc,0.0159,'gc(0.02); NDER(0.02); LEAR(0.01); Bron(0.01); awy(0.01),False
+pka,ketone,Propan-2-one,20.0,19,Vine,0.0251,Vine(0.03); омер(0.02); ewater(0.01); LEAR(0.01); Shift(0.01),False
+pka,ketone,Propan-2-one,20.0,20,кислот,0.0277,кислот(0.03); �(0.02); acidity(0.02); _vlog(0.02); pH(0.01),False
+pka,ketone,Propan-2-one,20.0,21,�,0.0359,�(0.04); 晓(0.02); _vlog(0.01); кислот(0.01); LEAR(0.01),False
+pka,ketone,Propan-2-one,20.0,22,ittel,0.0262,ittel(0.03); �(0.02); LEAR(0.02); owi(0.01); rel(0.01),False
+pka,ketone,Propan-2-one,20.0,23,Hammond,0.0113,Hammond(0.01); ittel(0.01); tae(0.01); uchs(0.01); -UA(0.01),False
+pka,ketone,Propan-2-one,20.0,24,nia,0.0148,nia(0.01); ipa(0.01); $MESS(0.01); Hammond(0.01); uchs(0.01),False
+pka,ketone,Propan-2-one,20.0,25,$MESS,0.0912,$MESS(0.09); ingham(0.01); tae(0.01); nia(0.01); acid(0.01),False
+pka,ketone,Propan-2-one,20.0,26,nia,0.0576,nia(0.06); $MESS(0.06); cro(0.01); acid(0.01); acid(0.01),False
+pka,ketone,Propan-2-one,20.0,27,nia,0.1321,nia(0.13); $MESS(0.04); iddle(0.01); olph(0.01); tae(0.01),False
+pka,ketone,Propan-2-one,20.0,28,nia,0.1481,nia(0.15); $MESS(0.02); issen(0.02); 昭和(0.02); olph(0.01),False
+pka,ketone,Propan-2-one,20.0,29,olph,0.0662,olph(0.07); Vance(0.05); 19(0.01); itone(0.01); ione(0.01),True
+pka,ketone,Propan-2-one,20.0,30,Vance,0.0306,Vance(0.03); olph(0.01); 19(0.01); 20(0.01); REA(0.01),True
+pka,ketone,Propan-2-one,20.0,31,20,0.4485,20(0.45); 19(0.37); 24(0.02); 17(0.01); 25(0.01),True
+pka,ketone,Propan-2-one,20.0,32,20,0.5376,20(0.54); 19(0.20); 18(0.04); 17(0.04); 24(0.02),True
+pka,nitrile,Propanenitrile,25.0,0,olar,0.0128,olar(0.01); 톤(0.01); ерш(0.01); ολ(0.01); ]={(0.00),False
+pka,nitrile,Propanenitrile,25.0,1,öğ,0.0173,öğ(0.02); Disposition(0.01); RYPTO(0.01); زة(0.01); 'gc(0.01),False
+pka,nitrile,Propanenitrile,25.0,2,öğ,0.023,öğ(0.02); 'gc(0.01); opr(0.01); uate(0.01); anes(0.01),False
+pka,nitrile,Propanenitrile,25.0,3,슴,0.0154,슴(0.02); adan(0.01); .Restr(0.01); ویی(0.00); erna(0.00),False
+pka,nitrile,Propanenitrile,25.0,4,tester,0.0152,tester(0.02); діл(0.01); Tester(0.01); utow(0.01); 슴(0.01),False
+pka,nitrile,Propanenitrile,25.0,5,/an,0.0062,/an(0.01); illery(0.01); 晴(0.00); 'gc(0.00); eso(0.00),False
+pka,nitrile,Propanenitrile,25.0,6,ちは,0.0092,ちは(0.01); LAY(0.01); .Ultra(0.01); eso(0.00); .AD(0.00),False
+pka,nitrile,Propanenitrile,25.0,7,ippi,0.0088,ippi(0.01); Alley(0.01); .AD(0.01); =__(0.01); 袖(0.00),False
+pka,nitrile,Propanenitrile,25.0,8,=__,0.0175,=__(0.02); Kron(0.01); anes(0.00); addAll(0.00); sonian(0.00),False
+pka,nitrile,Propanenitrile,25.0,9,quare,0.0114,quare(0.01); .ai(0.01); =__(0.01); .AI(0.01); (PR(0.01),False
+pka,nitrile,Propanenitrile,25.0,10,SFML,0.0119,SFML(0.01); ertino(0.01); anes(0.01); anness(0.01); =__(0.01),False
+pka,nitrile,Propanenitrile,25.0,11,anes,0.0079,anes(0.01); �(0.00); حد(0.00); anness(0.00); Exped(0.00),False
+pka,nitrile,Propanenitrile,25.0,12,anes,0.0246,anes(0.02); 坂(0.01); Mir(0.01); ertino(0.00); Kitt(0.00),False
+pka,nitrile,Propanenitrile,25.0,13,quares,0.0131,quares(0.01); anes(0.01); ConverterFactory(0.01); nest(0.01); zcze(0.00),False
+pka,nitrile,Propanenitrile,25.0,14,anes,0.0094,anes(0.01); #aa(0.01); utas(0.01); /******/(0.01); ConverterFactory(0.00),False
+pka,nitrile,Propanenitrile,25.0,15,#af,0.0384,#af(0.04); zcze(0.04); ConverterFactory(0.02); #aa(0.02); #ab(0.01),False
+pka,nitrile,Propanenitrile,25.0,16,#aa,0.0083,#aa(0.01); Sext(0.01); onders(0.00); 阳(0.00); �能(0.00),False
+pka,nitrile,Propanenitrile,25.0,17,vfs,0.0125,vfs(0.01); Vine(0.01); Hass(0.01); hass(0.01); 'gc(0.01),False
+pka,nitrile,Propanenitrile,25.0,18,'gc,0.0252,'gc(0.03); NDER(0.02); nyder(0.01); anford(0.01); 晓(0.01),False
+pka,nitrile,Propanenitrile,25.0,19,ewater,0.0291,ewater(0.03); Vine(0.03); nyder(0.02); anst(0.01); 'gc(0.01),False
+pka,nitrile,Propanenitrile,25.0,20,�,0.0151,�(0.02); кислот(0.01); RN(0.01); Fritz(0.01); กลาง(0.01),False
+pka,nitrile,Propanenitrile,25.0,21,�,0.0268,�(0.03); кислот(0.01); Bron(0.01); acidity(0.01); acid(0.01),False
+pka,nitrile,Propanenitrile,25.0,22,�,0.0271,�(0.03); arin(0.01); ่วย(0.01); obox(0.01); Orta(0.01),False
+pka,nitrile,Propanenitrile,25.0,23,$MESS,0.0479,$MESS(0.05); ASN(0.04); ویه(0.02); obox(0.01); RN(0.01),False
+pka,nitrile,Propanenitrile,25.0,24,$MESS,0.0149,$MESS(0.01); acid(0.01); acid(0.01); ویه(0.01); кислот(0.01),False
+pka,nitrile,Propanenitrile,25.0,25,acid,0.0428,acid(0.04); سته(0.02); $MESS(0.02); NTN(0.01); кислот(0.01),False
+pka,nitrile,Propanenitrile,25.0,26,$MESS,0.0466,$MESS(0.05); UNCH(0.04); سته(0.01); anda(0.01); acid(0.01),False
+pka,nitrile,Propanenitrile,25.0,27,anda,0.0406,anda(0.04); UNCH(0.02); سته(0.01); anale(0.01); acid(0.01),False
+pka,nitrile,Propanenitrile,25.0,28,alpha,0.1168,alpha(0.12); UNCH(0.05); -alpha(0.04); unch(0.02); alpha(0.01),False
+pka,nitrile,Propanenitrile,25.0,29,alpha,0.0221,alpha(0.02); alpha(0.01); Abstract(0.01); Stateless(0.01); -alpha(0.01),False
+pka,nitrile,Propanenitrile,25.0,30,πα,0.0135,πα(0.01); _die(0.01); alpha(0.01); Abstract(0.01); βα(0.01),False
+pka,nitrile,Propanenitrile,25.0,31,ione,0.1609,ione(0.16); 17(0.04); omer(0.03); 10(0.02); πα(0.01),False
+pka,nitrile,Propanenitrile,25.0,32,10,0.1235,10(0.12); 11(0.11); 17(0.09); 2(0.07); 18(0.06),False
+pka,nitro,1-Nitropropane,8.9,0,olar,0.0128,olar(0.01); 톤(0.01); ерш(0.01); ολ(0.01); ]={(0.00),False
+pka,nitro,1-Nitropropane,8.9,1,öğ,0.0147,öğ(0.01); RYPTO(0.01); Disposition(0.01); 'gc(0.01); زة(0.01),False
+pka,nitro,1-Nitropropane,8.9,2,öğ,0.0173,öğ(0.02); 'gc(0.01); opr(0.01); uate(0.01); anes(0.01),False
+pka,nitro,1-Nitropropane,8.9,3,슴,0.0119,슴(0.01); adan(0.01); .Restr(0.01); ateg(0.00); ویی(0.00),False
+pka,nitro,1-Nitropropane,8.9,4,tester,0.0145,tester(0.01); діл(0.01); 슴(0.01); .Restr(0.01); utow(0.00),False
+pka,nitro,1-Nitropropane,8.9,5,illery,0.0058,illery(0.01); /an(0.01); 'gc(0.00); IRST(0.00); ocomplete(0.00),False
+pka,nitro,1-Nitropropane,8.9,6,LAY,0.0092,LAY(0.01); ちは(0.01); тож(0.01); .Ultra(0.00); Macro(0.00),False
+pka,nitro,1-Nitropropane,8.9,7,ippi,0.0115,ippi(0.01); 袖(0.01); Alley(0.01); .AD(0.01); =__(0.00),False
+pka,nitro,1-Nitropropane,8.9,8,=__,0.0166,=__(0.02); arness(0.01); sonian(0.00); quare(0.00); Textbox(0.00),False
+pka,nitro,1-Nitropropane,8.9,9,quare,0.0119,quare(0.01); =__(0.01); (PR(0.01); anness(0.01); �(0.01),False
+pka,nitro,1-Nitropropane,8.9,10,anness,0.0138,anness(0.01); Textbox(0.01); SFML(0.01); ertino(0.01); =__(0.01),False
+pka,nitro,1-Nitropropane,8.9,11,anes,0.0056,anes(0.01); حد(0.00); �(0.00); haystack(0.00); anness(0.00),False
+pka,nitro,1-Nitropropane,8.9,12,anes,0.026,anes(0.03); 坂(0.01); animate(0.01); Mir(0.00); McCabe(0.00),False
+pka,nitro,1-Nitropropane,8.9,13,quares,0.0215,quares(0.02); ConverterFactory(0.02); -*-(0.01); anes(0.00); �(0.00),False
+pka,nitro,1-Nitropropane,8.9,14,ConverterFactory,0.0124,ConverterFactory(0.01); anes(0.01); /******/(0.01); #aa(0.01); utas(0.01),False
+pka,nitro,1-Nitropropane,8.9,15,#af,0.0436,#af(0.04); ConverterFactory(0.04); zcze(0.03); #aa(0.01); icked(0.01),False
+pka,nitro,1-Nitropropane,8.9,16,#aa,0.0073,#aa(0.01); etty(0.00); onders(0.00); Sext(0.00); #af(0.00),False
+pka,nitro,1-Nitropropane,8.9,17,vfs,0.0144,vfs(0.01); arin(0.01); -stack(0.01); pH(0.01); Vine(0.01),False
+pka,nitro,1-Nitropropane,8.9,18,anst,0.0199,anst(0.02); NDER(0.02); Bron(0.01); anford(0.01); Vinyl(0.01),False
+pka,nitro,1-Nitropropane,8.9,19,Vine,0.0972,Vine(0.10); arin(0.06); anst(0.05); NDER(0.01); yan(0.01),False
+pka,nitro,1-Nitropropane,8.9,20,acidity,0.0942,acidity(0.09); кислот(0.03); Fritz(0.02); pH(0.02); acid(0.02),False
+pka,nitro,1-Nitropropane,8.9,21,acid,0.1484,acid(0.15); acidity(0.13); acids(0.06); acid(0.04); кислот(0.03),False
+pka,nitro,1-Nitropropane,8.9,22,acid,0.1224,acid(0.12); acid(0.05); acids(0.05); acidity(0.03); Acid(0.02),False
+pka,nitro,1-Nitropropane,8.9,23,(WIN,0.0259,(WIN(0.03); acid(0.02); acid(0.01); Blanco(0.01); ویه(0.01),False
+pka,nitro,1-Nitropropane,8.9,24,acid,0.1304,acid(0.13); acid(0.12); acids(0.02); acidity(0.01); Acid(0.01),False
+pka,nitro,1-Nitropropane,8.9,25,acid,0.1443,acid(0.14); acid(0.03); _acquire(0.03); нд(0.02); acids(0.01),False
+pka,nitro,1-Nitropropane,8.9,26,acid,0.0804,acid(0.08); _acquire(0.02); nia(0.02); нд(0.02); acid(0.02),False
+pka,nitro,1-Nitropropane,8.9,27,acid,0.058,acid(0.06); anda(0.03); 割(0.02); ika(0.01); _acquire(0.01),False
+pka,nitro,1-Nitropropane,8.9,28,acid,0.0153,"acid(0.02); ika(0.01); :""-""`(0.01); rieb(0.01); ree(0.01)",False
+pka,nitro,1-Nitropropane,8.9,29,":""-""`",0.0365,":""-""`(0.04); interop(0.01); bon(0.01); TEN(0.01); TEM(0.00)",False
+pka,nitro,1-Nitropropane,8.9,30,issen,0.0362,issen(0.04); WIN(0.02); interop(0.01); 斗(0.01); itone(0.01),False
+pka,nitro,1-Nitropropane,8.9,31,10,0.1904,10(0.19); erson(0.02); Shield(0.01); ぼ(0.01); 11(0.01),True
+pka,nitro,1-Nitropropane,8.9,32,10,0.5654,10(0.57); 11(0.15); 9(0.08); 12(0.02); 8(0.02),True
+pka,none (alkane),Propane,50.0,0,olar,0.0128,olar(0.01); 톤(0.01); ерш(0.01); ολ(0.01); ]={(0.00),False
+pka,none (alkane),Propane,50.0,1,öğ,0.0155,öğ(0.02); Disposition(0.01); RYPTO(0.01); زة(0.01); 'gc(0.01),False
+pka,none (alkane),Propane,50.0,2,öğ,0.023,öğ(0.02); 'gc(0.01); opr(0.01); anes(0.01); uate(0.00),False
+pka,none (alkane),Propane,50.0,3,슴,0.0112,슴(0.01); adan(0.01); .Restr(0.01); ویی(0.01); ateg(0.01),False
+pka,none (alkane),Propane,50.0,4,tester,0.012,tester(0.01); діл(0.01); areth(0.01); 슴(0.01); Tester(0.01),False
+pka,none (alkane),Propane,50.0,5,illery,0.011,illery(0.01); /an(0.01); 晴(0.00); IRST(0.00); 'gc(0.00),False
+pka,none (alkane),Propane,50.0,6,.Ultra,0.0112,.Ultra(0.01); ちは(0.01); LAY(0.01); .AD(0.00); eso(0.00),False
+pka,none (alkane),Propane,50.0,7,ippi,0.016,ippi(0.02); 袖(0.01); Alley(0.01); .AD(0.01); sonian(0.00),False
+pka,none (alkane),Propane,50.0,8,=__,0.0137,=__(0.01); sonian(0.01); arness(0.00); 袖(0.00); Textbox(0.00),False
+pka,none (alkane),Propane,50.0,9,quare,0.0099,quare(0.01); =__(0.01); <TKey(0.01); (PR(0.00); ubb(0.00),False
+pka,none (alkane),Propane,50.0,10,anes,0.0121,anes(0.01); Textbox(0.01); =__(0.01); SFML(0.01); anness(0.00),False
+pka,none (alkane),Propane,50.0,11,anes,0.0152,anes(0.02); Bay(0.01); حد(0.00); hay(0.00); =__(0.00),False
+pka,none (alkane),Propane,50.0,12,anes,0.0445,anes(0.04); 坂(0.01); Dickinson(0.01); Stout(0.01); ertino(0.00),False
+pka,none (alkane),Propane,50.0,13,anes,0.0142,anes(0.01); quares(0.01); �(0.01); ConverterFactory(0.01); #aa(0.01),False
+pka,none (alkane),Propane,50.0,14,#aa,0.009,#aa(0.01); ConverterFactory(0.01); anes(0.01); .habbo(0.00); /******/(0.00),False
+pka,none (alkane),Propane,50.0,15,#af,0.0554,#af(0.06); zcze(0.03); #aa(0.02); ConverterFactory(0.01); ика(0.01),False
+pka,none (alkane),Propane,50.0,16,#aa,0.0151,#aa(0.02); avs(0.01); 阳(0.01); #af(0.01); anes(0.00),False
+pka,none (alkane),Propane,50.0,17,-stack,0.0087,-stack(0.01); Sadd(0.01); yon(0.01); vfs(0.01); Hass(0.00),False
+pka,none (alkane),Propane,50.0,18,ube,0.0168,ube(0.02); NDER(0.02); ewater(0.01); 'gc(0.01); .tc(0.01),False
+pka,none (alkane),Propane,50.0,19,ewater,0.0497,ewater(0.05); ana(0.01); ube(0.01); Assigned(0.01); epy(0.01),False
+pka,none (alkane),Propane,50.0,20,�,0.0502,�(0.05); кислот(0.02); acidity(0.01); IFY(0.01); ewater(0.01),False
+pka,none (alkane),Propane,50.0,21,�,0.0582,�(0.06); ewater(0.01); Bron(0.01); acids(0.01); Consort(0.01),False
+pka,none (alkane),Propane,50.0,22,�,0.0919,�(0.09); owi(0.01); ana(0.01); shima(0.01); ewater(0.01),False
+pka,none (alkane),Propane,50.0,23,ewater,0.0177,ewater(0.02); �(0.01); shima(0.01); سته(0.01); achs(0.01),False
+pka,none (alkane),Propane,50.0,24,.sdk,0.0132,.sdk(0.01); ewater(0.01); .nt(0.01); shima(0.01); еля(0.01),False
+pka,none (alkane),Propane,50.0,25,ewater,0.0338,ewater(0.03); �(0.02); .nt(0.01); .sdk(0.01); enie(0.01),False
+pka,none (alkane),Propane,50.0,26,unch,0.0135,unch(0.01); �(0.01); ента(0.01); .sdk(0.01); odata(0.01),False
+pka,none (alkane),Propane,50.0,27,unch,0.0187,unch(0.02); UGH(0.01); Gord(0.01); ząd(0.01); _PRI(0.01),False
+pka,none (alkane),Propane,50.0,28,unch,0.1696,unch(0.17); UNCH(0.06); ента(0.02); _PRI(0.02); Gord(0.01),False
+pka,none (alkane),Propane,50.0,29,48,0.097,48(0.10); unch(0.03); UNCH(0.02); 46(0.01); 45(0.01),True
+pka,none (alkane),Propane,50.0,30,48,0.1584,48(0.16); unch(0.03); UNCH(0.03); ationToken(0.01); 50(0.01),True
+pka,none (alkane),Propane,50.0,31,48,0.3486,48(0.35); 50(0.12); 45(0.10); 46(0.04); unch(0.02),True
+pka,none (alkane),Propane,50.0,32,48,0.2517,48(0.25); 50(0.17); 47(0.09); 45(0.08); 46(0.07),True
+pka,sulfone,Methyl ethyl sulfone,nan,0,olar,0.0128,olar(0.01); 톤(0.01); ерш(0.01); ολ(0.01); ]={(0.00),
+pka,sulfone,Methyl ethyl sulfone,nan,1,öğ,0.0253,öğ(0.03); 'gc(0.01); RYPTO(0.01); زة(0.01); Disposition(0.01),
+pka,sulfone,Methyl ethyl sulfone,nan,2,öğ,0.0308,öğ(0.03); 'gc(0.01); opr(0.01); anes(0.00); زة(0.00),
+pka,sulfone,Methyl ethyl sulfone,nan,3,슴,0.0142,슴(0.01); adan(0.01); ویی(0.01); orp(0.00); Levy(0.00),
+pka,sulfone,Methyl ethyl sulfone,nan,4,tester,0.0211,tester(0.02); Tester(0.01); діл(0.01); 슴(0.01); areth(0.01),
+pka,sulfone,Methyl ethyl sulfone,nan,5,/an,0.0044,/an(0.00); 'gc(0.00); ép(0.00); illery(0.00); ocomplete(0.00),
+pka,sulfone,Methyl ethyl sulfone,nan,6,ちは,0.0083,ちは(0.01); LAY(0.01); тож(0.00); .Ultra(0.00); AutoSize(0.00),
+pka,sulfone,Methyl ethyl sulfone,nan,7,ippi,0.0096,ippi(0.01); 袖(0.01); Alley(0.01); foil(0.00); =__(0.00),
+pka,sulfone,Methyl ethyl sulfone,nan,8,=__,0.0107,=__(0.01); arness(0.01); anes(0.01); SFML(0.00); ippi(0.00),
+pka,sulfone,Methyl ethyl sulfone,nan,9,quare,0.0181,quare(0.02); anness(0.01); .ai(0.01); (PR(0.01); olland(0.00),
+pka,sulfone,Methyl ethyl sulfone,nan,10,anness,0.024,anness(0.02); SFML(0.02); ertino(0.01); anes(0.01); Textbox(0.01),
+pka,sulfone,Methyl ethyl sulfone,nan,11,anness,0.0081,anness(0.01); anes(0.01); Exped(0.01); ertino(0.00); �(0.00),
+pka,sulfone,Methyl ethyl sulfone,nan,12,anes,0.0276,anes(0.03); 坂(0.03); animate(0.01); McCabe(0.01); Kitt(0.00),
+pka,sulfone,Methyl ethyl sulfone,nan,13,quares,0.0095,quares(0.01); ConverterFactory(0.01); anes(0.01); uts(0.00); nest(0.00),
+pka,sulfone,Methyl ethyl sulfone,nan,14,utas,0.0101,utas(0.01); anes(0.01); ConverterFactory(0.01); /******/(0.00); icked(0.00),
+pka,sulfone,Methyl ethyl sulfone,nan,15,ConverterFactory,0.0173,ConverterFactory(0.02); zcze(0.02); #af(0.01); #aa(0.01); .habbo(0.00),
+pka,sulfone,Methyl ethyl sulfone,nan,16,Crowley,0.006,Crowley(0.01); Mutual(0.01); 晴(0.01); onders(0.00); Sext(0.00),
+pka,sulfone,Methyl ethyl sulfone,nan,17,pH,0.0194,pH(0.02); -stack(0.01); kea(0.01); 酸(0.01); vfs(0.01),
+pka,sulfone,Methyl ethyl sulfone,nan,18,NDER,0.0261,NDER(0.03); anford(0.01); ewater(0.01); valueOf(0.01); nyder(0.01),
+pka,sulfone,Methyl ethyl sulfone,nan,19,valueOf,0.0249,valueOf(0.02); Vine(0.02); arin(0.01); Fritz(0.01); frog(0.01),
+pka,sulfone,Methyl ethyl sulfone,nan,20,Fritz,0.0232,Fritz(0.02); acidity(0.02); arin(0.02); �(0.01); кислот(0.01),
+pka,sulfone,Methyl ethyl sulfone,nan,21,acid,0.0446,acid(0.04); acidity(0.03); �(0.03); arin(0.02); acidic(0.02),
+pka,sulfone,Methyl ethyl sulfone,nan,22,acid,0.0288,acid(0.03); acid(0.02); DMA(0.01); �(0.01); acidity(0.01),
+pka,sulfone,Methyl ethyl sulfone,nan,23,HS,0.0142,HS(0.01); Colomb(0.01); reau(0.01); SOM(0.01); /base(0.01),
+pka,sulfone,Methyl ethyl sulfone,nan,24,Salman,0.0048,Salman(0.00); reau(0.00); ئ(0.00); Colomb(0.00); /base(0.00),
+pka,sulfone,Methyl ethyl sulfone,nan,25,DMA,0.006,DMA(0.01); ulla(0.01); Colomb(0.01); Hayes(0.00); Socorro(0.00),
+pka,sulfone,Methyl ethyl sulfone,nan,26,δρο,0.0105,δρο(0.01); URLRequest(0.01); ertz(0.01); han(0.01); MER(0.01),
+pka,sulfone,Methyl ethyl sulfone,nan,27,iosper,0.0078,iosper(0.01); ingham(0.00); Base(0.00); δρο(0.00); ingly(0.00),
+pka,sulfone,Methyl ethyl sulfone,nan,28,iment,0.0068,iment(0.01); ingham(0.01); เค(0.00); аты(0.00); ellow(0.00),
+pka,sulfone,Methyl ethyl sulfone,nan,29,oralType,0.0129,oralType(0.01); ーネ(0.01); Hammond(0.01); _exempt(0.00); ationToken(0.00),
+pka,sulfone,Methyl ethyl sulfone,nan,30,ーネ,0.0264,ーネ(0.03); 12(0.00); ियत(0.00); iber(0.00); 13(0.00),
+pka,sulfone,Methyl ethyl sulfone,nan,31,9,0.0434,9(0.04); 12(0.03); 10(0.03); 11(0.02); 1(0.02),
+pka,sulfone,Methyl ethyl sulfone,nan,32,1,0.102,1(0.10); 2(0.08); 9(0.08); 11(0.07); 10(0.07),
+pka,sulfoxide,Methyl ethyl sulfoxide,nan,0,olar,0.0128,olar(0.01); 톤(0.01); ерш(0.01); ολ(0.01); ]={(0.00),
+pka,sulfoxide,Methyl ethyl sulfoxide,nan,1,öğ,0.0241,öğ(0.02); RYPTO(0.01); زة(0.01); 'gc(0.01); Disposition(0.01),
+pka,sulfoxide,Methyl ethyl sulfoxide,nan,2,öğ,0.0303,öğ(0.03); opr(0.01); 'gc(0.01); anes(0.00); uate(0.00),
+pka,sulfoxide,Methyl ethyl sulfoxide,nan,3,슴,0.0157,슴(0.02); adan(0.01); ویی(0.01); orp(0.00); .Restr(0.00),
+pka,sulfoxide,Methyl ethyl sulfoxide,nan,4,tester,0.0189,tester(0.02); Tester(0.01); діл(0.01); areth(0.01); 슴(0.01),
+pka,sulfoxide,Methyl ethyl sulfoxide,nan,5,/an,0.0042,/an(0.00); 'gc(0.00); illery(0.00); ép(0.00); eso(0.00),
+pka,sulfoxide,Methyl ethyl sulfoxide,nan,6,ちは,0.0106,ちは(0.01); LAY(0.01); eso(0.01); .Ultra(0.00); тож(0.00),
+pka,sulfoxide,Methyl ethyl sulfoxide,nan,7,ippi,0.0127,ippi(0.01); 袖(0.01); Alley(0.01); ubb(0.01); sonian(0.00),
+pka,sulfoxide,Methyl ethyl sulfoxide,nan,8,=__,0.0106,=__(0.01); anes(0.01); ippi(0.01); arness(0.00); Kron(0.00),
+pka,sulfoxide,Methyl ethyl sulfoxide,nan,9,quare,0.0105,quare(0.01); (PR(0.01); anness(0.01); olland(0.01); ubb(0.00),
+pka,sulfoxide,Methyl ethyl sulfoxide,nan,10,anness,0.0167,anness(0.02); ertino(0.01); anes(0.01); SFML(0.01); Textbox(0.01),
+pka,sulfoxide,Methyl ethyl sulfoxide,nan,11,anes,0.0085,anes(0.01); anness(0.01); حد(0.01); ertino(0.01); _hub(0.00),
+pka,sulfoxide,Methyl ethyl sulfoxide,nan,12,anes,0.0392,anes(0.04); 坂(0.02); ertino(0.01); animate(0.01); McCabe(0.00),
+pka,sulfoxide,Methyl ethyl sulfoxide,nan,13,anes,0.0164,anes(0.02); quares(0.01); ConverterFactory(0.01); nest(0.00); �(0.00),
+pka,sulfoxide,Methyl ethyl sulfoxide,nan,14,anes,0.0107,anes(0.01); utas(0.01); /******/(0.01); _hub(0.01); icked(0.00),
+pka,sulfoxide,Methyl ethyl sulfoxide,nan,15,#af,0.0249,#af(0.02); zcze(0.02); ConverterFactory(0.01); #ab(0.01); #aa(0.01),
+pka,sulfoxide,Methyl ethyl sulfoxide,nan,16,�能,0.006,�能(0.01); Sext(0.01); onders(0.00); Crowley(0.00); avs(0.00),
+pka,sulfoxide,Methyl ethyl sulfoxide,nan,17,-stack,0.0116,-stack(0.01); kea(0.01); pH(0.01); vfs(0.01); upo(0.01),
+pka,sulfoxide,Methyl ethyl sulfoxide,nan,18,NDER,0.0491,NDER(0.05); upo(0.02); anford(0.01); anst(0.01); ewater(0.01),
+pka,sulfoxide,Methyl ethyl sulfoxide,nan,19,anst,0.0155,anst(0.02); Vine(0.01); ewater(0.01); ube(0.01); NDER(0.01),
+pka,sulfoxide,Methyl ethyl sulfoxide,nan,20,acidity,0.0116,acidity(0.01); Fritz(0.01); �(0.01); кислот(0.01); pH(0.01),
+pka,sulfoxide,Methyl ethyl sulfoxide,nan,21,pH,0.1276,pH(0.13); acidity(0.07); acidic(0.03); acid(0.02); �(0.01),
+pka,sulfoxide,Methyl ethyl sulfoxide,nan,22,pH,0.0287,pH(0.03); �(0.02); acidity(0.01); reau(0.01); оров(0.01),
+pka,sulfoxide,Methyl ethyl sulfoxide,nan,23,Hammond,0.0254,Hammond(0.03); �(0.01); chter(0.01); Snyder(0.01); neutrality(0.01),
+pka,sulfoxide,Methyl ethyl sulfoxide,nan,24,�,0.0138,�(0.01); ingham(0.01); Hammond(0.01); Snyder(0.01); rel(0.01),
+pka,sulfoxide,Methyl ethyl sulfoxide,nan,25,ingham,0.0429,ingham(0.04); �(0.02); Payne(0.01); nia(0.01); ванов(0.01),
+pka,sulfoxide,Methyl ethyl sulfoxide,nan,26,�,0.0442,�(0.04); Hammond(0.01); ingham(0.01); tae(0.01); Cheers(0.01),
+pka,sulfoxide,Methyl ethyl sulfoxide,nan,27,�,0.0417,�(0.04); ingham(0.01); ISON(0.01); Hammond(0.01); Cheers(0.01),
+pka,sulfoxide,Methyl ethyl sulfoxide,nan,28,ingham,0.0404,ingham(0.04); �(0.04); ationToken(0.01); TEE(0.01); เค(0.01),
+pka,sulfoxide,Methyl ethyl sulfoxide,nan,29,quil,0.012,quil(0.01); ationToken(0.01); bor(0.01); ore(0.01); เค(0.01),
+pka,sulfoxide,Methyl ethyl sulfoxide,nan,30,iber,0.036,iber(0.04); ationToken(0.01); fingert(0.01); ーネ(0.01); ियत(0.01),
+pka,sulfoxide,Methyl ethyl sulfoxide,nan,31,7,0.0989,7(0.10); 35(0.02); 8(0.02); ility(0.01); ous(0.01),
+pka,sulfoxide,Methyl ethyl sulfoxide,nan,32,7,0.155,7(0.16); 6(0.07); 8(0.06); 9(0.06); 5(0.04),
+pka,thioether,(Methylsulfanyl)ethane,nan,0,olar,0.0128,olar(0.01); 톤(0.01); ерш(0.01); ολ(0.01); ]={(0.00),
+pka,thioether,(Methylsulfanyl)ethane,nan,1,öğ,0.0267,öğ(0.03); 'gc(0.01); RYPTO(0.01); زة(0.01); Disposition(0.01),
+pka,thioether,(Methylsulfanyl)ethane,nan,2,öğ,0.0268,öğ(0.03); 'gc(0.01); opr(0.01); ольку(0.01); uate(0.00),
+pka,thioether,(Methylsulfanyl)ethane,nan,3,슴,0.0151,슴(0.02); adan(0.01); orp(0.00); ویی(0.00); ateg(0.00),
+pka,thioether,(Methylsulfanyl)ethane,nan,4,tester,0.02,tester(0.02); Tester(0.01); conserve(0.01); діл(0.01); areth(0.01),
+pka,thioether,(Methylsulfanyl)ethane,nan,5,'gc,0.0055,'gc(0.01); /an(0.00); illery(0.00); eso(0.00); IRST(0.00),
+pka,thioether,(Methylsulfanyl)ethane,nan,6,ちは,0.0075,ちは(0.01); LAY(0.01); eso(0.01); тож(0.00); sonian(0.00),
+pka,thioether,(Methylsulfanyl)ethane,nan,7,ippi,0.0119,ippi(0.01); Alley(0.01); 'gc(0.01); =__(0.00); sonian(0.00),
+pka,thioether,(Methylsulfanyl)ethane,nan,8,=__,0.0111,=__(0.01); sonian(0.01); quare(0.01); addAll(0.01); ippi(0.00),
+pka,thioether,(Methylsulfanyl)ethane,nan,9,quare,0.0169,quare(0.02); ubb(0.01); .ai(0.01); allas(0.01); anness(0.01),
+pka,thioether,(Methylsulfanyl)ethane,nan,10,anness,0.0152,anness(0.02); ertino(0.01); anes(0.01); SFML(0.01); �(0.01),
+pka,thioether,(Methylsulfanyl)ethane,nan,11,anes,0.0053,anes(0.01); �(0.00); _hub(0.00); anness(0.00); حد(0.00),
+pka,thioether,(Methylsulfanyl)ethane,nan,12,anes,0.0292,anes(0.03); 坂(0.02); McCabe(0.01); animate(0.00); Mir(0.00),
+pka,thioether,(Methylsulfanyl)ethane,nan,13,anes,0.0104,anes(0.01); ConverterFactory(0.01); quares(0.01); zcze(0.00); nest(0.00),
+pka,thioether,(Methylsulfanyl)ethane,nan,14,anes,0.0085,anes(0.01); /******/(0.01); utas(0.01); ConverterFactory(0.01); .habbo(0.00),
+pka,thioether,(Methylsulfanyl)ethane,nan,15,zcze,0.0448,zcze(0.04); #af(0.01); ConverterFactory(0.01); .habbo(0.01); ика(0.01),
+pka,thioether,(Methylsulfanyl)ethane,nan,16,Sext,0.0068,Sext(0.01); quares(0.00); ollo(0.00); anes(0.00); onders(0.00),
+pka,thioether,(Methylsulfanyl)ethane,nan,17,pH,0.0279,pH(0.03); -stack(0.01); vfs(0.01); kea(0.01); ynes(0.00),
+pka,thioether,(Methylsulfanyl)ethane,nan,18,NDER,0.0449,NDER(0.04); ewater(0.01); upo(0.01); anford(0.01); pH(0.00),
+pka,thioether,(Methylsulfanyl)ethane,nan,19,ewater,0.0304,ewater(0.03); Vine(0.02); anst(0.01); NDER(0.01); frog(0.01),
+pka,thioether,(Methylsulfanyl)ethane,nan,20,pH,0.0289,pH(0.03); �(0.02); �(0.01); Fritz(0.01); HS(0.01),
+pka,thioether,(Methylsulfanyl)ethane,nan,21,pH,0.111,pH(0.11); �(0.04); �(0.04); acidity(0.01); acid(0.01),
+pka,thioether,(Methylsulfanyl)ethane,nan,22,�,0.0836,�(0.08); HS(0.04); �(0.02); pto(0.01); reau(0.01),
+pka,thioether,(Methylsulfanyl)ethane,nan,23,�,0.0714,�(0.07); HS(0.01); ++)(0.01); 〜(0.01); SDL(0.01),
+pka,thioether,(Methylsulfanyl)ethane,nan,24,�,0.1282,�(0.13); HS(0.01); 〜(0.01); gratuites(0.01); rel(0.01),
+pka,thioether,(Methylsulfanyl)ethane,nan,25,�,0.1746,�(0.17); 머(0.01); δρο(0.01); 〜(0.01); ertia(0.01),
+pka,thioether,(Methylsulfanyl)ethane,nan,26,�,0.1561,�(0.16); 〜(0.01); IRST(0.01); Pablo(0.01); tae(0.01),
+pka,thioether,(Methylsulfanyl)ethane,nan,27,ingham,0.045,ingham(0.04); IRST(0.03); �(0.03); fa(0.01); ertia(0.01),
+pka,thioether,(Methylsulfanyl)ethane,nan,28,ingham,0.0214,ingham(0.02); fa(0.01); 〜(0.01); �(0.01); BOTH(0.01),
+pka,thioether,(Methylsulfanyl)ethane,nan,29,itone,0.0203,itone(0.02); ven(0.01); ingham(0.01); fo(0.00); kg(0.00),
+pka,thioether,(Methylsulfanyl)ethane,nan,30,7,0.0121,7(0.01); ven(0.01); ingham(0.01); kg(0.01); �(0.01),
+pka,thioether,(Methylsulfanyl)ethane,nan,31,7,0.2627,7(0.26); 8(0.11); 9(0.09); 10(0.05); 6(0.05),
+pka,thioether,(Methylsulfanyl)ethane,nan,32,7,0.1833,7(0.18); 9(0.15); 8(0.13); 6(0.10); 10(0.10),
+pka,thiol,Propane-1-thiol,10.65,0,olar,0.0128,olar(0.01); 톤(0.01); ерш(0.01); ολ(0.01); ]={(0.00),False
+pka,thiol,Propane-1-thiol,10.65,1,öğ,0.0164,öğ(0.02); RYPTO(0.01); Disposition(0.01); 'gc(0.01); زة(0.01),False
+pka,thiol,Propane-1-thiol,10.65,2,öğ,0.023,öğ(0.02); 'gc(0.01); opr(0.01); uate(0.01); anes(0.00),False
+pka,thiol,Propane-1-thiol,10.65,3,슴,0.0131,슴(0.01); adan(0.01); .Restr(0.00); ویی(0.00); Weekly(0.00),False
+pka,thiol,Propane-1-thiol,10.65,4,tester,0.0187,tester(0.02); діл(0.01); Tester(0.01); utow(0.01); 슴(0.01),False
+pka,thiol,Propane-1-thiol,10.65,5,illery,0.0069,illery(0.01); /an(0.00); cion(0.00); eso(0.00); ếu(0.00),False
+pka,thiol,Propane-1-thiol,10.65,6,LAY,0.0087,LAY(0.01); .Ultra(0.01); .AD(0.01); ちは(0.01); eso(0.01),False
+pka,thiol,Propane-1-thiol,10.65,7,袖,0.0107,袖(0.01); ippi(0.01); Alley(0.01); .AD(0.01); =__(0.01),False
+pka,thiol,Propane-1-thiol,10.65,8,=__,0.0126,=__(0.01); anness(0.00); quare(0.00); Kron(0.00); anes(0.00),False
+pka,thiol,Propane-1-thiol,10.65,9,quare,0.0127,quare(0.01); anness(0.01); .ai(0.01); ubb(0.01); (PR(0.01),False
+pka,thiol,Propane-1-thiol,10.65,10,anness,0.0125,anness(0.01); anes(0.01); SFML(0.01); ertino(0.01); Textbox(0.01),False
+pka,thiol,Propane-1-thiol,10.65,11,anes,0.0059,anes(0.01); -*-(0.01); حد(0.00); anness(0.00); �(0.00),False
+pka,thiol,Propane-1-thiol,10.65,12,anes,0.0396,anes(0.04); 坂(0.01); Mir(0.00); animate(0.00); McCabe(0.00),False
+pka,thiol,Propane-1-thiol,10.65,13,anes,0.0106,anes(0.01); quares(0.01); ConverterFactory(0.01); nest(0.00); zcze(0.00),False
+pka,thiol,Propane-1-thiol,10.65,14,anes,0.009,anes(0.01); /******/(0.01); _hub(0.00); #aa(0.00); ConverterFactory(0.00),False
+pka,thiol,Propane-1-thiol,10.65,15,zcze,0.0699,zcze(0.07); #af(0.03); ConverterFactory(0.01); #aa(0.01); anes(0.00),False
+pka,thiol,Propane-1-thiol,10.65,16,ynes,0.0056,ynes(0.01); ollo(0.00); onders(0.00); Sext(0.00); #aa(0.00),False
+pka,thiol,Propane-1-thiol,10.65,17,pH,0.0325,pH(0.03); -stack(0.01); Vine(0.01); kea(0.01); allet(0.01),False
+pka,thiol,Propane-1-thiol,10.65,18,NDER,0.0172,NDER(0.02); upo(0.01); ewater(0.01); омер(0.01); Lone(0.01),False
+pka,thiol,Propane-1-thiol,10.65,19,Vine,0.0238,Vine(0.02); anst(0.02); ewater(0.02); омер(0.01); Fritz(0.01),False
+pka,thiol,Propane-1-thiol,10.65,20,pH,0.0439,pH(0.04); �(0.03); кислот(0.01); acidity(0.01); pto(0.01),False
+pka,thiol,Propane-1-thiol,10.65,21,�,0.0983,�(0.10); pto(0.02); pH(0.01); acidity(0.01); Fritz(0.01),False
+pka,thiol,Propane-1-thiol,10.65,22,�,0.0348,�(0.03); pto(0.03); heit(0.02); cyst(0.02); оров(0.02),False
+pka,thiol,Propane-1-thiol,10.65,23,оров,0.0204,оров(0.02); yah(0.02); cyst(0.01); ocks(0.01); �(0.01),False
+pka,thiol,Propane-1-thiol,10.65,24,++),0.0169,++)(0.02); Conrad(0.02); HS(0.01); gratuites(0.01); 〜(0.01),False
+pka,thiol,Propane-1-thiol,10.65,25,cyst,0.0168,cyst(0.02); �(0.01); δρο(0.01); �(0.01); ostringstream(0.01),False
+pka,thiol,Propane-1-thiol,10.65,26,Pablo,0.0067,Pablo(0.01); ostringstream(0.01); �(0.01); /avatar(0.01); Cheers(0.00),False
+pka,thiol,Propane-1-thiol,10.65,27,UNCH,0.0141,UNCH(0.01); _MACHINE(0.01); isky(0.01); han(0.01); IRST(0.01),False
+pka,thiol,Propane-1-thiol,10.65,28,UNCH,0.0165,UNCH(0.02); 판(0.02); isky(0.01); :async(0.01); ewolf(0.01),False
+pka,thiol,Propane-1-thiol,10.65,29,11,0.1008,11(0.10); ele(0.03); 10(0.01); :async(0.01); Stateless(0.01),True
+pka,thiol,Propane-1-thiol,10.65,30,11,0.3093,11(0.31); 10(0.07); itone(0.01); :async(0.01); ити(0.00),True
+pka,thiol,Propane-1-thiol,10.65,31,10,0.6372,10(0.64); 11(0.29); 12(0.01); 9(0.01); itone(0.00),True
+pka,thiol,Propane-1-thiol,10.65,32,11,0.3984,11(0.40); 10(0.37); 12(0.07); 9(0.07); 13(0.02),True
