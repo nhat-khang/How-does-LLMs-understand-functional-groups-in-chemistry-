@@ -2,7 +2,7 @@
 # HF_TOKEN: "hf_xxxxxxxxxxxxxxxxxxxx"
 
 extraction:
-  model_name: "meta-llama/Meta-Llama-3.1-8B"
+  model_name: "meta-llama/Llama-3.1-8B"
   batch_size: 16
   aggregation: "last"
   save_dir: "activation_datasets_fg_position_ablation"
