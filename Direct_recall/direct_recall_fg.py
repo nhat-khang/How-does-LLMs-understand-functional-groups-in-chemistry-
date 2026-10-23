@@ -44,14 +44,40 @@ from sklearn.utils.class_weight import compute_sample_weight
 # Run this script while standing INSIDE the functional_groups/ folder.
 CONFIG_YAML_PATH = '../config_extract_activation_fg_8B.yaml'
 CSV_PATH = '../functional_group_dataset_2.csv'
-ACTIVATIONS_BASE_DIR = '../activation_datasets_functional_groups_2/meta-llama-Meta-Llama-3.1-8B/'
-OUTPUT_DIR = '../Results/direct_recall_fg_8B'
+ACTIVATIONS_BASE_DIR = '../activation_datasets_functional_groups_2/meta-llama-Llama-3.1-8B/'
+OUTPUT_DIR = '../Results/direct_recall_fg_8B_test_random_null'
 SUMMARY_CSV_PATH = os.path.join(OUTPUT_DIR, 'direct_recall_summary.csv')
 
 NUM_LAYERS = 32       # 8B has 32 layers (0-31)
 N_SPLITS = 5           # GroupKFold splits, matches categorical_probe.py / basic_linear_regression.py
 SVM_C = 2               # matches the C used in the periodic-table scripts
 
+# ============================
+# Null-baseline settings
+# ============================
+
+RUN_NULL_BASELINE = True
+
+# Use "random" or "permute_molecules" to create the null baseline. 
+# "random" generates completely random Gaussian vectors, while "permute_molecules" randomly reassigns complete molecule activation blocks  
+NULL_MODE = "random"
+
+# Seeds 0 through 19 give 20 different molecule permutations.
+NULL_SEEDS = list(range(20)) # Use a smaller number of seeds for testing; increase to 20 for full runs.
+
+# Used for the shaded null interval in the result plots.
+NULL_PERCENTILES = (5, 95)
+
+# Additional result files.
+NULL_RUNS_CSV_PATH = os.path.join(
+    OUTPUT_DIR,
+    f"direct_recall_{NULL_MODE}_runs.csv",
+)
+
+SUMMARY_WITH_NULL_CSV_PATH = os.path.join(
+    OUTPUT_DIR,
+    f"direct_recall_summary_with_{NULL_MODE}.csv",
+)
 
 # ============================
 # Config loading
@@ -153,6 +179,134 @@ def make_groups(n_molecules, templates_per_molecule):
     """
     return np.repeat(np.arange(n_molecules), templates_per_molecule)
 
+def permute_molecule_activations(
+    X,
+    n_molecules,
+    templates_per_molecule,
+    seed,
+):
+    """
+    Randomly reassign complete molecule activation blocks.
+
+    All templates belonging to a molecule remain together, but the complete
+    block is assigned to a different molecule position. Using the same seed
+    at every layer produces the same molecule reassignment across layers.
+    """
+    expected_rows = n_molecules * templates_per_molecule
+
+    if X.shape[0] != expected_rows:
+        raise ValueError(
+            f"Cannot permute activation blocks: expected {expected_rows} "
+            f"rows from {n_molecules} molecules x "
+            f"{templates_per_molecule} templates, got {X.shape[0]}."
+        )
+
+    # Convert from:
+    # [activation rows, hidden dimension]
+    #
+    # to:
+    # [molecules, templates, hidden dimension]
+    molecule_blocks = X.reshape(
+        n_molecules,
+        templates_per_molecule,
+        X.shape[1],
+    )
+
+    rng = np.random.default_rng(seed)
+    permutation = rng.permutation(n_molecules)
+
+    permuted_blocks = molecule_blocks[permutation]
+
+    # Return to the format required by the probe.
+    return permuted_blocks.reshape(X.shape)
+
+def create_random_activations(
+    X,
+    seed,
+    layer_ix,
+):
+    """
+    Create completely random Gaussian vectors with the same shape as the
+    real activation matrix.
+
+    The random vectors contain no molecule, template, layer, or chemical
+    information. SeedSequence makes each seed/layer combination reproducible
+    while generating different random vectors for different layers.
+    """
+    seed_sequence = np.random.SeedSequence(
+        [int(seed), int(layer_ix)]
+    )
+    rng = np.random.default_rng(seed_sequence)
+
+    return rng.standard_normal(X.shape).astype(np.float32)
+
+def create_null_activations(
+    X,
+    n_molecules,
+    templates_per_molecule,
+    seed,
+    layer_ix,
+    mode,
+):
+    """
+    Create the selected null activation representation.
+    """
+    if mode == "permute_molecules":
+        return permute_molecule_activations(
+            X=X,
+            n_molecules=n_molecules,
+            templates_per_molecule=templates_per_molecule,
+            seed=seed,
+        )
+
+    if mode == "random":
+        return create_random_activations(
+            X=X,
+            seed=seed,
+            layer_ix=layer_ix,
+        )
+
+    raise ValueError(
+        f"Unknown NULL_MODE '{mode}'. Use either "
+        "'permute_molecules' or 'random'."
+    )
+
+def summarize_null_scores(null_scores):
+    """
+    Summarize the probe scores produced by all random seeds.
+    """
+    scores = np.asarray(null_scores, dtype=float)
+
+    if scores.size == 0:
+        raise ValueError("No null scores were provided.")
+
+    low_percentile, high_percentile = NULL_PERCENTILES
+
+    return {
+        "null_mean": float(np.mean(scores)),
+        "null_seed_sd": (
+            float(np.std(scores, ddof=1))
+            if len(scores) > 1
+            else 0.0
+        ),
+        "null_p05": float(np.percentile(scores, low_percentile)),
+        "null_p95": float(np.percentile(scores, high_percentile)),
+    }
+
+
+def empirical_p_value(real_score, null_scores):
+    """
+    Fraction of null runs that performed at least as well as the real data.
+
+    The +1 correction prevents a p-value of exactly zero when none of the
+    tested null permutations exceeds the real score.
+    """
+    scores = np.asarray(null_scores, dtype=float)
+
+    return float(
+        (1 + np.sum(scores >= real_score))
+        / (len(scores) + 1)
+    )
 
 def regression_probe_cv(X, y, groups, n_splits=N_SPLITS, c=SVM_C):
     """
@@ -216,6 +370,125 @@ def plot_trends(scores_by_entity, output_path, ylabel, title):
     plt.savefig(output_path, dpi=200, bbox_inches='tight')
     plt.close()
 
+def plot_real_vs_null(
+    entity_type,
+    plot_data,
+    output_dir,
+    null_mode,
+    number_of_seeds,
+):
+    """
+    Plot the real activation score against the multi-seed null baseline.
+    """
+    real_scores = np.asarray(
+        plot_data["real_scores"],
+        dtype=float,
+    )
+    null_means = np.asarray(
+        plot_data["null_means"],
+        dtype=float,
+    )
+    null_p05 = np.asarray(
+        plot_data["null_p05"],
+        dtype=float,
+    )
+    null_p95 = np.asarray(
+        plot_data["null_p95"],
+        dtype=float,
+    )
+
+    layers = np.arange(len(real_scores))
+
+    figure, axis = plt.subplots(figsize=(8, 5))
+
+    # Real activation result
+    axis.plot(
+        layers,
+        real_scores,
+        color="#1f77b4",
+        marker="o",
+        markersize=3,
+        linewidth=2,
+        label="Real activations",
+    )
+
+    # Mean null result across seeds
+    axis.plot(
+        layers,
+        null_means,
+        color="#ff7f0e",
+        linestyle="--",
+        linewidth=2,
+        label=(
+            f"{null_mode.replace('_', ' ')} mean "
+            f"({number_of_seeds} seeds)"
+        ),
+    )
+
+    # Null percentile interval
+    axis.fill_between(
+        layers,
+        null_p05,
+        null_p95,
+        color="#ff7f0e",
+        alpha=0.20,
+        label=(
+            f"Null {NULL_PERCENTILES[0]}th–"
+            f"{NULL_PERCENTILES[1]}th percentile"
+        ),
+    )
+
+    target_type = plot_data["target_type"]
+
+    if target_type == "classification":
+        axis.set_ylabel("Grouped-CV accuracy")
+        axis.set_ylim(0.0, 1.0)
+    else:
+        axis.axhline(
+            0.0,
+            color="gray",
+            linestyle=":",
+            linewidth=1,
+            label="$R^2 = 0$",
+        )
+        axis.set_ylabel("Grouped-CV $R^2$")
+
+    axis.set_xlabel("Layer index")
+    axis.set_title(
+        f"Direct recall: {entity_type}\n"
+        f"Real activations vs. {null_mode.replace('_', ' ')} baseline"
+    )
+
+    axis.grid(
+        True,
+        linestyle="--",
+        linewidth=0.6,
+        alpha=0.6,
+    )
+    axis.legend(loc="best", fontsize=8)
+
+    figure.tight_layout()
+
+    safe_entity_name = (
+        entity_type
+        .replace("/", "_")
+        .replace("\\", "_")
+        .replace(" ", "_")
+    )
+
+    output_path = os.path.join(
+        output_dir,
+        f"direct_recall_{safe_entity_name}_{null_mode}.png",
+    )
+
+    figure.savefig(
+        output_path,
+        dpi=220,
+        bbox_inches="tight",
+    )
+    plt.close(figure)
+
+    return output_path
 
 # ============================
 # Main
@@ -232,6 +505,15 @@ def main():
     summary_rows = []
     regression_scores = {}
     classification_scores = {}
+
+    # Individual result from every null seed.
+    null_run_rows = []
+
+    # Real score and summarized null results for every layer.
+    summary_with_null_rows = []
+
+    # Data that will later be used for the real-versus-null plots.
+    null_plot_data = {}
 
     for entity_cfg in entity_configs:
         entity_type = entity_cfg['entity_type']
@@ -271,29 +553,175 @@ def main():
             continue
 
         layer_scores = []
+
+        # Store the summarized null values for plotting later.
+        layer_null_means = []
+        layer_null_seed_sds = []
+        layer_null_p05 = []
+        layer_null_p95 = []
+
         for layer_ix in range(NUM_LAYERS):
             try:
-                X = load_activation(activations_dir, entity_type, prompt_name, layer_ix, expected_n)
+                X = load_activation(
+                    activations_dir,
+                    entity_type,
+                    prompt_name,
+                    layer_ix,
+                    expected_n,
+                )
             except (FileNotFoundError, ValueError) as e:
                 print(f"  Layer {layer_ix}: {e}")
+
                 layer_scores.append(np.nan)
+                layer_null_means.append(np.nan)
+                layer_null_seed_sds.append(np.nan)
+                layer_null_p05.append(np.nan)
+                layer_null_p95.append(np.nan)
                 continue
 
+            # Remove molecules without valid target values.
             X_valid = X[valid_mask]
             y_valid = y[valid_mask]
             groups_valid = groups[valid_mask]
 
+            n_valid_molecules = len(np.unique(groups_valid))
+
+            # ---------------------------------
+            # 1. Calculate the real-data score
+            # ---------------------------------
+
             if is_numeric:
-                score = regression_probe_cv(X_valid, y_valid, groups_valid)
+                real_score = regression_probe_cv(
+                    X_valid,
+                    y_valid,
+                    groups_valid,
+                )
+                metric_name = "R2"
+                target_type = "regression"
             else:
-                score = classification_probe_cv(X_valid, y_valid, groups_valid)
-            layer_scores.append(score)
-            metric_name = 'R2' if is_numeric else 'accuracy'
-            print(f"  Layer {layer_ix}: {metric_name} = {score:.3f}")
+                real_score = classification_probe_cv(
+                    X_valid,
+                    y_valid,
+                    groups_valid,
+                )
+                metric_name = "accuracy"
+                target_type = "classification"
+
+            layer_scores.append(real_score)
+
+            # ---------------------------------
+            # 2. Calculate all null-seed scores
+            # ---------------------------------
+
+            null_scores = []
+
+            if RUN_NULL_BASELINE:
+                for seed in NULL_SEEDS:
+                    X_null = create_null_activations(
+                        X=X_valid,
+                        n_molecules=n_valid_molecules,
+                        templates_per_molecule=templates_per_molecule,
+                        seed=seed,
+                        layer_ix=layer_ix,
+                        mode=NULL_MODE,
+                    )
+
+                    if is_numeric:
+                        null_score = regression_probe_cv(
+                            X_null,
+                            y_valid,
+                            groups_valid,
+                        )
+                    else:
+                        null_score = classification_probe_cv(
+                            X_null,
+                            y_valid,
+                            groups_valid,
+                        )
+
+                    null_scores.append(null_score)
+
+                    # Save the individual seed result.
+                    null_run_rows.append({
+                        "entity_type": entity_type,
+                        "target_type": target_type,
+                        "layer": layer_ix,
+                        "null_mode": NULL_MODE,
+                        "seed": seed,
+                        "null_score": null_score,
+                    })
+
+            # ---------------------------------
+            # 3. Summarize all null seeds
+            # ---------------------------------
+
+            if null_scores:
+                null_summary = summarize_null_scores(null_scores)
+
+                null_mean = null_summary["null_mean"]
+                null_seed_sd = null_summary["null_seed_sd"]
+                null_p05 = null_summary["null_p05"]
+                null_p95 = null_summary["null_p95"]
+
+                p_value = empirical_p_value(
+                    real_score,
+                    null_scores,
+                )
+            else:
+                null_mean = np.nan
+                null_seed_sd = np.nan
+                null_p05 = np.nan
+                null_p95 = np.nan
+                p_value = np.nan
+
+            layer_null_means.append(null_mean)
+            layer_null_seed_sds.append(null_seed_sd)
+            layer_null_p05.append(null_p05)
+            layer_null_p95.append(null_p95)
+
+            # Save the real result together with the null summary.
+            summary_with_null_rows.append({
+                "entity_type": entity_type,
+                "target_type": target_type,
+                "layer": layer_ix,
+                "real_score": real_score,
+                "null_mode": NULL_MODE,
+                "n_null_seeds": len(null_scores),
+                "null_mean": null_mean,
+                "null_seed_sd": null_seed_sd,
+                "null_p05": null_p05,
+                "null_p95": null_p95,
+                "real_minus_null": real_score - null_mean,
+                "empirical_p": p_value,
+            })
+
+            print(
+                f"  Layer {layer_ix}: "
+                f"real {metric_name}={real_score:.3f}, "
+                f"{NULL_MODE} mean={null_mean:.3f}, "
+                f"null SD={null_seed_sd:.3f}, "
+                f"p={p_value:.4f}"
+            )
 
         if all(np.isnan(s) for s in layer_scores):
-            print(f"  No valid layers for {entity_type}, skipping summary/plot.")
+            print(
+                f"  No valid layers for {entity_type}, "
+                "skipping summary/plot."
+            )
             continue
+
+        null_plot_data[entity_type] = {
+            "target_type": (
+                "regression"
+                if is_numeric
+                else "classification"
+            ),
+            "real_scores": layer_scores,
+            "null_means": layer_null_means,
+            "null_seed_sds": layer_null_seed_sds,
+            "null_p05": layer_null_p05,
+            "null_p95": layer_null_p95,
+        }
 
         best_layer = int(np.nanargmax(layer_scores))
         best_score = layer_scores[best_layer]
@@ -322,6 +750,89 @@ def main():
         writer.writeheader()
         writer.writerows(summary_rows)
     print(f"\nSaved summary table to {SUMMARY_CSV_PATH}")
+    # ============================
+    # Save individual null runs
+    # ============================
+
+    if RUN_NULL_BASELINE and null_run_rows:
+        null_run_fieldnames = [
+            "entity_type",
+            "target_type",
+            "layer",
+            "null_mode",
+            "seed",
+            "null_score",
+        ]
+
+        with open(
+            NULL_RUNS_CSV_PATH,
+            "w",
+            newline="",
+            encoding="utf-8",
+        ) as handle:
+            writer = csv.DictWriter(
+                handle,
+                fieldnames=null_run_fieldnames,
+            )
+            writer.writeheader()
+            writer.writerows(null_run_rows)
+
+        print(
+            f"Saved individual null runs to "
+            f"{NULL_RUNS_CSV_PATH}"
+        )
+    # ============================
+    # Save summarized null results
+    # ============================
+
+    if RUN_NULL_BASELINE and summary_with_null_rows:
+        summary_with_null_fieldnames = [
+            "entity_type",
+            "target_type",
+            "layer",
+            "real_score",
+            "null_mode",
+            "n_null_seeds",
+            "null_mean",
+            "null_seed_sd",
+            "null_p05",
+            "null_p95",
+            "real_minus_null",
+            "empirical_p",
+        ]
+
+        with open(
+            SUMMARY_WITH_NULL_CSV_PATH,
+            "w",
+            newline="",
+            encoding="utf-8",
+        ) as handle:
+            writer = csv.DictWriter(
+                handle,
+                fieldnames=summary_with_null_fieldnames,
+            )
+            writer.writeheader()
+            writer.writerows(summary_with_null_rows)
+
+        print(
+            f"Saved real-versus-null summary to "
+            f"{SUMMARY_WITH_NULL_CSV_PATH}"
+        )
+    # ============================
+    # Plot real vs. null results
+    # ============================
+
+    if RUN_NULL_BASELINE:
+        for entity_type, plot_data in null_plot_data.items():
+            plot_path = plot_real_vs_null(
+                entity_type=entity_type,
+                plot_data=plot_data,
+                output_dir=OUTPUT_DIR,
+                null_mode=NULL_MODE,
+                number_of_seeds=len(NULL_SEEDS),
+            )
+
+            print(f"Saved null-comparison plot to {plot_path}")
 
     if regression_scores:
         plot_trends(regression_scores, os.path.join(OUTPUT_DIR, 'direct_recall_regression_r2.png'),
