@@ -1,0 +1,98 @@
+# Indirect recall for the functional-group project.
+#
+# Put this file and indirect_recall_fg_one_shot.py in the Indirect_recall folder.
+# Relative paths below are resolved from this YAML file's location, so the
+# script can be submitted from a different working directory safely.
+
+paths:
+  dataset_file: "../functional_group_dataset_2.csv"
+  extraction_config: "../config_extract_activation_fg_8B.yaml"
+  activation_base_dir: "../activation_datasets_functional_groups_2/meta-llama-Llama-3.1-8B"
+  output_dir: "../Results/indirect_recall_fg_8B_multigroup_one_shot"
+
+model:
+  name: "Meta-Llama-3.1-8B"
+  num_layers: 32
+
+analysis:
+  # Match the 5-fold functional-group-held-out design.
+  # For each fold, multiple functional groups are held out together.
+  # One molecule from EACH eligible held-out functional group is added
+  # back to training as a support molecule.
+  split_by: "functional_group"
+  split_strategy: "five_fold_one_support_per_held_out_functional_group"
+  support_molecules_per_group: 1
+
+  n_splits: 5
+  n_support_repeats: 20
+  support_random_seed: 42
+
+  # A source and target with the same name is direct recall, so reject it by
+  # default. Leave this false for indirect-recall experiments.
+  allow_direct_pairs: false
+
+classification_probe:
+  kernel: "linear"
+  c: 2.0
+  class_weight: "balanced"
+
+regression_probe:
+  kernel: "linear"
+  c: 2.0
+
+# Each experiment means:
+#   activations from SOURCE prompts -> probe predicts TARGET CSV column
+#
+# target_type must be:
+#   classification  for functional_group, functional_group_structure,
+#                   or water_solubility
+#   regression      for mw, pka, pkah, tpsa,
+#                   avg_carbon_oxidation_state, hbd, hba,
+#                   boiling_point_c, or carbon_count
+#
+# prompt_name and templates_per_molecule are read automatically from the
+# extraction YAML. To activate another experiment, set enabled: true.
+experiments:
+  # Source -> functional_group classification is valid in this one-support
+  # setup because one molecule from the tested class is present in training.
+  - name: "mw_to_functional_group"
+    source_entity: "mw"
+    target_column: "functional_group"
+    target_type: "classification"
+    enabled: false
+
+  - name: "pka_to_functional_group"
+    source_entity: "pka"
+    target_column: "functional_group"
+    target_type: "classification"
+    enabled: false
+
+  - name: "tpsa_to_functional_group"
+    source_entity: "tpsa"
+    target_column: "functional_group"
+    target_type: "classification"
+    enabled: false
+
+  - name: "functional_group_to_mw"
+    source_entity: "functional_group"
+    target_column: "mw"
+    target_type: "regression"
+    enabled: true
+
+  - name: "functional_group_to_boiling_point"
+    source_entity: "functional_group"
+    target_column: "boiling_point_c"
+    target_type: "regression"
+    enabled: true
+
+  - name: "functional_group_to_pka"
+    source_entity: "functional_group"
+    target_column: "pka"
+    target_type: "regression"
+    enabled: true
+
+  - name: "functional_group_to_pkah"
+    source_entity: "functional_group"
+    target_column: "pkah"
+    target_type: "regression"
+    enabled: true
