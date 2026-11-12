@@ -32,7 +32,6 @@ import pandas as pd
 import matplotlib
 matplotlib.use('Agg')  # non-interactive backend: required for headless sbatch jobs (no display)
 import matplotlib.pyplot as plt
-import seaborn as sns
 
 from sklearn.svm import SVR, SVC
 from sklearn.model_selection import GroupKFold
@@ -282,21 +281,172 @@ def classification_probe_cv(X, y_encoded, groups, n_splits=N_SPLITS, c=SVM_C):
 # Plotting
 # ============================
 
-def plot_trends(scores_by_entity, output_path, ylabel, title):
-    plt.figure(figsize=(8, 5))
-    sns.set(style='whitegrid')
-    colors = sns.color_palette('husl', max(len(scores_by_entity), 1))
-    for i, (entity_type, scores) in enumerate(scores_by_entity.items()):
-        layers = list(range(len(scores)))
-        plt.plot(layers, scores, marker='o', markersize=3, linewidth=1,
-                 label=entity_type, color=colors[i])
-    plt.xlabel('Layer Index', fontsize=12)
-    plt.ylabel(ylabel, fontsize=12)
-    plt.title(title, fontsize=13)
-    plt.legend(fontsize=8, bbox_to_anchor=(1.02, 1), loc='upper left')
-    plt.grid(True, linestyle='--', linewidth=0.7)
-    plt.tight_layout()
-    plt.savefig(output_path, dpi=200, bbox_inches='tight')
+# ============================
+# Plotting
+# ============================
+
+def plot_all_entity_panels(
+    regression_scores,
+    classification_scores,
+    output_path,
+):
+    """
+    Plot every direct-recall property in its own panel.
+
+    Regression targets use R^2.
+    Classification targets use accuracy.
+
+    Each panel has its own y-axis scale so extreme values from one
+    property do not compress the other properties.
+    """
+
+    all_entities = []
+
+    # Regression properties
+    for entity_type, scores in regression_scores.items():
+        all_entities.append(
+            (
+                entity_type,
+                scores,
+                'R^2',
+            )
+        )
+
+    # Classification properties
+    for entity_type, scores in classification_scores.items():
+        all_entities.append(
+            (
+                entity_type,
+                scores,
+                'Accuracy',
+            )
+        )
+
+    n_entities = len(all_entities)
+
+    if n_entities == 0:
+        return
+
+    # Three panels per row
+    n_cols = 3
+    n_rows = int(
+        np.ceil(
+            n_entities / n_cols
+        )
+    )
+
+    fig, axes = plt.subplots(
+        n_rows,
+        n_cols,
+        figsize=(15, 4 * n_rows),
+        squeeze=False,
+    )
+
+    axes = axes.flatten()
+
+    for ax, (
+        entity_type,
+        scores,
+        metric_name,
+    ) in zip(
+        axes,
+        all_entities,
+    ):
+
+        scores = np.asarray(
+            scores,
+            dtype=float,
+        )
+
+        layers = np.arange(
+            len(scores)
+        )
+
+        # Main layer trend
+        ax.plot(
+            layers,
+            scores,
+            marker='o',
+            markersize=3,
+            linewidth=1,
+        )
+
+        # R^2 = 0 reference line
+        if metric_name == 'R^2':
+            ax.axhline(
+                0,
+                color='black',
+                linewidth=0.8,
+            )
+
+        # Mark best layer
+        if not np.all(
+            np.isnan(scores)
+        ):
+
+            best_layer = int(
+                np.nanargmax(scores)
+            )
+
+            best_score = scores[
+                best_layer
+            ]
+
+            ax.scatter(
+                best_layer,
+                best_score,
+                marker='*',
+                s=150,
+                zorder=5,
+            )
+
+            ax.set_title(
+                f"{entity_type} "
+                f"(best {best_score:.2f} "
+                f"at layer {best_layer})",
+                fontsize=10,
+            )
+
+        else:
+            ax.set_title(
+                entity_type,
+                fontsize=10,
+            )
+
+        ax.set_xlabel(
+            'Layer'
+        )
+
+        ax.set_ylabel(
+            metric_name
+        )
+
+        ax.grid(
+            True,
+            linestyle='--',
+            linewidth=0.6,
+            alpha=0.6,
+        )
+
+    # Hide unused panels
+    for ax in axes[n_entities:]:
+        ax.axis('off')
+
+    fig.suptitle(
+        'Direct Recall: Functional Groups Held Out -- Llama-3.1-8B',
+        fontsize=15,
+    )
+
+    plt.tight_layout(
+        rect=[0, 0, 1, 0.96]
+    )
+
+    plt.savefig(
+        output_path,
+        dpi=220,
+        bbox_inches='tight',
+    )
+
     plt.close()
 
 
@@ -536,26 +686,14 @@ def main():
         writer.writerows(summary_rows)
     print(f"\nSaved summary table to {SUMMARY_CSV_PATH}")
 
-    if regression_scores:
-        plot_trends(
-            regression_scores,
-            os.path.join(
-                OUTPUT_DIR,
-                'direct_recall_fg_held_out_regression_r2.png',
-            ),
-            ylabel='R^2',
-            title='Direct Recall: Functional Groups Held Out (Regression) -- 8B',
-        )
-    if classification_scores:
-        plot_trends(
-            classification_scores,
-            os.path.join(
-                OUTPUT_DIR,
-                'direct_recall_fg_held_out_classification_accuracy.png',
-            ),
-            ylabel='Accuracy',
-            title='Direct Recall: Functional Groups Held Out (Classification) -- 8B',
-        )
+    plot_all_entity_panels(
+        regression_scores,
+        classification_scores,
+        os.path.join(
+            OUTPUT_DIR,
+            'direct_recall_fg_held_out_all_panels.png',
+        ),
+    )
 
     print("\n=== Best layer per entity (sorted by score, descending) ===")
     best_rows = []
