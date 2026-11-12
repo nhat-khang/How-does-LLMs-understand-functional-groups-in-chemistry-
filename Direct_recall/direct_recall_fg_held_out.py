@@ -37,7 +37,7 @@ import seaborn as sns
 from sklearn.svm import SVR, SVC
 from sklearn.model_selection import GroupKFold
 from sklearn.preprocessing import StandardScaler, LabelEncoder
-from sklearn.metrics import r2_score, accuracy_score
+from sklearn.metrics import r2_score, accuracy_score, mean_absolute_error
 from sklearn.utils.class_weight import compute_sample_weight
 
 # ============================
@@ -208,22 +208,53 @@ def find_unseen_test_classes(y_encoded, groups, n_splits):
 
 def regression_probe_cv(X, y, groups, n_splits=N_SPLITS, c=SVM_C):
     """
-    Linear SVR with GroupKFold cross-validation. Returns the average R^2
-    across folds. Mirrors train_svr_cv() in basic_linear_regression.py.
+    Linear SVR with GroupKFold cross-validation.
+
+    Returns:
+        mean_r2  : mean R^2 across folds
+        mean_mae : mean MAE across folds
+        std_r2   : standard deviation of R^2 across folds
+        std_mae  : standard deviation of MAE across folds
     """
     gkf = GroupKFold(n_splits=n_splits)
+
     r2_scores = []
+    mae_scores = []
+
     for train_idx, test_idx in gkf.split(X, y, groups=groups):
         scaler = StandardScaler()
         X_train = scaler.fit_transform(X[train_idx])
         X_test = scaler.transform(X[test_idx])
 
-        sample_weights = compute_sample_weight('balanced', y[train_idx])
+        sample_weights = compute_sample_weight(
+            'balanced',
+            y[train_idx],
+        )
+
         model = SVR(kernel='linear', C=c)
-        model.fit(X_train, y[train_idx], sample_weight=sample_weights)
+
+        model.fit(
+            X_train,
+            y[train_idx],
+            sample_weight=sample_weights,
+        )
+
         y_pred = model.predict(X_test)
-        r2_scores.append(r2_score(y[test_idx], y_pred))
-    return float(np.mean(r2_scores))
+
+        r2_scores.append(
+            r2_score(y[test_idx], y_pred)
+        )
+
+        mae_scores.append(
+            mean_absolute_error(y[test_idx], y_pred)
+        )
+
+    return (
+        float(np.mean(r2_scores)),
+        float(np.mean(mae_scores)),
+        float(np.std(r2_scores)),
+        float(np.std(mae_scores)),
+    )
 
 
 def classification_probe_cv(X, y_encoded, groups, n_splits=N_SPLITS, c=SVM_C):
@@ -386,23 +417,39 @@ def main():
             continue
 
         layer_scores = []
+        layer_maes = []
+        layer_score_stds = []
+        layer_mae_stds = []
         for layer_ix in range(NUM_LAYERS):
             try:
                 X = load_activation(activations_dir, entity_type, prompt_name, layer_ix, expected_n)
             except (FileNotFoundError, ValueError) as e:
                 print(f"  Layer {layer_ix}: {e}")
+                
                 layer_scores.append(np.nan)
+                layer_maes.append(np.nan)
+                layer_score_stds.append(np.nan)
+                layer_mae_stds.append(np.nan)
+
                 continue
 
             X_valid = X[valid_mask]
 
             if is_numeric:
-                score = regression_probe_cv(
+                (
+                    score,
+                    mae,
+                    score_std,
+                    mae_std,
+                ) = regression_probe_cv(
                     X_valid,
                     y_valid,
                     groups_valid,
                     n_splits=effective_n_splits,
                 )
+
+                metric_name = 'R2'
+
             else:
                 score = classification_probe_cv(
                     X_valid,
@@ -410,9 +457,32 @@ def main():
                     groups_valid,
                     n_splits=effective_n_splits,
                 )
+
+                mae = np.nan
+                score_std = np.nan
+                mae_std = np.nan
+
+                metric_name = 'accuracy'
+
+
             layer_scores.append(score)
-            metric_name = 'R2' if is_numeric else 'accuracy'
-            print(f"  Layer {layer_ix}: {metric_name} = {score:.3f}")
+            layer_maes.append(mae)
+            layer_score_stds.append(score_std)
+            layer_mae_stds.append(mae_std)
+
+            if is_numeric:
+                print(
+                    f"  Layer {layer_ix}: "
+                    f"R2 = {score:.3f}, "
+                    f"MAE = {mae:.3f}, "
+                    f"R2 SD = {score_std:.3f}, "
+                    f"MAE SD = {mae_std:.3f}"
+                )
+            else:
+                print(
+                    f"  Layer {layer_ix}: "
+                    f"{metric_name} = {score:.3f}"
+                )
 
         if all(np.isnan(s) for s in layer_scores):
             print(f"  No valid layers for {entity_type}, skipping summary/plot.")
@@ -430,7 +500,12 @@ def main():
                 'n_holdout_groups': n_valid_groups,
                 'n_splits': effective_n_splits,
                 'layer': layer_ix,
+
                 'score': score,
+                'r2': score if is_numeric else np.nan,
+                'mae': layer_maes[layer_ix],
+                'score_std': layer_score_stds[layer_ix],
+                'mae_std': layer_mae_stds[layer_ix],
             })
 
         if is_numeric:
@@ -451,6 +526,10 @@ def main():
             'n_splits',
             'layer',
             'score',
+            'r2',
+            'mae',
+            'score_std',
+            'mae_std',
         ]
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
