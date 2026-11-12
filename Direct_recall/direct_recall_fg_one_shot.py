@@ -16,12 +16,7 @@ result is not determined by one arbitrary support choice.
 - Categorical properties (functional_group, functional_group_structure,
   water_solubility) -> linear SVC classification, scored by accuracy.
 
-Evaluation uses one-molecule functional-group support. For each functional
-group in turn, one molecule (including all of its prompt templates) is placed
-in training and every other molecule from that group is placed in testing.
-All molecules from the other functional groups also remain in training. The
-support molecule is rotated so the result is not determined by one arbitrary
-choice.
+
 
 Unlike strict functional-group-held-out classification, this one-shot setup
 can evaluate the functional_group target because every tested class has one
@@ -37,7 +32,6 @@ import pandas as pd
 import matplotlib
 matplotlib.use('Agg')  # non-interactive backend: required for headless sbatch jobs (no display)
 import matplotlib.pyplot as plt
-import seaborn as sns
 
 from sklearn.svm import SVR, SVC
 from sklearn.preprocessing import StandardScaler, LabelEncoder
@@ -53,10 +47,10 @@ from sklearn.utils.class_weight import compute_sample_weight
 CONFIG_YAML_PATH = '../config_extract_activation_fg_8B.yaml'
 CSV_PATH = '../functional_group_dataset_2.csv'
 ACTIVATIONS_BASE_DIR = '../activation_datasets_functional_groups_2/meta-llama-Llama-3.1-8B/'
-OUTPUT_DIR = '../Results/direct_recall_fg_one_shot_8B'
+OUTPUT_DIR = '../Results/direct_recall_fg_multigroup_one_shot_8B'
 SUMMARY_CSV_PATH = os.path.join(
     OUTPUT_DIR,
-    'direct_recall_fg_one_shot_summary.csv',
+    'direct_recall_fg_multigroup_one_shot_summary.csv',
 )
 
 NUM_LAYERS = 32       # 8B has 32 layers (0-31)
@@ -492,29 +486,165 @@ def classification_probe_one_shot(
 # Plotting
 # ============================
 
-def plot_trends(scores_by_entity, stds_by_entity, output_path, ylabel, title):
-    plt.figure(figsize=(8, 5))
-    sns.set(style='whitegrid')
-    colors = sns.color_palette('husl', max(len(scores_by_entity), 1))
-    for i, (entity_type, scores) in enumerate(scores_by_entity.items()):
-        layers = list(range(len(scores)))
-        deviations = np.asarray(stds_by_entity[entity_type], dtype=float)
-        plt.plot(layers, scores, marker='o', markersize=3, linewidth=1,
-                 label=entity_type, color=colors[i])
-        plt.fill_between(
-            layers,
-            np.asarray(scores, dtype=float) - deviations,
-            np.asarray(scores, dtype=float) + deviations,
-            color=colors[i],
-            alpha=0.12,
+def plot_all_entity_panels(
+    regression_scores,
+    classification_scores,
+    output_path,
+):
+    """
+    Plot every one-support direct-recall property in its own panel.
+
+    Regression targets use R^2.
+    Classification targets use accuracy.
+
+    Each panel has its own y-axis scale.
+    """
+
+    all_entities = []
+
+    # Regression properties
+    for entity_type, scores in regression_scores.items():
+        all_entities.append(
+            (
+                entity_type,
+                scores,
+                'R^2',
+            )
         )
-    plt.xlabel('Layer Index', fontsize=12)
-    plt.ylabel(ylabel, fontsize=12)
-    plt.title(title, fontsize=13)
-    plt.legend(fontsize=8, bbox_to_anchor=(1.02, 1), loc='upper left')
-    plt.grid(True, linestyle='--', linewidth=0.7)
-    plt.tight_layout()
-    plt.savefig(output_path, dpi=200, bbox_inches='tight')
+
+    # Classification properties
+    for entity_type, scores in classification_scores.items():
+        all_entities.append(
+            (
+                entity_type,
+                scores,
+                'Accuracy',
+            )
+        )
+
+    n_entities = len(all_entities)
+
+    if n_entities == 0:
+        return
+
+    n_cols = 3
+    n_rows = int(
+        np.ceil(
+            n_entities / n_cols
+        )
+    )
+
+    fig, axes = plt.subplots(
+        n_rows,
+        n_cols,
+        figsize=(15, 4 * n_rows),
+        squeeze=False,
+    )
+
+    axes = axes.flatten()
+
+    for ax, (
+        entity_type,
+        scores,
+        metric_name,
+    ) in zip(
+        axes,
+        all_entities,
+    ):
+
+        scores = np.asarray(
+            scores,
+            dtype=float,
+        )
+
+        layers = np.arange(
+            len(scores)
+        )
+
+        ax.plot(
+            layers,
+            scores,
+            marker='o',
+            markersize=3,
+            linewidth=1,
+        )
+
+        # R^2 = 0 reference line
+        if metric_name == 'R^2':
+            ax.axhline(
+                0,
+                color='black',
+                linewidth=0.8,
+            )
+
+        # Mark best layer
+        if not np.all(
+            np.isnan(scores)
+        ):
+
+            best_layer = int(
+                np.nanargmax(scores)
+            )
+
+            best_score = scores[
+                best_layer
+            ]
+
+            ax.scatter(
+                best_layer,
+                best_score,
+                marker='*',
+                s=150,
+                zorder=5,
+            )
+
+            ax.set_title(
+                f"{entity_type} "
+                f"(best {best_score:.2f} "
+                f"at layer {best_layer})",
+                fontsize=10,
+            )
+
+        else:
+            ax.set_title(
+                entity_type,
+                fontsize=10,
+            )
+
+        ax.set_xlabel(
+            'Layer'
+        )
+
+        ax.set_ylabel(
+            metric_name
+        )
+
+        ax.grid(
+            True,
+            linestyle='--',
+            linewidth=0.6,
+            alpha=0.6,
+        )
+
+    # Hide unused panels
+    for ax in axes[n_entities:]:
+        ax.axis('off')
+
+    fig.suptitle(
+        'Direct Recall: One Support Molecule per Held-out Functional Group -- Llama-3.1-8B',
+        fontsize=15,
+    )
+
+    plt.tight_layout(
+        rect=[0, 0, 1, 0.96]
+    )
+
+    plt.savefig(
+        output_path,
+        dpi=220,
+        bbox_inches='tight',
+    )
+
     plt.close()
 
 
@@ -777,28 +907,14 @@ def main():
         writer.writerows(summary_rows)
     print(f"\nSaved summary table to {SUMMARY_CSV_PATH}")
 
-    if regression_scores:
-        plot_trends(
-            regression_scores,
-            regression_stds,
-            os.path.join(
-                OUTPUT_DIR,
-                'direct_recall_fg_one_shot_regression_r2.png',
-            ),
-            ylabel='R^2',
-            title='Direct Recall: One FG Support Molecule (Regression) -- 8B',
-        )
-    if classification_scores:
-        plot_trends(
-            classification_scores,
-            classification_stds,
-            os.path.join(
-                OUTPUT_DIR,
-                'direct_recall_fg_one_shot_classification_accuracy.png',
-            ),
-            ylabel='Accuracy',
-            title='Direct Recall: One FG Support Molecule (Classification) -- 8B',
-        )
+    plot_all_entity_panels(
+        regression_scores,
+        classification_scores,
+        os.path.join(
+            OUTPUT_DIR,
+            'direct_recall_fg_multigroup_one_shot_all_panels.png',
+        ),
+    )
 
     print("\n=== Best layer per entity (sorted by score, descending) ===")
     best_rows = []
